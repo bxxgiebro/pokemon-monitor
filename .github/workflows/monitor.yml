@@ -1,0 +1,36 @@
+name: Pokemon Stock Monitor
+
+on:
+  schedule:
+    # Runs every 10 minutes. GitHub Actions cron can lag a bit at busy times,
+    # don't rely on this for split-second drops.
+    - cron: "*/10 * * * *"
+  workflow_dispatch: {}  # lets you trigger it manually from the Actions tab too
+
+jobs:
+  check-stock:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4
+
+      - name: Run monitor
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: python pokemon_monitor.py
+
+      - name: Commit updated state
+        run: |
+          git config user.name "stock-monitor-bot"
+          git config user.email "actions@github.com"
+          git add seen_state.json
+          git diff --quiet --cached || git commit -m "Update stock state [skip ci]"
+          git push
