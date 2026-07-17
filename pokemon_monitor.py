@@ -53,10 +53,17 @@ SITES = [
     },
     {
         "name": "Dracik",
-        "url": "https://www.dracik.sk/karty-pokemon/",
+        "url": "https://www.dracik.sk/pokemon-1076/",
         "product_url_pattern": r"^/[a-z0-9-]+/$",
+        # Dracik's nav menu has hundreds of category links matching the same
+        # URL shape as products, so we additionally require the link's card
+        # to contain a product photo (path has "/products/") — category and
+        # brand thumbnails use "/categories/" or "/manufacturers/" instead.
+        "product_image_pattern": r"/products/",
         "in_stock_keywords": ["Skladom"],
-        "out_of_stock_keywords": ["nie je skladom", "Obmedzený predaj"],
+        # "Obmedzený predaj" just means "limited qty per customer" and shows
+        # up on in-stock items too — only "nie je skladom" means sold out.
+        "out_of_stock_keywords": ["nie je skladom"],
     },
 ]
 
@@ -111,6 +118,7 @@ def scan_site(site):
 
     soup = BeautifulSoup(resp.text, "html.parser")
     pattern = re.compile(site["product_url_pattern"])
+    img_pattern = re.compile(site["product_image_pattern"]) if site.get("product_image_pattern") else None
     products = {}
 
     for a in soup.find_all("a", href=True):
@@ -128,6 +136,14 @@ def scan_site(site):
         for _ in range(4):
             if container.parent:
                 container = container.parent
+
+        if img_pattern is not None:
+            # Only count this as a product if its card actually has a product photo
+            # (filters out nav/category/brand links that match the same URL shape)
+            imgs = container.find_all("img", src=True)
+            if not any(img_pattern.search(img["src"]) for img in imgs):
+                continue
+
         context_text = container.get_text(" ", strip=True)
 
         if any(kw in context_text for kw in site["out_of_stock_keywords"]):
