@@ -54,7 +54,7 @@ SITES = [
     {
         "name": "Dracik",
         "url": "https://www.dracik.sk/karty-pokemon/",
-        "product_url_pattern": r"^https://www\.dracik\.sk/[a-z0-9-]+/$",
+        "product_url_pattern": r"^/[a-z0-9-]+/$",
         "in_stock_keywords": ["Skladom"],
         "out_of_stock_keywords": ["nie je skladom", "Obmedzený predaj"],
     },
