@@ -14,6 +14,7 @@ STATE_FILE = "seen_state.json"
 # product_url_pattern: regex that matches a product link's href (used to find product links)
 # in_stock_keywords: if any of these appear near the product, we consider it in stock
 # out_of_stock_keywords: if any of these appear, we consider it NOT in stock (checked first)
+
 SITES = [
     {
         "name": "iHrysko",
@@ -28,6 +29,34 @@ SITES = [
         "product_url_pattern": r"-d\d+\.htm",
         "in_stock_keywords": ["Na sklade", "Do košíka"],
         "out_of_stock_keywords": ["Dopyt", "Momentálne nedostupné", "Vypredané"],
+    },
+    {
+        "name": "VeselyDrak",
+        "url": "https://www.vesely-drak.sk/produkty/pokemon-karty/",
+        "product_url_pattern": r"/produkty/[^/]+/\d+-",
+        "in_stock_keywords": ["Skladom", "Skladem"],
+        "out_of_stock_keywords": ["Predobjednávka", "Vypredané", "Nedostupné"],
+    },
+    {
+        "name": "Smarty",
+        "url": "https://www.smarty.sk/pokemon-tcg-4c9937",
+        "product_url_pattern": r"-4p\d+",
+        "in_stock_keywords": ["Na sklade", "Do košíka"],
+        "out_of_stock_keywords": ["Neznáma dostupnosť", "Na ceste", "Vypredané"],
+    },
+    {
+        "name": "PGS",
+        "url": "https://www.pgs.sk/pokemon-tcg-4c9937",
+        "product_url_pattern": r"-4p\d+",
+        "in_stock_keywords": ["Na sklade", "Do košíka"],
+        "out_of_stock_keywords": ["Neznáma dostupnosť", "Na ceste", "Vypredané"],
+    },
+    {
+        "name": "Dracik",
+        "url": "https://www.dracik.sk/karty-pokemon/",
+        "product_url_pattern": r"^https://www\.dracik\.sk/[a-z0-9-]+/$",
+        "in_stock_keywords": ["Skladom"],
+        "out_of_stock_keywords": ["nie je skladom", "Obmedzený predaj"],
     },
 ]
 
