@@ -112,17 +112,26 @@ def check_site(site, state):
     if current is None:
         return
 
+    is_first_run = name not in state  # no baseline yet for this site
     previous = state.get(name, {})
 
     for url, info in current.items():
         prev_info = previous.get(url)
 
+        if is_first_run:
+            continue  # just seed the baseline, don't alert on everything at once
+
         if prev_info is None:
             log.info(f"[{name}] NEW PRODUCT: {info['name']}")
             send_discord_alert("NEW POKÉMON PRODUCT", info["name"], url)
+            time.sleep(1.5)  # avoid Discord rate limit (429)
         elif info["in_stock"] and not prev_info.get("in_stock", False):
             log.info(f"[{name}] RESTOCKED: {info['name']}")
             send_discord_alert("BACK IN STOCK", info["name"], url)
+            time.sleep(1.5)
+
+    if is_first_run:
+        log.info(f"[{name}] first run — seeded baseline with {len(current)} products, no alerts sent")
 
     state[name] = current
     log.info(f"[{name}] scanned {len(current)} products")
