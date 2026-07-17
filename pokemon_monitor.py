@@ -35,7 +35,7 @@ SITES = [
         "url": "https://www.vesely-drak.sk/produkty/pokemon-karty/",
         "product_url_pattern": r"/produkty/[^/]+/\d+-",
         "in_stock_keywords": ["Skladom", "Skladem"],
-        "out_of_stock_keywords": ["Predobjednávka", "Vypredané", "Nedostupné"],
+        "out_of_stock_keywords": ["Vypredané", "Nedostupné"],
     },
     {
         "name": "Smarty",
