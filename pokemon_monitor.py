@@ -5,36 +5,33 @@ import time
 import json
 import os
 import logging
+from urllib.parse import urljoin
 
-# ---------------- CONFIG ----------------
-DISCORD_WEBHOOK_URL = os.environ.get("DISCORD_WEBHOOK_URL", "")
+# ---------------- CONFIGURATION ----------------
+DISCORD_WEBHOOK_URL = os.environ.get("DISCORD_WEBHOOK_URL", "YOUR_DISCORD_WEBHOOK_HERE")
 STATE_FILE = "seen_state.json"
-
-# Each site scans a category page and finds ALL products on it.
-# product_url_pattern: regex that matches a product link's href (used to find product links)
-# in_stock_keywords: if any of these appear near the product, we consider it in stock
-# out_of_stock_keywords: if any of these appear, we consider it NOT in stock (checked first)
+CHECK_INTERVAL = 420  # Time between sweeps in seconds (7 minutes)
 
 SITES = [
     {
         "name": "iHrysko",
         "url": "https://www.ihrysko.sk/pokemon-tcg-c17668",
         "product_url_pattern": r"-p\d+",
-        "in_stock_keywords": ["Vložiť do košíka", "skladom"],
-        "out_of_stock_keywords": ["Očakávame", "dlhodobo nedostupné", "Vypredané"],
+        "in_stock_keywords": ["Vložiť do košíka", "skladom", "skladom v eshope"],
+        "out_of_stock_keywords": ["Očakávame", "dlhodobo nedostupné", "Vypredané", "Nedostupné"],
     },
     {
-        "name": "Alza",
-        "url": "https://www.alza.sk/hracky/pokemon-karty/18879069.htm",
-        "product_url_pattern": r"-d\d+\.htm",
-        "in_stock_keywords": ["Na sklade", "Do košíka"],
-        "out_of_stock_keywords": ["Dopyt", "Momentálne nedostupné", "Vypredané"],
+        "name": "CardEmpire",
+        "url": "https://www.cardempire.sk/pokemon-karty/",
+        "product_url_pattern": r"/produkt/[a-zA-Z0-9-]+",
+        "in_stock_keywords": ["Kúpiť", "Skladom"],
+        "out_of_stock_keywords": ["Vypredané", "Nedostupné", "vypredané"],
     },
     {
         "name": "VeselyDrak",
         "url": "https://www.vesely-drak.sk/produkty/pokemon-karty/",
         "product_url_pattern": r"/produkty/[^/]+/\d+-",
-        "in_stock_keywords": ["Skladom", "Skladem"],
+        "in_stock_keywords": ["Skladom", "Skladem", "Do košíka"],
         "out_of_stock_keywords": ["Vypredané", "Nedostupné"],
     },
     {
@@ -51,34 +48,14 @@ SITES = [
         "in_stock_keywords": ["Na sklade", "Do košíka"],
         "out_of_stock_keywords": ["Neznáma dostupnosť", "Na ceste", "Vypredané"],
     },
-    {
-        "name": "Dracik",
-        "url": "https://www.dracik.sk/pokemon-1076/",
-        "product_url_pattern": r"^/[a-z0-9-]+/$",
-        # Dracik's nav menu has hundreds of category links matching the same
-        # URL shape as products, so we additionally require the link's card
-        # to contain a product photo (path has "/products/") — category and
-        # brand thumbnails use "/categories/" or "/manufacturers/" instead.
-        "product_image_pattern": r"/products/",
-        "in_stock_keywords": ["Skladom"],
-        # "Obmedzený predaj" just means "limited qty per customer" and shows
-        # up on in-stock items too — only "nie je skladom" means sold out.
-        "out_of_stock_keywords": ["nie je skladom"],
-    },
 ]
 
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-                  "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
     "Accept-Language": "sk-SK,sk;q=0.9,en;q=0.8",
-    "Accept-Encoding": "gzip, deflate, br",
+    "Cache-Control": "no-cache",
     "Connection": "keep-alive",
-    "Upgrade-Insecure-Requests": "1",
-    "Sec-Fetch-Dest": "document",
-    "Sec-Fetch-Mode": "navigate",
-    "Sec-Fetch-Site": "none",
-    "Sec-Fetch-User": "?1",
 }
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
@@ -87,19 +64,26 @@ log = logging.getLogger(__name__)
 
 def load_state():
     if os.path.exists(STATE_FILE):
-        with open(STATE_FILE, "r") as f:
-            return json.load(f)
+        try:
+            with open(STATE_FILE, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except Exception as e:
+            log.error(f"Failed to read state file, starting fresh: {e}")
     return {}
 
 
 def save_state(state):
-    with open(STATE_FILE, "w") as f:
-        json.dump(state, f, indent=2, ensure_ascii=False)
+    try:
+        with open(STATE_FILE, "w", encoding="utf-8") as f:
+            json.dump(state, f, indent=2, ensure_ascii=False)
+    except Exception as e:
+        # Prevents crashing on read-only or ephemeral cloud host filesystems
+        log.warning(f"Disk write skipped (normal for ephemeral cloud hosting): {e}")
 
 
 def send_discord_alert(title, product_name, link):
-    if not DISCORD_WEBHOOK_URL:
-        log.error("DISCORD_WEBHOOK_URL not set — skipping alert send")
+    if not DISCORD_WEBHOOK_URL or "YOUR_DISCORD_WEBHOOK" in DISCORD_WEBHOOK_URL:
+        log.error("Valid DISCORD_WEBHOOK_URL not configured.")
         return
     payload = {"content": f"🚨 **{title}** 🚨\n**{product_name}**\n👉 {link}"}
     try:
@@ -109,51 +93,60 @@ def send_discord_alert(title, product_name, link):
         log.error(f"Failed to send Discord alert: {e}")
 
 
+def find_product_container(anchor_element):
+    """Climbs upward to locate the bounding container of a product card safely."""
+    current = anchor_element
+    for _ in range(5):
+        if not current.parent:
+            break
+        current = current.parent
+        # Check if the parent class suggests it's a grid item, box, card, or product wrapper
+        class_list = current.get("class", [])
+        class_str = " ".join(class_list).lower() if class_list else ""
+        if any(kw in class_str for kw in ["product", "item", "card", "grid", "block", "thumbnail"]):
+            return current
+    return anchor_element.parent  # Fallback if no explicit class found
+
+
 def scan_site(site):
-    """Returns dict of {product_url: {"name": str, "in_stock": bool}}"""
-    resp = requests.get(site["url"], headers=HEADERS, timeout=20)
-    if resp.status_code != 200:
-        log.warning(f"[{site['name']}] got status {resp.status_code}")
+    try:
+        resp = requests.get(site["url"], headers=HEADERS, timeout=20)
+        if resp.status_code != 200:
+            log.warning(f"[{site['name']}] Received status code {resp.status_code}")
+            return None
+    except Exception as e:
+        log.error(f"[{site['name']}] Connection failed: {e}")
         return None
 
     soup = BeautifulSoup(resp.text, "html.parser")
     pattern = re.compile(site["product_url_pattern"])
-    img_pattern = re.compile(site["product_image_pattern"]) if site.get("product_image_pattern") else None
     products = {}
 
     for a in soup.find_all("a", href=True):
         href = a["href"]
         if not pattern.search(href):
             continue
+            
         name = a.get_text(strip=True)
-        if not name or len(name) < 3:
-            continue  # skip empty/icon links
+        if not name or len(name) < 5:
+            continue  # Filters out empty image links or short navigational text
 
-        full_url = href if href.startswith("http") else site["url"].split("/", 3)[0] + "//" + site["url"].split("/")[2] + href
+        # Fixed: Robust URL combining using urljoin
+        full_url = urljoin(site["url"], href)
 
-        # Walk up a few parent levels to get surrounding product-card text (price, stock status, etc.)
-        container = a
-        for _ in range(4):
-            if container.parent:
-                container = container.parent
-
-        if img_pattern is not None:
-            # Only count this as a product if its card actually has a product photo
-            # (filters out nav/category/brand links that match the same URL shape)
-            imgs = container.find_all("img", src=True)
-            if not any(img_pattern.search(img["src"]) for img in imgs):
-                continue
-
+        # Dynamic container discovery to gather card context (prices, stock indicators)
+        container = find_product_container(a)
         context_text = container.get_text(" ", strip=True)
 
+        # Explicit stock logic validation
         if any(kw in context_text for kw in site["out_of_stock_keywords"]):
             in_stock = False
         elif any(kw in context_text for kw in site["in_stock_keywords"]):
             in_stock = True
         else:
-            in_stock = False  # unknown = treat as not confirmed in stock
+            in_stock = False  # Safe default fallback
 
-        # Keep the longest name we've seen for this URL (avoids picking up stray short link text)
+        # Store or update with the longest variant of the title found for accuracy
         if full_url not in products or len(name) > len(products[full_url]["name"]):
             products[full_url] = {"name": name, "in_stock": in_stock}
 
@@ -166,39 +159,50 @@ def check_site(site, state):
     if current is None:
         return
 
-    is_first_run = name not in state  # no baseline yet for this site
+    is_first_run = name not in state
     previous = state.get(name, {})
 
     for url, info in current.items():
         prev_info = previous.get(url)
 
         if is_first_run:
-            continue  # just seed the baseline, don't alert on everything at once
+            continue  # Safely builds the inventory baseline without firing spam alerts on boot
 
         if prev_info is None:
-            log.info(f"[{name}] NEW PRODUCT: {info['name']}")
-            send_discord_alert("NEW POKÉMON PRODUCT", info["name"], url)
-            time.sleep(1.5)  # avoid Discord rate limit (429)
+            # Found a completely new item listed on the page
+            if info["in_stock"]:
+                log.info(f"[{name}] NEW PRODUCT IN STOCK: {info['name']}")
+                send_discord_alert(f"NEW DROP - {name.upper()}", info["name"], url)
+                time.sleep(2)
         elif info["in_stock"] and not prev_info.get("in_stock", False):
+            # Item flipped from out of stock to in stock
             log.info(f"[{name}] RESTOCKED: {info['name']}")
-            send_discord_alert("BACK IN STOCK", info["name"], url)
-            time.sleep(1.5)
+            send_discord_alert(f"RESTOCK - {name.upper()}", info["name"], url)
+            time.sleep(2)
 
     if is_first_run:
-        log.info(f"[{name}] first run — seeded baseline with {len(current)} products, no alerts sent")
+        log.info(f"[{name}] Baseline initialized with {len(current)} products. Monitoring active.")
 
     state[name] = current
-    log.info(f"[{name}] scanned {len(current)} products")
 
 
 def main():
+    log.info("Initializing Hardened Pokémon Live Monitor...")
     state = load_state()
-    for site in SITES:
-        check_site(site, state)
-        time.sleep(2)
-    save_state(state)
-    log.info("Sweep complete.")
+    
+    while True:
+        log.info("Starting site sweep...")
+        for site in SITES:
+            check_site(site, state)
+            time.sleep(3)  # Anti-throttle delay between parsing separate stores
+            
+        save_state(state)
+        log.info(f"Sweep complete. Sleeping for {CHECK_INTERVAL} seconds...")
+        time.sleep(CHECK_INTERVAL)
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except KeyboardInterrupt:
+        log.info("Monitor manually stopped.")
