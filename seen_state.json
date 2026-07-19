@@ -247,32 +247,36 @@
   },
   "Dracik": {
     "https://www.dracik.sk/basket/add/?product_id=76720": {
-      "name": "Do košíka",
-      "in_stock": false
+      "name": "Pokémon TCG: Mega Moonlit Tin",
+      "in_stock": true
     },
     "https://www.dracik.sk/basket/add/?product_id=76721": {
-      "name": "Do košíka",
-      "in_stock": false
+      "name": "Pokémon TCG: Lumiose City Mini Tin",
+      "in_stock": true
+    },
+    "https://www.dracik.sk/basket/add/?product_id=73863": {
+      "name": "Pokémon – Adventný kalendár",
+      "in_stock": true
     },
     "https://www.dracik.sk/basket/add/?product_id=76465": {
-      "name": "Do košíka",
-      "in_stock": false
+      "name": "Pokémon TCG: Album Mega Revolution Chaos Rising A4",
+      "in_stock": true
     },
     "https://www.dracik.sk/basket/add/?product_id=76244": {
-      "name": "Do košíka",
-      "in_stock": false
+      "name": "Pokémon TCG: Mega Charizard - Album A4",
+      "in_stock": true
     },
     "https://www.dracik.sk/basket/add/?product_id=76245": {
-      "name": "Do košíka",
-      "in_stock": false
+      "name": "Pokémon TCG: Mega Charizard - Album A5",
+      "in_stock": true
     },
     "https://www.dracik.sk/basket/add/?product_id=76464": {
-      "name": "Do košíka",
-      "in_stock": false
+      "name": "Pokémon TCG: Album Chaos Rising A5",
+      "in_stock": true
     },
     "https://www.dracik.sk/basket/add/?product_id=59256": {
-      "name": "Do košíka",
-      "in_stock": false
+      "name": "Pokémon – Battle Academy",
+      "in_stock": true
     }
   }
 }
