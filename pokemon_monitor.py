@@ -8,7 +8,14 @@ import logging
 from urllib.parse import urljoin
 
 # ---------------- CONFIG ----------------
-DISCORD_WEBHOOK_URL = os.environ.get("DISCORD_WEBHOOK_URL", "")
+WEBHOOKS = {
+    "iHrysko": os.environ.get("WEBHOOK_IHRYSKO", ""),
+    "VeselyDrak": os.environ.get("WEBHOOK_VESELYDRAK", ""),
+    "Smarty": os.environ.get("WEBHOOK_SMARTY", ""),
+    "PGS": os.environ.get("WEBHOOK_PGS", ""),
+    "Brloh": os.environ.get("WEBHOOK_BRLOH", ""),
+    "Dracik": os.environ.get("WEBHOOK_DRACIK", ""),
+}
 STATE_FILE = "seen_state.json"
 
 SITES = [
@@ -85,13 +92,14 @@ def save_state(state):
         json.dump(state, f, indent=2, ensure_ascii=False)
 
 
-def send_discord_alert(title, product_name, link):
-    if not DISCORD_WEBHOOK_URL:
-        log.error("DISCORD_WEBHOOK_URL not set — skipping alert send")
+def send_discord_alert(site_name, title, product_name, link):
+    webhook_url = WEBHOOKS.get(site_name)
+    if not webhook_url:
+        log.error(f"No webhook configured for {site_name} — skipping alert send")
         return
     payload = {"content": f"🚨 **{title}** 🚨\n**{product_name}**\n👉 {link}"}
     try:
-        r = requests.post(DISCORD_WEBHOOK_URL, json=payload, timeout=10)
+        r = requests.post(webhook_url, json=payload, timeout=10)
         r.raise_for_status()
     except requests.RequestException as e:
         log.error(f"Failed to send Discord alert: {e}")
@@ -171,11 +179,11 @@ def check_site(site, state):
 
         if prev_info is None:
             log.info(f"[{name}] NEW PRODUCT: {info['name']}")
-            send_discord_alert(f"NEW PRODUCT - {name.upper()}", info["name"], url)
+            send_discord_alert(name, f"NEW PRODUCT - {name.upper()}", info["name"], url)
             time.sleep(1.5)
         elif info["in_stock"] and not prev_info.get("in_stock", False):
             log.info(f"[{name}] RESTOCKED: {info['name']}")
-            send_discord_alert(f"RESTOCK - {name.upper()}", info["name"], url)
+            send_discord_alert(name, f"RESTOCK - {name.upper()}", info["name"], url)
             time.sleep(1.5)
 
     if is_first_run:
