@@ -56,6 +56,10 @@
       "name": "O túto edíciu Pokémonov je veľký záujem. Natoľko, že nie je v možnostiach distribútorov zabezpečiť želané množstvá. Aj tento produkt sme otvorili v rámci predobjednávok, avšak prišlo ich toľko, že napriek nášmu prístupu \"jeden kus na domácnosť\" si nemôžeme byť istí, o koľkých zákazníkov sa budeme ve",
       "in_stock": false
     },
+    "https://www.ihrysko.sk/funko-pocket-pop-pokemon-pikachu-9-cm-p110921": {
+      "name": "Funko Pocket POP! Pokémon - Pikachu 9 cm",
+      "in_stock": false
+    }
   },
   "VeselyDrak": {
     "https://www.vesely-drak.sk/produkty/booster-boxy/18958-pokemon-brilliant-fantasy-csv8c-slim-booster-box-cinsky/": {
@@ -134,6 +138,10 @@
       "name": "Pokémon Pitch Black Elite Trainer Box",
       "in_stock": true
     },
+    "https://www.vesely-drak.sk/produkty/booster-boxy/18706-pokemon-pitch-black-booster-bundle/": {
+      "name": "Pokémon Pitch Black Booster Bundle",
+      "in_stock": true
+    }
   },
   "PGS": {},
   "Dracik": {
@@ -154,6 +162,10 @@
       "in_stock": false
     },
     "https://www.dracik.sk/basket/add/?product_id=76244": {
+      "name": "Do košíka",
+      "in_stock": false
+    },
+    "https://www.dracik.sk/basket/add/?product_id=76245": {
       "name": "Do košíka",
       "in_stock": false
     },
