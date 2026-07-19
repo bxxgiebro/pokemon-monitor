@@ -42,7 +42,7 @@ SITES = [
     },
     {
         "name": "PGS",
-        "url": "https://www.pgs.sk/Pokemon/Produkty",
+        "url": "https://www.pgs.sk/pokemon-4c14743",
         "product_url_pattern": r"-4p\d+",
         "in_stock_keywords": ["Na sklade", "Do košíka"],
         "out_of_stock_keywords": ["Neznáma dostupnosť", "Na ceste", "Vypredané"],
