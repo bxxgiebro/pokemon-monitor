@@ -140,8 +140,6 @@ def scan_site(site):
         full_url = urljoin(site["url"], href)
         container = find_product_container(a)
 
-        # Try to get a real product name: prefer a heading inside the container,
-        # fall back to the link's own text if no heading is found.
         heading = container.find(["h2", "h3"])
         name = heading.get_text(strip=True) if heading else a.get_text(strip=True)
         if not name or len(name) < 5:
