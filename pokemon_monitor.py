@@ -50,13 +50,10 @@ SITES = [
         "out_of_stock_keywords": ["Očakávame", "dlhodobo nedostupné", "Vypredané"],
     },
     {
-        # Dracik's product links don't carry a numeric ID (just a clean slug), so we
-        # can't filter by regex ID pattern reliably. This is a rougher heuristic and
-        # will likely need adjusting once we see real output.
         "name": "Dracik",
-        "url": "https://www.dracik.sk/pokemon-tcg-karty-59172/",
-        "product_url_pattern": r"^/[a-z0-9\-]{10,}/$",
-        "in_stock_keywords": ["Do košíka", "Skladom"],
+        "url": "https://www.dracik.sk/pokemon-1076/",
+        "product_url_pattern": r"/basket/add/\?product_id=\d+",
+        "in_stock_keywords": ["Skladom"],
         "out_of_stock_keywords": ["Produkt nie je skladom", "Nedostupné"],
     },
 ]
@@ -132,12 +129,16 @@ def scan_site(site):
         if not pattern.search(href):
             continue
 
-        name = a.get_text(strip=True)
+        full_url = urljoin(site["url"], href)
+        container = find_product_container(a)
+
+        # Try to get a real product name: prefer a heading inside the container,
+        # fall back to the link's own text if no heading is found.
+        heading = container.find(["h2", "h3"])
+        name = heading.get_text(strip=True) if heading else a.get_text(strip=True)
         if not name or len(name) < 5:
             continue
 
-        full_url = urljoin(site["url"], href)
-        container = find_product_container(a)
         context_text = container.get_text(" ", strip=True)
 
         if any(kw in context_text for kw in site["out_of_stock_keywords"]):
