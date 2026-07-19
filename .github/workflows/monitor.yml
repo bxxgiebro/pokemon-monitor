@@ -22,12 +22,12 @@ jobs:
 
       - name: Run monitor
         env:
-          DISCORD_WEBHOOK_IHRYSKO: ${{ secrets.DISCORD_WEBHOOK_IHRYSKO }}
-          DISCORD_WEBHOOK_VESELYDRAK: ${{ secrets.DISCORD_WEBHOOK_VESELYDRAK }}
-          DISCORD_WEBHOOK_SMARTY: ${{ secrets.DISCORD_WEBHOOK_SMARTY }}
-          DISCORD_WEBHOOK_PGS: ${{ secrets.DISCORD_WEBHOOK_PGS }}
-          DISCORD_WEBHOOK_BRLOH: ${{ secrets.DISCORD_WEBHOOK_BRLOH }}
-          DISCORD_WEBHOOK_DRACIK: ${{ secrets.DISCORD_WEBHOOK_DRACIK }}
+          DISCORD_WEBHOOK_IHRYSKO: ${{ secrets.WEBHOOK_IHRYSKO }}
+          DISCORD_WEBHOOK_VESELYDRAK: ${{ secrets.WEBHOOK_VESELYDRAK }}
+          DISCORD_WEBHOOK_SMARTY: ${{ secrets.WEBHOOK_SMARTY }}
+          DISCORD_WEBHOOK_PGS: ${{ secrets.WEBHOOK_PGS }}
+          DISCORD_WEBHOOK_BRLOH: ${{ secrets.WEBHOOK_BRLOH }}
+          DISCORD_WEBHOOK_DRACIK: ${{ secrets.WEBHOOK_DRACIK }}
         run: python pokemon_monitor.py
 
       - name: Commit updated state
