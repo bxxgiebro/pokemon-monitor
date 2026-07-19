@@ -107,13 +107,11 @@ def send_discord_alert(site_name, title, product_name, link):
 
 def find_product_container(anchor_element):
     current = anchor_element
-    for _ in range(5):
+    for _ in range(8):
         if not current.parent:
             break
         current = current.parent
-        class_list = current.get("class", [])
-        class_str = " ".join(class_list).lower() if class_list else ""
-        if any(kw in class_str for kw in ["product", "item", "card", "grid", "block", "thumbnail"]):
+        if current.find(["h2", "h3"]):
             return current
     return anchor_element.parent
 
