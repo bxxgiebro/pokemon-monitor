@@ -9,12 +9,12 @@ from urllib.parse import urljoin
 
 # ---------------- CONFIG ----------------
 WEBHOOKS = {
-    "iHrysko": os.environ.get("WEBHOOK_IHRYSKO", ""),
-    "VeselyDrak": os.environ.get("WEBHOOK_VESELYDRAK", ""),
-    "Smarty": os.environ.get("WEBHOOK_SMARTY", ""),
-    "PGS": os.environ.get("WEBHOOK_PGS", ""),
-    "Brloh": os.environ.get("WEBHOOK_BRLOH", ""),
-    "Dracik": os.environ.get("WEBHOOK_DRACIK", ""),
+    "iHrysko": os.environ.get("DISCORD_WEBHOOK_IHRYSKO", ""),
+    "VeselyDrak": os.environ.get("DISCORD_WEBHOOK_VESELYDRAK", ""),
+    "Smarty": os.environ.get("DISCORD_WEBHOOK_SMARTY", ""),
+    "PGS": os.environ.get("DISCORD_WEBHOOK_PGS", ""),
+    "Brloh": os.environ.get("DISCORD_WEBHOOK_BRLOH", ""),
+    "Dracik": os.environ.get("DISCORD_WEBHOOK_DRACIK", ""),
 }
 STATE_FILE = "seen_state.json"
 
