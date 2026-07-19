@@ -175,11 +175,11 @@ def check_site(site, state):
 
         if prev_info is None:
             log.info(f"[{name}] NEW PRODUCT: {info['name']}")
-            send_discord_alert(name, f"NEW PRODUCT - {name.upper()}", info["name"], url)
+            send_discord_alert(name, f"@everyone NEW PRODUCT - {name.upper()}", info["name"], url)
             time.sleep(1.5)
         elif info["in_stock"] and not prev_info.get("in_stock", False):
-            log.info(f"[{name}] RESTOCKED: {info['name']}")
-            send_discord_alert(name, f"RESTOCK - {name.upper()}", info["name"], url)
+            log.info(f"@everyone [{name}] RESTOCKED: {info['name']}")
+            send_discord_alert(name, f"@everyone RESTOCK - {name.upper()}", info["name"], url)
             time.sleep(1.5)
 
     if is_first_run:
