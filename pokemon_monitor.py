@@ -42,7 +42,7 @@ SITES = [
     },
     {
         "name": "PGS",
-        "url": "https://www.pgs.sk/Pokemon",
+        "url": "https://www.pgs.sk/Pokemon/Produkty",
         "product_url_pattern": r"-4p\d+",
         "in_stock_keywords": ["Na sklade", "Do košíka"],
         "out_of_stock_keywords": ["Neznáma dostupnosť", "Na ceste", "Vypredané"],
