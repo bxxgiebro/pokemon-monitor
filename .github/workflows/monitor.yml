@@ -1,0 +1,40 @@
+name: Pokemon Stock Monitor
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch: {}
+
+jobs:
+  check-stock:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4
+
+      - name: Run monitor
+        env:
+          DISCORD_WEBHOOK_IHRYSKO: ${{ secrets.DISCORD_WEBHOOK_IHRYSKO }}
+          DISCORD_WEBHOOK_VESELYDRAK: ${{ secrets.DISCORD_WEBHOOK_VESELYDRAK }}
+          DISCORD_WEBHOOK_SMARTY: ${{ secrets.DISCORD_WEBHOOK_SMARTY }}
+          DISCORD_WEBHOOK_PGS: ${{ secrets.DISCORD_WEBHOOK_PGS }}
+          DISCORD_WEBHOOK_BRLOH: ${{ secrets.DISCORD_WEBHOOK_BRLOH }}
+          DISCORD_WEBHOOK_DRACIK: ${{ secrets.DISCORD_WEBHOOK_DRACIK }}
+        run: python pokemon_monitor.py
+
+      - name: Commit updated state
+        run: |
+          git config user.name "stock-monitor-bot"
+          git config user.email "actions@github.com"
+          git add seen_state.json
+          git diff --quiet --cached || git commit -m "Update stock state [skip ci]"
+          git pull --rebase --autostash
+          git push
