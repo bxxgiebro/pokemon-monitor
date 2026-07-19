@@ -44,10 +44,6 @@
       "name": "Pokémon: Stellar Crown Booster Pack obsahuje 10 náhodných kariet do kartovej hry Pokémon TCG z edície Stellar Crown (Scarlet & Violet 7)!",
       "in_stock": false
     },
-    "https://www.ihrysko.sk/pokemon-destined-rivals-3-pack-blister-zebstrika-p119504": {
-      "name": "Pokémon: Destined Rivals 3-pack blister Zebstrika je malý šikovný darček, ktorý poteší každého fanúšika kartovej hry Pokémon.\r\nV balení nájdete 3 boostre (balíčky) zo série Destined Rivals a promo kartu pokémona Zebstrika.",
-      "in_stock": false
-    },
     "https://www.ihrysko.sk/pokemon-destined-rivals-3-pack-blister-kangaskhan-p119505": {
       "name": "Pokémon: Destined Rivals 3-pack blister Kangaskhan je malý šikovný darček, ktorý poteší každého fanúšika kartovej hry Pokémon.\r\nV balení nájdete 3 boostre (balíčky) zo série Destined Rivals a promo kartu pokémona Kangaskhan.",
       "in_stock": false
@@ -76,10 +72,6 @@
     },
     "https://www.vesely-drak.sk/produkty/boostery/18962-pokemon-stellar-crystal-csv9c-slim-booster-box-cinsky/": {
       "name": "Pokémon Stellar Crystal CSV9C Slim Booster Box - čínština",
-      "in_stock": true
-    },
-    "https://www.vesely-drak.sk/produkty/boostery/18271-pokemon-chaos-rising-booster/": {
-      "name": "Pokémon Chaos Rising Booster",
       "in_stock": true
     },
     "https://www.vesely-drak.sk/produkty/booster-boxy/18272-pokemon-chaos-rising-booster-box/": {
@@ -156,10 +148,6 @@
       "name": "Pokémon TCG: Mega Evolution Pitch Black - Booster Bundle (6 boosterov)",
       "in_stock": false
     },
-    "https://www.pgs.sk/pokemon-tcg-me03-perfect-order-elite-trainer-box-4p255654": {
-      "name": "Pokémon TCG: ME03 - Perfect Order - Elite Trainer Box",
-      "in_stock": false
-    },
     "https://www.pgs.sk/pokemon-tcg-adventny-kalendar-2024-4p160421": {
       "name": "Pokémon TCG: Adventný kalendár 2024",
       "in_stock": false
@@ -220,10 +208,6 @@
       "name": "Pokémon TCG: Pokémon Center Hiroshima Special Box (Japanese)",
       "in_stock": false
     },
-    "https://www.pgs.sk/pokemon-tcg-mega-dream-ex-booster-japan-4p252462": {
-      "name": "Pokémon TCG: Mega Dream EX booster (Japan)",
-      "in_stock": false
-    },
     "https://www.pgs.sk/pokemon-tcg-terastal-festival-ex-booster-japan-4p207150": {
       "name": "Pokémon TCG - Terastal Festival EX Booster (Japan)",
       "in_stock": false
@@ -246,10 +230,6 @@
     }
   },
   "Dracik": {
-    "https://www.dracik.sk/basket/add/?product_id=76720": {
-      "name": "Pokémon TCG: Mega Moonlit Tin",
-      "in_stock": true
-    },
     "https://www.dracik.sk/basket/add/?product_id=76721": {
       "name": "Pokémon TCG: Lumiose City Mini Tin",
       "in_stock": true
