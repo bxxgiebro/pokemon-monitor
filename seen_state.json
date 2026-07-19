@@ -143,20 +143,7 @@
       "in_stock": true
     }
   },
-  "PGS": {
-    "https://www.pgs.sk/Pokemon-TCG-SV08-Surging-Sparks-Booster-4p161342": {
-      "name": "Pokémon TCG: SV08 Surging Sparks - Booster",
-      "in_stock": false
-    },
-    "https://www.pgs.sk/Pokemon-TCG-SV08-Surging-Sparks-Elite-Trainer-Box-4p161346": {
-      "name": "Pokémon TCG: SV08 Surging Sparks - Elite Trainer Box",
-      "in_stock": false
-    },
-    "https://www.pgs.sk/Pokemon-TCG-SV08-Surging-Sparks-3-Blister-Booster-4p161345": {
-      "name": "Pokémon TCG: SV08 Surging Sparks - 3 Blister Booster",
-      "in_stock": false
-    }
-  },
+  "PGS": {},
   "Dracik": {
     "https://www.dracik.sk/basket/add/?product_id=76720": {
       "name": "Do košíka",
