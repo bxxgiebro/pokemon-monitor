@@ -5,8 +5,6 @@ on:
     - cron: "*/5 * * * *"
   workflow_dispatch: {}
   
-SCRAPERAPI_KEY: ${{ secrets.SCRAPERAPI_KEY }}
-ALZA_ENABLED: ${{ vars.ALZA_ENABLED }}
 
 jobs:
   check-stock:
@@ -32,6 +30,8 @@ jobs:
           DISCORD_WEBHOOK_BRLOH: ${{ secrets.DISCORD_WEBHOOK_BRLOH }}
           DISCORD_WEBHOOK_DRACIK: ${{ secrets.DISCORD_WEBHOOK_DRACIK }}
           DISCORD_WEBHOOK_ALZA: ${{ secrets.DISCORD_WEBHOOK_ALZA }}
+          SCRAPERAPI_KEY: ${{ secrets.SCRAPERAPI_KEY }}
+          ALZA_ENABLED: ${{ vars.ALZA_ENABLED }}
           
         run: python pokemon_monitor.py
 
