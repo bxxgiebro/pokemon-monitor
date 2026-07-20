@@ -19,6 +19,7 @@ WEBHOOKS = {
     "PGS": os.environ.get("DISCORD_WEBHOOK_PGS", ""),
     "Brloh": os.environ.get("DISCORD_WEBHOOK_BRLOH", ""),
     "Dracik": os.environ.get("DISCORD_WEBHOOK_DRACIK", ""),
+    "Alza": os.environ.get("DISCORD_WEBHOOK_ALZA", ""),
 }
 STATE_FILE = "seen_state.json"
 
