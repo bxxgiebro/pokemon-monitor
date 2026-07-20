@@ -8,6 +8,10 @@ import logging
 from urllib.parse import urljoin
 
 # ---------------- CONFIG ----------------
+
+SCRAPERAPI_KEY = os.environ.get("SCRAPERAPI_KEY", "")
+ALZA_ENABLED = os.environ.get("ALZA_ENABLED", "false").lower() == "true"
+
 WEBHOOKS = {
     "iHrysko": os.environ.get("DISCORD_WEBHOOK_IHRYSKO", ""),
     "VeselyDrak": os.environ.get("DISCORD_WEBHOOK_VESELYDRAK", ""),
@@ -26,6 +30,15 @@ SITES = [
         "in_stock_keywords": ["Vložiť do košíka", "skladom"],
         "out_of_stock_keywords": ["Očakávame", "dlhodobo nedostupné", "Vypredané"],
     },
+    if ALZA_ENABLED:
+    SITES.append({
+        "name": "Alza",
+        "url": "https://www.alza.sk/hracky/pokemon-karty/18879069.htm",
+        "product_url_pattern": r"-d\d+\.htm",
+        "in_stock_keywords": ["Na sklade", "Do košíka"],
+        "out_of_stock_keywords": ["Dopyt", "Momentálne nedostupné", "Vypredané"],
+        "use_proxy": True,
+    })
     {
         "name": "VeselyDrak",
         "url": "https://www.vesely-drak.sk/produkty/pokemon-karty/",
@@ -118,7 +131,11 @@ def find_product_container(anchor_element):
 
 def scan_site(site):
     try:
-        resp = requests.get(site["url"], headers=HEADERS, timeout=20)
+        if site.get("use_proxy") and SCRAPERAPI_KEY:
+            proxy_url = f"http://api.scraperapi.com?api_key={SCRAPERAPI_KEY}&url={site['url']}"
+            resp = requests.get(proxy_url, timeout=30)
+        else:
+            resp = requests.get(site["url"], headers=HEADERS, timeout=20)
         if resp.status_code != 200:
             log.warning(f"[{site['name']}] got status {resp.status_code}")
             return None
