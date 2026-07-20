@@ -30,15 +30,6 @@ SITES = [
         "in_stock_keywords": ["Vložiť do košíka", "skladom"],
         "out_of_stock_keywords": ["Očakávame", "dlhodobo nedostupné", "Vypredané"],
     },
-    if ALZA_ENABLED:
-    SITES.append({
-        "name": "Alza",
-        "url": "https://www.alza.sk/hracky/pokemon-karty/18879069.htm",
-        "product_url_pattern": r"-d\d+\.htm",
-        "in_stock_keywords": ["Na sklade", "Do košíka"],
-        "out_of_stock_keywords": ["Dopyt", "Momentálne nedostupné", "Vypredané"],
-        "use_proxy": True,
-    })
     {
         "name": "VeselyDrak",
         "url": "https://www.vesely-drak.sk/produkty/pokemon-karty/",
@@ -77,6 +68,15 @@ SITES = [
         "out_of_stock_keywords": ["Produkt nie je skladom", "Nedostupné"],
     },
 ]
+if ALZA_ENABLED:
+    SITES.append({
+        "name": "Alza",
+        "url": "https://www.alza.sk/hracky/pokemon-karty/18879069.htm",
+        "product_url_pattern": r"-d\d+\.htm",
+        "in_stock_keywords": ["Na sklade", "Do košíka"],
+        "out_of_stock_keywords": ["Dopyt", "Momentálne nedostupné", "Vypredané"],
+        "use_proxy": True,
+    })
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
