@@ -31,6 +31,8 @@ jobs:
           DISCORD_WEBHOOK_PGS: ${{ secrets.DISCORD_WEBHOOK_PGS }}
           DISCORD_WEBHOOK_BRLOH: ${{ secrets.DISCORD_WEBHOOK_BRLOH }}
           DISCORD_WEBHOOK_DRACIK: ${{ secrets.DISCORD_WEBHOOK_DRACIK }}
+          DISCORD_WEBHOOK_ALZA: ${{ secrets.DISCORD_WEBHOOK_ALZA }}
+          
         run: python pokemon_monitor.py
 
       - name: Commit updated state
