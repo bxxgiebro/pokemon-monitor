@@ -62,6 +62,22 @@
     }
   },
   "VeselyDrak": {
+    "https://www.vesely-drak.sk/produkty/booster-boxy/18700-pokemon-pitch-black-booster-box/": {
+      "name": "Pokémon Pitch Black Booster Box",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/booster-boxy/18702-pokemon-pitch-black-booster/": {
+      "name": "Pokémon Pitch Black Booster",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/pokemon-elite-trainer-box/18703-pokemon-pitch-black-elite-trainer-box/": {
+      "name": "Pokémon Pitch Black Elite Trainer Box",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/booster-boxy/18706-pokemon-pitch-black-booster-bundle/": {
+      "name": "Pokémon Pitch Black Booster Bundle",
+      "in_stock": true
+    },
     "https://www.vesely-drak.sk/produkty/booster-boxy/18958-pokemon-brilliant-fantasy-csv8c-slim-booster-box-cinsky/": {
       "name": "Pokémon Brilliant Fantasy CSV8C Slim Booster Box - čínsky",
       "in_stock": true
@@ -124,22 +140,6 @@
     },
     "https://www.vesely-drak.sk/produkty/cinske-pokemon-karty/18576-pokemon-first-partner-30th-anniversary-celebration-set-vol-1-cinsky/": {
       "name": "Pokémon First Partner 30th Anniversary Celebration set Vol. 1 - čínsky",
-      "in_stock": true
-    },
-    "https://www.vesely-drak.sk/produkty/booster-boxy/18700-pokemon-pitch-black-booster-box/": {
-      "name": "Pokémon Pitch Black Booster Box",
-      "in_stock": true
-    },
-    "https://www.vesely-drak.sk/produkty/booster-boxy/18702-pokemon-pitch-black-booster/": {
-      "name": "Pokémon Pitch Black Booster",
-      "in_stock": true
-    },
-    "https://www.vesely-drak.sk/produkty/pokemon-elite-trainer-box/18703-pokemon-pitch-black-elite-trainer-box/": {
-      "name": "Pokémon Pitch Black Elite Trainer Box",
-      "in_stock": true
-    },
-    "https://www.vesely-drak.sk/produkty/booster-boxy/18706-pokemon-pitch-black-booster-bundle/": {
-      "name": "Pokémon Pitch Black Booster Bundle",
       "in_stock": true
     }
   },
