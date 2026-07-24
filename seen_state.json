@@ -246,12 +246,20 @@
     }
   },
   "Dracik": {
+    "https://www.dracik.sk/basket/add/?product_id=76715": {
+      "name": "Pokémon TCG: Chaos Rising – Booster",
+      "in_stock": true
+    },
     "https://www.dracik.sk/basket/add/?product_id=76720": {
       "name": "Pokémon TCG: Mega Moonlit Tin",
       "in_stock": true
     },
     "https://www.dracik.sk/basket/add/?product_id=76721": {
       "name": "Pokémon TCG: Lumiose City Mini Tin",
+      "in_stock": true
+    },
+    "https://www.dracik.sk/basket/add/?product_id=76714": {
+      "name": "Pokémon TCG: Mega Zygarde Ex Premium",
       "in_stock": true
     },
     "https://www.dracik.sk/basket/add/?product_id=73863": {
