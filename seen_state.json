@@ -245,44 +245,7 @@
       "in_stock": false
     }
   },
-  "Dracik": {
-    "https://www.dracik.sk/basket/add/?product_id=76720": {
-      "name": "Pokémon TCG: Mega Moonlit Tin",
-      "in_stock": true
-    },
-    "https://www.dracik.sk/basket/add/?product_id=76721": {
-      "name": "Pokémon TCG: Lumiose City Mini Tin",
-      "in_stock": true
-    },
-    "https://www.dracik.sk/basket/add/?product_id=76714": {
-      "name": "Pokémon TCG: Mega Zygarde Ex Premium",
-      "in_stock": true
-    },
-    "https://www.dracik.sk/basket/add/?product_id=73863": {
-      "name": "Pokémon – Adventný kalendár",
-      "in_stock": true
-    },
-    "https://www.dracik.sk/basket/add/?product_id=76465": {
-      "name": "Pokémon TCG: Album Mega Revolution Chaos Rising A4",
-      "in_stock": true
-    },
-    "https://www.dracik.sk/basket/add/?product_id=76244": {
-      "name": "Pokémon TCG: Mega Charizard - Album A4",
-      "in_stock": true
-    },
-    "https://www.dracik.sk/basket/add/?product_id=76245": {
-      "name": "Pokémon TCG: Mega Charizard - Album A5",
-      "in_stock": true
-    },
-    "https://www.dracik.sk/basket/add/?product_id=76464": {
-      "name": "Pokémon TCG: Album Chaos Rising A5",
-      "in_stock": true
-    },
-    "https://www.dracik.sk/basket/add/?product_id=59256": {
-      "name": "Pokémon – Battle Academy",
-      "in_stock": true
-    }
-  },
+  "Dracik": {},
   "Alza": {
     "https://www.alza.sk/hracky/pokemon-tcg-me05-pitch-black-booster-d13465380.htm": {
       "name": "Pokémon karty - články",
