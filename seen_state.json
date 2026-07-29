@@ -102,10 +102,6 @@
       "name": "Pokémon Chaos Rising Booster Box",
       "in_stock": true
     },
-    "https://www.vesely-drak.sk/produkty/pokemon-elite-trainer-box/18273-pokemon-chaos-rising-elite-trainer-box/": {
-      "name": "Pokémon Chaos Rising Elite Trainer Box",
-      "in_stock": true
-    },
     "https://www.vesely-drak.sk/produkty/booster-boxy/18284-pokemon-chaos-rising-booster-bundle/": {
       "name": "Pokémon Chaos Rising Booster Bundle",
       "in_stock": true
@@ -140,6 +136,10 @@
     },
     "https://www.vesely-drak.sk/produkty/cinske-pokemon-karty/18576-pokemon-first-partner-30th-anniversary-celebration-set-vol-1-cinsky/": {
       "name": "Pokémon First Partner 30th Anniversary Celebration set Vol. 1 - čínsky",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/booster-boxy/18742-pokemon-gem-pack-vol-5-cbb5c-booster-box-cinsky/": {
+      "name": "Pokémon Gem Pack Vol. 5 (CBB5C) Booster Box - čínsky",
       "in_stock": true
     }
   },
