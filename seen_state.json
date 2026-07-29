@@ -144,6 +144,10 @@
     }
   },
   "PGS": {
+    "https://www.pgs.sk/pokemon-tcg-adventny-kalendar-2024-4p160421": {
+      "name": "Pokémon TCG: Adventný kalendár 2024",
+      "in_stock": false
+    },
     "https://www.pgs.sk/pokemon-tcg-mega-dream-ex-booster-japan-4p252462": {
       "name": "Pokémon TCG: Mega Dream EX booster (Japan)",
       "in_stock": false
@@ -170,10 +174,6 @@
     },
     "https://www.pgs.sk/pokemon-tcg-ruler-z-black-flame-booster-japan-4p206773": {
       "name": "Pokémon TCG - Ruler z Black Flame Booster (Japan)",
-      "in_stock": false
-    },
-    "https://www.pgs.sk/pokemon-tcg-adventny-kalendar-2024-4p160421": {
-      "name": "Pokémon TCG: Adventný kalendár 2024",
       "in_stock": false
     },
     "https://www.pgs.sk/pokemon-tcg-team-rocket-s-mewtwo-ex-league-battle-deck-4p252097": {
