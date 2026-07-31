@@ -144,12 +144,12 @@
     }
   },
   "PGS": {
-    "https://www.pgs.sk/pokemon-tcg-mega-dream-ex-booster-japan-4p252462": {
-      "name": "Pokémon TCG: Mega Dream EX booster (Japan)",
-      "in_stock": false
-    },
     "https://www.pgs.sk/pokemon-tcg-terastal-festival-ex-booster-japan-4p207150": {
       "name": "Pokémon TCG - Terastal Festival EX Booster (Japan)",
+      "in_stock": false
+    },
+    "https://www.pgs.sk/pokemon-tcg-mega-dream-ex-booster-japan-4p252462": {
+      "name": "Pokémon TCG: Mega Dream EX booster (Japan)",
       "in_stock": false
     },
     "https://www.pgs.sk/pokemon-tcg-151-booster-japan-4p133954": {
