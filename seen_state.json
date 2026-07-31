@@ -156,10 +156,6 @@
       "name": "Pokémon TCG - 151 booster (Japan)",
       "in_stock": false
     },
-    "https://www.pgs.sk/pokemon-tcg-trick-or-trade-booster-2023-4p225049": {
-      "name": "Pokémon TCG: Trick or Trade Booster 2023",
-      "in_stock": false
-    },
     "https://www.pgs.sk/pokemon-tcg-mega-inferno-x-booster-japan-4p245712": {
       "name": "Pokémon TCG: Mega Inferno X Booster (Japan)",
       "in_stock": false
@@ -186,6 +182,10 @@
     },
     "https://www.pgs.sk/pokemon-tcg-team-rocket-s-mewtwo-ex-league-battle-deck-4p252097": {
       "name": "Pokémon TCG: Team Rocket's Mewtwo ex League Battle Deck",
+      "in_stock": false
+    },
+    "https://www.pgs.sk/pokemon-tcg-trick-or-trade-booster-2023-4p225049": {
+      "name": "Pokémon TCG: Trick or Trade Booster 2023",
       "in_stock": false
     },
     "https://www.pgs.sk/pokemon-tcg-sv10-5-black-bolt-elite-trainer-box-4p231149": {
