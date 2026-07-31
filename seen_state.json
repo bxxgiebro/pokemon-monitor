@@ -184,10 +184,6 @@
       "name": "Pokémon TCG: Team Rocket's Mewtwo ex League Battle Deck",
       "in_stock": false
     },
-    "https://www.pgs.sk/pokemon-tcg-trick-or-trade-booster-2023-4p225049": {
-      "name": "Pokémon TCG: Trick or Trade Booster 2023",
-      "in_stock": false
-    },
     "https://www.pgs.sk/pokemon-tcg-sv10-5-black-bolt-elite-trainer-box-4p231149": {
       "name": "Pokémon TCG: SV10.5 Black Bolt - Elite Trainer Box",
       "in_stock": false
@@ -198,6 +194,10 @@
     },
     "https://www.pgs.sk/pokemon-tcg-mega-heroes-mini-tin-4p242328": {
       "name": "Pokémon TCG: Mega Heroes Mini Tin",
+      "in_stock": false
+    },
+    "https://www.pgs.sk/pokemon-tcg-trick-or-trade-booster-2023-4p225049": {
+      "name": "Pokémon TCG: Trick or Trade Booster 2023",
       "in_stock": false
     },
     "https://www.pgs.sk/pokemon-tcg-slashing-legends-tin-4p228537": {
