@@ -144,6 +144,10 @@
     }
   },
   "PGS": {
+    "https://www.pgs.sk/pokemon-tcg-adventny-kalendar-2024-4p160421": {
+      "name": "Pokémon TCG: Adventný kalendár 2024",
+      "in_stock": false
+    },
     "https://www.pgs.sk/pokemon-tcg-terastal-festival-ex-booster-japan-4p207150": {
       "name": "Pokémon TCG - Terastal Festival EX Booster (Japan)",
       "in_stock": false
@@ -178,10 +182,6 @@
     },
     "https://www.pgs.sk/pokemon-tcg-super-electric-breaker-booster-japan-4p206772": {
       "name": "Pokémon TCG - Super Electric Breaker Booster (Japan)",
-      "in_stock": false
-    },
-    "https://www.pgs.sk/pokemon-tcg-adventny-kalendar-2024-4p160421": {
-      "name": "Pokémon TCG: Adventný kalendár 2024",
       "in_stock": false
     },
     "https://www.pgs.sk/pokemon-tcg-team-rocket-s-mewtwo-ex-league-battle-deck-4p252097": {
