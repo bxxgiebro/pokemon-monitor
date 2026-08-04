@@ -132,7 +132,10 @@ def find_product_container(anchor_element):
 
 
 def scan_site(site):
+    if site["name"] == "Dracik":
+        return scan_dracik(site)
     try:
+        ...  # rest of existing function unchanged
         if site.get("use_proxy") and SCRAPERAPI_KEY:
             proxy_url = f"http://api.scraperapi.com?api_key={SCRAPERAPI_KEY}&url={site['url']}"
             resp = requests.get(proxy_url, timeout=30)
@@ -183,6 +186,11 @@ def check_site(site, state):
     name = site["name"]
     current = scan_site(site)
     if current is None or len(current) == 0:
+        previous_count = len(state.get(name, {}))
+        if previous_count and len(current) > previous_count * 3 and len(current) > 20:
+            log.warning(f"[{name}] got {len(current)} products vs {previous_count} before — "
+                        f"looks like a scraping fluke, skipping this run without alerting")
+            return
         log.warning(f"[{name}] got 0 products, skipping state update to avoid wiping saved data")
         return
 
