@@ -27,10 +27,8 @@ SITES = [
     {
         "name": "Dracik",
         "url": "https://www.dracik.sk/pokemon-1076/",
-        "product_url_pattern": r"/[a-z0-9\-]{8,}/$",
         "in_stock_keywords": ["Skladom", "Do košíka"],
         "out_of_stock_keywords": ["Produkt nie je skladom", "Nedostupné"],
-        "require_price_context": True,
     },
     {
         "name": "VeselyDrak",
@@ -131,11 +129,74 @@ def find_product_container(anchor_element):
     return anchor_element.parent
 
 
+def scan_dracik(site):
+    """Dracik has no clean product-vs-category URL pattern, but every real
+    product tile has a 'Do kosika' button linking to /basket/add/?product_id=N.
+    Nav/category links never have this, so we anchor on that instead."""
+    try:
+        resp = requests.get(site["url"], headers=HEADERS, timeout=20)
+        if resp.status_code != 200:
+            log.warning(f"[{site['name']}] got status {resp.status_code}")
+            return None
+    except requests.RequestException as e:
+        log.error(f"[{site['name']}] request failed: {e}")
+        return None
+
+    soup = BeautifulSoup(resp.text, "html.parser")
+    basket_pattern = re.compile(r"/basket/add/\?product_id=(\d+)")
+    products = {}
+
+    for a in soup.find_all("a", href=True):
+        if not basket_pattern.search(a["href"]):
+            continue
+
+        # walk up until we find the product tile (has an <img> in it)
+        container = a
+        img = None
+        for _ in range(6):
+            if not container.parent:
+                break
+            container = container.parent
+            img = container.find("img")
+            if img:
+                break
+
+        name = img.get("alt", "").strip() if img else ""
+        if not name or len(name) < 3:
+            continue
+
+        # find the real product detail link inside this tile (not basket/favorites)
+        detail_href = None
+        for link in container.find_all("a", href=True):
+            href = link["href"]
+            if "/basket/add/" in href or "favoriteproducts" in href:
+                continue
+            detail_href = href
+            break
+        if not detail_href:
+            continue
+
+        full_url = urljoin(site["url"], detail_href)
+        context_text = container.get_text(" ", strip=True)
+
+        if any(kw in context_text for kw in site["out_of_stock_keywords"]):
+            in_stock = False
+        elif any(kw in context_text for kw in site["in_stock_keywords"]):
+            in_stock = True
+        else:
+            in_stock = False
+
+        if full_url not in products or len(name) > len(products[full_url]["name"]):
+            products[full_url] = {"name": name, "in_stock": in_stock}
+
+    return products
+
+
 def scan_site(site):
     if site["name"] == "Dracik":
         return scan_dracik(site)
+
     try:
-        ...  # rest of existing function unchanged
         if site.get("use_proxy") and SCRAPERAPI_KEY:
             proxy_url = f"http://api.scraperapi.com?api_key={SCRAPERAPI_KEY}&url={site['url']}"
             resp = requests.get(proxy_url, timeout=30)
@@ -186,16 +247,17 @@ def check_site(site, state):
     name = site["name"]
     current = scan_site(site)
     if current is None or len(current) == 0:
-        previous_count = len(state.get(name, {}))
-        if previous_count and len(current) > previous_count * 3 and len(current) > 20:
-            log.warning(f"[{name}] got {len(current)} products vs {previous_count} before — "
-                        f"looks like a scraping fluke, skipping this run without alerting")
-            return
         log.warning(f"[{name}] got 0 products, skipping state update to avoid wiping saved data")
         return
 
-    is_first_run = name not in state or not state[name]
     previous = state.get(name, {})
+    previous_count = len(previous)
+    if previous_count and len(current) > previous_count * 3 and len(current) > 20:
+        log.warning(f"[{name}] got {len(current)} products vs {previous_count} before — "
+                    f"looks like a scraping fluke, skipping this run without alerting")
+        return
+
+    is_first_run = name not in state or not state[name]
 
     for url, info in current.items():
         prev_info = previous.get(url)
