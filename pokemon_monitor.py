@@ -24,12 +24,13 @@ WEBHOOKS = {
 STATE_FILE = "seen_state.json"
 
 SITES = [
-    {
-        "name": "iHrysko",
-        "url": "https://www.ihrysko.sk/pokemon-tcg-c17668",
-        "product_url_pattern": r"-p\d+",
-        "in_stock_keywords": ["Vložiť do košíka", "skladom"],
-        "out_of_stock_keywords": ["Očakávame", "dlhodobo nedostupné", "Vypredané"],
+   {
+        "name": "Dracik",
+        "url": "https://www.dracik.sk/pokemon-1076/",
+        "product_url_pattern": r"^/[a-z0-9\-]{8,}/$",
+        "in_stock_keywords": ["Skladom", "Do košíka"],
+        "out_of_stock_keywords": ["Produkt nie je skladom", "Nedostupné"],
+        "require_price_context": True,
     },
     {
         "name": "VeselyDrak",
@@ -162,6 +163,8 @@ def scan_site(site):
             continue
 
         context_text = container.get_text(" ", strip=True)
+        if site.get("require_price_context") and "€" not in context_text:
+            continue
 
         if any(kw in context_text for kw in site["out_of_stock_keywords"]):
             in_stock = False
