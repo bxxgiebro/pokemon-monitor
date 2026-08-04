@@ -182,24 +182,25 @@ def scan_site(site):
 def check_site(site, state):
     name = site["name"]
     current = scan_site(site)
-    if current is None:
+    if current is None or len(current) == 0:
+        log.warning(f"[{name}] got 0 products, skipping state update to avoid wiping saved data")
         return
 
-    is_first_run = name not in state
+    is_first_run = name not in state or not state[name]
     previous = state.get(name, {})
 
     for url, info in current.items():
         prev_info = previous.get(url)
 
         if is_first_run:
-            continue  # seed baseline, don't alert on everything at once
+            continue
 
         if prev_info is None:
             log.info(f"[{name}] NEW PRODUCT: {info['name']}")
             send_discord_alert(name, f"@everyone NEW PRODUCT - {name.upper()}", info["name"], url)
             time.sleep(1.5)
         elif info["in_stock"] and not prev_info.get("in_stock", False):
-            log.info(f"@everyone [{name}] RESTOCKED: {info['name']}")
+            log.info(f"[{name}] RESTOCKED: {info['name']}")
             send_discord_alert(name, f"@everyone RESTOCK - {name.upper()}", info["name"], url)
             time.sleep(1.5)
 
