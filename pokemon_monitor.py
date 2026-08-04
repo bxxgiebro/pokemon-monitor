@@ -63,11 +63,11 @@ SITES = [
         "out_of_stock_keywords": ["Očakávame", "dlhodobo nedostupné", "Vypredané"],
     },
     {
-        "name": "Dracik",
-        "url": "https://www.dracik.sk/pokemon-1076/",
-        "product_url_pattern": r"/basket/add/\?product_id=\d+",
-        "in_stock_keywords": ["Skladom"],
-        "out_of_stock_keywords": ["Produkt nie je skladom", "Nedostupné"],
+        "name": "iHrysko",
+        "url": "https://www.ihrysko.sk/pokemon-tcg-c17668",
+        "product_url_pattern": r"-p\d+",
+        "in_stock_keywords": ["Vložiť do košíka", "skladom"],
+        "out_of_stock_keywords": ["Očakávame", "dlhodobo nedostupné", "Vypredané"],
     },
 ]
 if ALZA_ENABLED:
