@@ -24,10 +24,10 @@ WEBHOOKS = {
 STATE_FILE = "seen_state.json"
 
 SITES = [
-   {
+    {
         "name": "Dracik",
         "url": "https://www.dracik.sk/pokemon-1076/",
-        "product_url_pattern": r"^/[a-z0-9\-]{8,}/$",
+        "product_url_pattern": r"/[a-z0-9\-]{8,}/$",
         "in_stock_keywords": ["Skladom", "Do košíka"],
         "out_of_stock_keywords": ["Produkt nie je skladom", "Nedostupné"],
         "require_price_context": True,
