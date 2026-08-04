@@ -134,7 +134,8 @@ def scan_dracik(site):
     product tile has a 'Do kosika' button linking to /basket/add/?product_id=N.
     Nav/category links never have this, so we anchor on that instead."""
     try:
-        resp = requests.get(site["url"], headers=HEADERS, timeout=20)
+        dracik_headers = {**HEADERS, "Referer": "https://www.dracik.sk/", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "same-origin", "Upgrade-Insecure-Requests": "1"}
+        resp = requests.get(site["url"], headers=dracik_headers, timeout=20)
         if resp.status_code != 200:
             log.warning(f"[{site['name']}] got status {resp.status_code}")
             return None
