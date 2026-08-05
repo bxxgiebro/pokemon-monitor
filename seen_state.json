@@ -188,10 +188,6 @@
       "name": "Pokémon TCG: Team Rocket's Mewtwo ex League Battle Deck",
       "in_stock": false
     },
-    "https://www.pgs.sk/pokemon-tcg-glory-of-team-rocket-booster-japan-4p226724": {
-      "name": "Pokémon TCG - Glory of Team Rocket Booster (Japan)",
-      "in_stock": false
-    },
     "https://www.pgs.sk/pokemon-tcg-sv10-5-black-bolt-elite-trainer-box-4p231149": {
       "name": "Pokémon TCG: SV10.5 Black Bolt - Elite Trainer Box",
       "in_stock": false
@@ -238,6 +234,10 @@
     },
     "https://www.pgs.sk/pokemon-tcg-collectors-chest-jesen-2024-4p202608": {
       "name": "Pokémon TCG: Collectors Chest Jeseň 2024",
+      "in_stock": false
+    },
+    "https://www.pgs.sk/pokemon-tcg-league-battle-deck-mew-vmax-4p56477": {
+      "name": "Pokémon TCG: League Battle Deck - Mew VMAX",
       "in_stock": false
     },
     "https://www.pgs.sk/tricko-assassin-s-creed-black-flag-resynced-l-4p269698": {
