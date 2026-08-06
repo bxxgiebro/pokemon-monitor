@@ -62,6 +62,10 @@
     }
   },
   "VeselyDrak": {
+    "https://www.vesely-drak.sk/produkty/specialni-sety/19334-pokemon-mega-evolution-2-pack-blister-single-wide-zarude/": {
+      "name": "Pokémon Mega Evolution 2 Pack Blister (Single Wide) – Zarude",
+      "in_stock": true
+    },
     "https://www.vesely-drak.sk/produkty/booster-boxy/18700-pokemon-pitch-black-booster-box/": {
       "name": "Pokémon Pitch Black Booster Box",
       "in_stock": true
@@ -122,6 +126,10 @@
       "name": "Zberateľský 3 krúžkový album Pokémon - Lillie and Clefairy",
       "in_stock": true
     },
+    "https://www.vesely-drak.sk/produkty/pokemon-gx-box/19332-pokemon-first-partner-illustration-collection-series-3/": {
+      "name": "Pokémon First Partner Illustration Collection - Series 3",
+      "in_stock": true
+    },
     "https://www.vesely-drak.sk/produkty/pokemon-krabicky/18425-pokemon-krabicka-na-karty-mega-charizard-x/": {
       "name": "Pokémon krabička na karty - Mega Charizard X",
       "in_stock": true
@@ -132,14 +140,6 @@
     },
     "https://www.vesely-drak.sk/produkty/pokemon-podlozky/18430-pokemon-hraci-podlozka-mega-charizard-x-a-mega-charizard-y/": {
       "name": "Hracia podložka Pokémon - Mega Charizard X a Mega Charizard Y",
-      "in_stock": true
-    },
-    "https://www.vesely-drak.sk/produkty/pokemon-alba/18434-pokemon-a4-album-na-360-karet-mega-charizard-x-a-mega-charizard-y/": {
-      "name": "Album na karty Pokémon A4 360 - Mega Charizard X a Mega Charizard Y",
-      "in_stock": true
-    },
-    "https://www.vesely-drak.sk/produkty/pokemon-alba/18435-pokemon-album-na-180-karet-vel-a4-mega-charizard-x-a-mega-charizard-y/": {
-      "name": "Pokémon album na 180 kariet vel. A4 - Mega Charizard X a Mega Charizard Y",
       "in_stock": true
     }
   },
@@ -240,8 +240,8 @@
       "name": "Pokémon TCG: Collectors Chest Jeseň 2024",
       "in_stock": false
     },
-    "https://www.pgs.sk/apple-airpods-max-2-2026-bezdrotove-sluchadla-tmava-atramentova-4p262490": {
-      "name": "Apple AirPods Max 2 (2026) bezdrôtové slúchadlá tmavá atramentová",
+    "https://www.pgs.sk/varmilo-sword68-varmilo-mx-daisy-l-us-ariel-4p221434": {
+      "name": "Varmilo Sword68 Varmilo MX Daisy L (US) Ariel",
       "in_stock": false
     }
   },
