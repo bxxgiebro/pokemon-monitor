@@ -106,6 +106,10 @@
       "name": "Pokémon Chaos Rising Booster",
       "in_stock": true
     },
+    "https://www.vesely-drak.sk/produkty/booster-boxy/18272-pokemon-chaos-rising-booster-box/": {
+      "name": "Pokémon Chaos Rising Booster Box",
+      "in_stock": true
+    },
     "https://www.vesely-drak.sk/produkty/pokemon-elite-trainer-box/18273-pokemon-chaos-rising-elite-trainer-box/": {
       "name": "Pokémon Chaos Rising Elite Trainer Box",
       "in_stock": true
@@ -136,10 +140,6 @@
     },
     "https://www.vesely-drak.sk/produkty/pokemon-podlozky/18430-pokemon-hraci-podlozka-mega-charizard-x-a-mega-charizard-y/": {
       "name": "Hracia podložka Pokémon - Mega Charizard X a Mega Charizard Y",
-      "in_stock": true
-    },
-    "https://www.vesely-drak.sk/produkty/pokemon-alba/18434-pokemon-a4-album-na-360-karet-mega-charizard-x-a-mega-charizard-y/": {
-      "name": "Album na karty Pokémon A4 360 - Mega Charizard X a Mega Charizard Y",
       "in_stock": true
     }
   },
