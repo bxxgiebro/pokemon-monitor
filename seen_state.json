@@ -144,6 +144,14 @@
     }
   },
   "PGS": {
+    "https://www.pgs.sk/pokemon-tcg-sv10-destined-rivals-elite-trainer-box-4p225220": {
+      "name": "Pokémon TCG: SV10 Destined Rivals - Elite Trainer Box",
+      "in_stock": false
+    },
+    "https://www.pgs.sk/pokemon-tcg-sv10-5-white-flare-binder-collection-4p231146": {
+      "name": "Pokémon TCG: SV10.5 White Flare - Binder Collection",
+      "in_stock": false
+    },
     "https://www.pgs.sk/pokemon-tcg-151-booster-japan-4p133954": {
       "name": "Pokémon TCG - 151 booster (Japan)",
       "in_stock": false
@@ -178,18 +186,6 @@
     },
     "https://www.pgs.sk/pokemon-tcg-team-rocket-s-mewtwo-ex-league-battle-deck-4p252097": {
       "name": "Pokémon TCG: Team Rocket's Mewtwo ex League Battle Deck",
-      "in_stock": false
-    },
-    "https://www.pgs.sk/pokemon-tcg-sv10-destined-rivals-elite-trainer-box-4p225220": {
-      "name": "Pokémon TCG: SV10 Destined Rivals - Elite Trainer Box",
-      "in_stock": false
-    },
-    "https://www.pgs.sk/pokemon-tcg-sv10-5-white-flare-binder-collection-4p231146": {
-      "name": "Pokémon TCG: SV10.5 White Flare - Binder Collection",
-      "in_stock": false
-    },
-    "https://www.pgs.sk/pokemon-tcg-star-birth-booster-japan-4p206771": {
-      "name": "Pokémon TCG - Star Birth Booster (Japan)",
       "in_stock": false
     },
     "https://www.pgs.sk/pokemon-tcg-adventny-kalendar-2024-4p160421": {
@@ -238,6 +234,10 @@
     },
     "https://www.pgs.sk/pokemon-tcg-poke-ball-tin-2025-4p252096": {
       "name": "Pokémon TCG: Poké Ball Tin 2025",
+      "in_stock": false
+    },
+    "https://www.pgs.sk/pokemon-tcg-sv10-5-black-bolt-binder-collection-4p231150": {
+      "name": "Pokémon TCG: SV10.5 Black Bolt - Binder Collection",
       "in_stock": false
     },
     "https://www.pgs.sk/pokemon-tcg-battle-academy-2024-sk-sk-4p149008": {
