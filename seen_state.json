@@ -144,10 +144,6 @@
     }
   },
   "PGS": {
-    "https://www.pgs.sk/pokemon-tcg-sv10-5-white-flare-binder-collection-4p231146": {
-      "name": "Pokémon TCG: SV10.5 White Flare - Binder Collection",
-      "in_stock": false
-    },
     "https://www.pgs.sk/pokemon-tcg-151-booster-japan-4p133954": {
       "name": "Pokémon TCG - 151 booster (Japan)",
       "in_stock": false
@@ -188,6 +184,10 @@
       "name": "Pokémon TCG: SV10 Destined Rivals - Elite Trainer Box",
       "in_stock": false
     },
+    "https://www.pgs.sk/pokemon-tcg-sv10-5-white-flare-binder-collection-4p231146": {
+      "name": "Pokémon TCG: SV10.5 White Flare - Binder Collection",
+      "in_stock": false
+    },
     "https://www.pgs.sk/pokemon-tcg-adventny-kalendar-2024-4p160421": {
       "name": "Pokémon TCG: Adventný kalendár 2024",
       "in_stock": false
@@ -208,16 +208,16 @@
       "name": "Pokémon TCG: Mega Heroes Mini Tin",
       "in_stock": false
     },
-    "https://www.pgs.sk/pokemon-tcg-slashing-legends-tin-4p228537": {
-      "name": "Pokémon TCG: Slashing Legends Tin",
-      "in_stock": false
-    },
     "https://www.pgs.sk/pokemon-tcg-azure-legends-tin-4p218995": {
       "name": "Pokémon TCG: Azure Legends Tin",
       "in_stock": false
     },
     "https://www.pgs.sk/pokemon-tcg-sv08-surging-sparks-booster-4p161342": {
       "name": "Pokémon TCG: SV08 Surging Sparks - Booster",
+      "in_stock": false
+    },
+    "https://www.pgs.sk/pokemon-tcg-slashing-legends-tin-4p228537": {
+      "name": "Pokémon TCG: Slashing Legends Tin",
       "in_stock": false
     },
     "https://www.pgs.sk/pokemon-tcg-tera-team-premium-collection-4p226723": {
