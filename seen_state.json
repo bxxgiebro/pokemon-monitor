@@ -148,10 +148,6 @@
       "name": "Pokémon TCG: SV10 Destined Rivals - Elite Trainer Box",
       "in_stock": false
     },
-    "https://www.pgs.sk/pokemon-tcg-sv10-5-white-flare-binder-collection-4p231146": {
-      "name": "Pokémon TCG: SV10.5 White Flare - Binder Collection",
-      "in_stock": false
-    },
     "https://www.pgs.sk/pokemon-tcg-151-booster-japan-4p133954": {
       "name": "Pokémon TCG - 151 booster (Japan)",
       "in_stock": false
@@ -176,16 +172,20 @@
       "name": "Pokémon TCG - MEGA Evolution - Mega Brave Booster (Japan)",
       "in_stock": false
     },
-    "https://www.pgs.sk/pokemon-tcg-ruler-z-black-flame-booster-japan-4p206773": {
-      "name": "Pokémon TCG - Ruler z Black Flame Booster (Japan)",
-      "in_stock": false
-    },
     "https://www.pgs.sk/pokemon-tcg-super-electric-breaker-booster-japan-4p206772": {
       "name": "Pokémon TCG - Super Electric Breaker Booster (Japan)",
       "in_stock": false
     },
+    "https://www.pgs.sk/pokemon-tcg-ruler-z-black-flame-booster-japan-4p206773": {
+      "name": "Pokémon TCG - Ruler z Black Flame Booster (Japan)",
+      "in_stock": false
+    },
     "https://www.pgs.sk/pokemon-tcg-team-rocket-s-mewtwo-ex-league-battle-deck-4p252097": {
       "name": "Pokémon TCG: Team Rocket's Mewtwo ex League Battle Deck",
+      "in_stock": false
+    },
+    "https://www.pgs.sk/pokemon-tcg-sv10-5-white-flare-binder-collection-4p231146": {
+      "name": "Pokémon TCG: SV10.5 White Flare - Binder Collection",
       "in_stock": false
     },
     "https://www.pgs.sk/pokemon-tcg-adventny-kalendar-2024-4p160421": {
