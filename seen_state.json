@@ -144,10 +144,6 @@
     }
   },
   "PGS": {
-    "https://www.pgs.sk/pokemon-tcg-sv10-destined-rivals-elite-trainer-box-4p225220": {
-      "name": "Pokémon TCG: SV10 Destined Rivals - Elite Trainer Box",
-      "in_stock": false
-    },
     "https://www.pgs.sk/pokemon-tcg-sv10-5-white-flare-binder-collection-4p231146": {
       "name": "Pokémon TCG: SV10.5 White Flare - Binder Collection",
       "in_stock": false
@@ -184,8 +180,8 @@
       "name": "Pokémon TCG: Team Rocket's Mewtwo ex League Battle Deck",
       "in_stock": false
     },
-    "https://www.pgs.sk/pokemon-tcg-ruler-z-black-flame-booster-japan-4p206773": {
-      "name": "Pokémon TCG - Ruler z Black Flame Booster (Japan)",
+    "https://www.pgs.sk/pokemon-tcg-sv10-destined-rivals-elite-trainer-box-4p225220": {
+      "name": "Pokémon TCG: SV10 Destined Rivals - Elite Trainer Box",
       "in_stock": false
     },
     "https://www.pgs.sk/pokemon-tcg-adventny-kalendar-2024-4p160421": {
@@ -238,6 +234,10 @@
     },
     "https://www.pgs.sk/pokemon-tcg-poke-ball-tin-2025-4p252096": {
       "name": "Pokémon TCG: Poké Ball Tin 2025",
+      "in_stock": false
+    },
+    "https://www.pgs.sk/pokemon-tcg-ruler-z-black-flame-booster-japan-4p206773": {
+      "name": "Pokémon TCG - Ruler z Black Flame Booster (Japan)",
       "in_stock": false
     },
     "https://www.pgs.sk/tigo-office-proview-f225d-drziak-pre-2-monitory-17-35-4p244462": {
