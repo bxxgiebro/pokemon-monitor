@@ -82,10 +82,6 @@
       "name": "Pokémon Pitch Black Booster Bundle",
       "in_stock": true
     },
-    "https://www.vesely-drak.sk/produkty/boostery/19343-pokemon-battle-region-s9af-booster-balicek-cinsky/": {
-      "name": "Pokémon Battle Region S9aF Booster Balíček – čínsky",
-      "in_stock": true
-    },
     "https://www.vesely-drak.sk/produkty/booster-boxy/19344-pokemon-battle-region-s9af-booster-box-cinsky/": {
       "name": "Pokémon Battle Region S9aF Booster Box – čínsky",
       "in_stock": true
@@ -140,6 +136,10 @@
     },
     "https://www.vesely-drak.sk/produkty/cinske-pokemon-karty/19117-pokemon-sada-2026-dragon-boat-gift-box-cinsky/": {
       "name": "Pokémon sada 2026 Dragon Boat Gift Box - čínsky",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/pokemon-alba/19328-pokemon-3-krouzkove-sberatelske-album-lillie-and-clefairy/": {
+      "name": "Zberateľský 3 krúžkový album Pokémon - Lillie and Clefairy",
       "in_stock": true
     }
   },
