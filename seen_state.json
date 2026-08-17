@@ -200,10 +200,6 @@
       "name": "Pokémon TCG: SV09 Journey Together - Booster",
       "in_stock": false
     },
-    "https://www.pgs.sk/pokemon-tcg-azure-legends-tin-4p218995": {
-      "name": "Pokémon TCG: Azure Legends Tin",
-      "in_stock": false
-    },
     "https://www.pgs.sk/pokemon-tcg-sv08-surging-sparks-booster-4p161342": {
       "name": "Pokémon TCG: SV08 Surging Sparks - Booster",
       "in_stock": false
@@ -238,6 +234,10 @@
     },
     "https://www.pgs.sk/pokemon-tcg-ogerpon-ex-premium-collection-4p202606": {
       "name": "Pokémon TCG: Ogerpon ex Premium Collection",
+      "in_stock": false
+    },
+    "https://www.pgs.sk/pokemon-tcg-star-birth-booster-japan-4p206771": {
+      "name": "Pokémon TCG - Star Birth Booster (Japan)",
       "in_stock": false
     },
     "https://www.pgs.sk/tigo-clearvision-t225b-tv-drziak-43-95-4p244464": {
