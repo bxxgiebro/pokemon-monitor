@@ -144,10 +144,6 @@
     }
   },
   "PGS": {
-    "https://www.pgs.sk/pokemon-tcg-adventny-kalendar-2024-4p160421": {
-      "name": "Pokémon TCG: Adventný kalendár 2024",
-      "in_stock": false
-    },
     "https://www.pgs.sk/pokemon-tcg-151-booster-japan-4p133954": {
       "name": "Pokémon TCG - 151 booster (Japan)",
       "in_stock": false
@@ -182,6 +178,10 @@
     },
     "https://www.pgs.sk/pokemon-tcg-sv10-5-white-flare-binder-collection-4p231146": {
       "name": "Pokémon TCG: SV10.5 White Flare - Binder Collection",
+      "in_stock": false
+    },
+    "https://www.pgs.sk/pokemon-tcg-adventny-kalendar-2024-4p160421": {
+      "name": "Pokémon TCG: Adventný kalendár 2024",
       "in_stock": false
     },
     "https://www.pgs.sk/pokemon-tcg-sv10-destined-rivals-elite-trainer-box-4p225220": {
