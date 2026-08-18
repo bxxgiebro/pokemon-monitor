@@ -168,10 +168,6 @@
       "name": "Pokémon TCG - MEGA Evolution - Mega Symphonia Booster (Japan)",
       "in_stock": false
     },
-    "https://www.pgs.sk/pokemon-tcg-mega-evolution-mega-brave-booster-japan-4p235892": {
-      "name": "Pokémon TCG - MEGA Evolution - Mega Brave Booster (Japan)",
-      "in_stock": false
-    },
     "https://www.pgs.sk/pokemon-tcg-super-electric-breaker-booster-japan-4p206772": {
       "name": "Pokémon TCG - Super Electric Breaker Booster (Japan)",
       "in_stock": false
@@ -182,6 +178,10 @@
     },
     "https://www.pgs.sk/pokemon-tcg-team-rocket-s-mewtwo-ex-league-battle-deck-4p252097": {
       "name": "Pokémon TCG: Team Rocket's Mewtwo ex League Battle Deck",
+      "in_stock": false
+    },
+    "https://www.pgs.sk/pokemon-tcg-mega-evolution-mega-brave-booster-japan-4p235892": {
+      "name": "Pokémon TCG - MEGA Evolution - Mega Brave Booster (Japan)",
       "in_stock": false
     },
     "https://www.pgs.sk/pokemon-tcg-sv10-destined-rivals-elite-trainer-box-4p225220": {
