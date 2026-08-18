@@ -148,10 +148,6 @@
       "name": "Pokémon TCG: SV10 Destined Rivals - Elite Trainer Box",
       "in_stock": false
     },
-    "https://www.pgs.sk/pokemon-tcg-sv10-5-white-flare-binder-collection-4p231146": {
-      "name": "Pokémon TCG: SV10.5 White Flare - Binder Collection",
-      "in_stock": false
-    },
     "https://www.pgs.sk/pokemon-tcg-151-booster-japan-4p133954": {
       "name": "Pokémon TCG - 151 booster (Japan)",
       "in_stock": false
@@ -184,8 +180,8 @@
       "name": "Pokémon TCG: Team Rocket's Mewtwo ex League Battle Deck",
       "in_stock": false
     },
-    "https://www.pgs.sk/pokemon-tcg-mega-evolution-mega-brave-booster-japan-4p235892": {
-      "name": "Pokémon TCG - MEGA Evolution - Mega Brave Booster (Japan)",
+    "https://www.pgs.sk/pokemon-tcg-sv10-5-white-flare-binder-collection-4p231146": {
+      "name": "Pokémon TCG: SV10.5 White Flare - Binder Collection",
       "in_stock": false
     },
     "https://www.pgs.sk/pokemon-tcg-adventny-kalendar-2024-4p160421": {
@@ -214,6 +210,10 @@
     },
     "https://www.pgs.sk/pokemon-tcg-tera-team-premium-collection-4p226723": {
       "name": "Pokémon TCG: Tera Team Premium Collection",
+      "in_stock": false
+    },
+    "https://www.pgs.sk/pokemon-tcg-mega-evolution-mega-brave-booster-japan-4p235892": {
+      "name": "Pokémon TCG - MEGA Evolution - Mega Brave Booster (Japan)",
       "in_stock": false
     },
     "https://www.pgs.sk/pokemon-tcg-glory-of-team-rocket-booster-japan-4p226724": {
