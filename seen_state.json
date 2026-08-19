@@ -130,16 +130,16 @@
       "name": "Pokémon Chaos Rising Elite Trainer Box",
       "in_stock": true
     },
-    "https://www.vesely-drak.sk/produkty/booster-boxy/18284-pokemon-chaos-rising-booster-bundle/": {
-      "name": "Pokémon Chaos Rising Booster Bundle",
-      "in_stock": true
-    },
     "https://www.vesely-drak.sk/produkty/cinske-pokemon-karty/19117-pokemon-sada-2026-dragon-boat-gift-box-cinsky/": {
       "name": "Pokémon sada 2026 Dragon Boat Gift Box - čínsky",
       "in_stock": true
     },
     "https://www.vesely-drak.sk/produkty/pokemon-alba/19328-pokemon-3-krouzkove-sberatelske-album-lillie-and-clefairy/": {
       "name": "Zberateľský 3 krúžkový album Pokémon - Lillie and Clefairy",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/pokemon-gx-box/19332-pokemon-first-partner-illustration-collection-series-3/": {
+      "name": "Pokémon First Partner Illustration Collection - Series 3",
       "in_stock": true
     }
   },
