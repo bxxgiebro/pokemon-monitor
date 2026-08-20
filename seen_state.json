@@ -82,10 +82,6 @@
       "name": "Pokémon Pitch Black Booster Bundle",
       "in_stock": true
     },
-    "https://www.vesely-drak.sk/produkty/boostery/19343-pokemon-battle-region-s9af-booster-balicek-cinsky/": {
-      "name": "Pokémon Battle Region S9aF Booster Balíček – čínsky",
-      "in_stock": true
-    },
     "https://www.vesely-drak.sk/produkty/cinske-pokemon-karty/19361-pokemon-first-partner-30th-anniversary-celebration-set-vol-2-cinsky/": {
       "name": "Pokémon First Partner 30th Anniversary Celebration set Vol. 2 - čínsky",
       "in_stock": true
@@ -140,6 +136,10 @@
     },
     "https://www.vesely-drak.sk/produkty/pokemon-gx-box/19332-pokemon-first-partner-illustration-collection-series-3/": {
       "name": "Pokémon First Partner Illustration Collection - Series 3",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/pevne-obaly-na-karty/19360-premiove-obaly-goatward-na-gradovane-karty-psa-a-cgc-10-ks/": {
+      "name": "Prémiové obaly Goatward na gradované karty PSA a CGC – 10 ks",
       "in_stock": true
     }
   },
