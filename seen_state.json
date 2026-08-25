@@ -62,6 +62,14 @@
     }
   },
   "VeselyDrak": {
+    "https://www.vesely-drak.sk/produkty/booster-boxy/19511-pokemon-gem-pack-vol-6-cbb6c-booster-box-cinsky/": {
+      "name": "Pokémon Gem Pack Vol. 6 (CBB6C) Booster Box – čínsky",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/boostery/19512-pokemon-gem-pack-vol-6-cbb6c-booster-balicek-cinsky/": {
+      "name": "Pokémon Gem Pack Vol. 6 (CBB6C) Booster Balíček – čínsky",
+      "in_stock": true
+    },
     "https://www.vesely-drak.sk/produkty/booster-boxy/18700-pokemon-pitch-black-booster-box/": {
       "name": "Pokémon Pitch Black Booster Box",
       "in_stock": true
@@ -132,14 +140,6 @@
     },
     "https://www.vesely-drak.sk/produkty/pokemon-gx-box/19332-pokemon-first-partner-illustration-collection-series-3/": {
       "name": "Pokémon First Partner Illustration Collection - Series 3",
-      "in_stock": true
-    },
-    "https://www.vesely-drak.sk/produkty/pevne-obaly-na-karty/19360-premiove-obaly-goatward-na-gradovane-karty-psa-a-cgc-10-ks/": {
-      "name": "Prémiové obaly Goatward na gradované karty PSA a CGC – 10 ks",
-      "in_stock": true
-    },
-    "https://www.vesely-drak.sk/produkty/pokemon-krabicky/19363-plastove-boxy-deluxe-na-pokemon-v-a-ex-kolekce-10-ks/": {
-      "name": "Plastové boxy Deluxe pre Pokémon V a EX kolekcie – 10 ks",
       "in_stock": true
     }
   },
