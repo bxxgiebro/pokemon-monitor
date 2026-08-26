@@ -148,10 +148,6 @@
       "name": "Pokémon TCG - 151 booster (Japan)",
       "in_stock": false
     },
-    "https://www.pgs.sk/pokemon-tcg-terastal-festival-ex-booster-japan-4p207150": {
-      "name": "Pokémon TCG - Terastal Festival EX Booster (Japan)",
-      "in_stock": false
-    },
     "https://www.pgs.sk/pokemon-tcg-mega-dream-ex-booster-japan-4p252462": {
       "name": "Pokémon TCG: Mega Dream EX booster (Japan)",
       "in_stock": false
@@ -186,6 +182,10 @@
     },
     "https://www.pgs.sk/pokemon-tcg-sv10-destined-rivals-elite-trainer-box-4p225220": {
       "name": "Pokémon TCG: SV10 Destined Rivals - Elite Trainer Box",
+      "in_stock": false
+    },
+    "https://www.pgs.sk/pokemon-tcg-terastal-festival-ex-booster-japan-4p207150": {
+      "name": "Pokémon TCG - Terastal Festival EX Booster (Japan)",
       "in_stock": false
     },
     "https://www.pgs.sk/pokemon-tcg-adventny-kalendar-2024-4p160421": {
