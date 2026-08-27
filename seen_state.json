@@ -144,6 +144,10 @@
     }
   },
   "PGS": {
+    "https://www.pgs.sk/pokemon-tcg-sv10-destined-rivals-elite-trainer-box-4p225220": {
+      "name": "Pokémon TCG: SV10 Destined Rivals - Elite Trainer Box",
+      "in_stock": false
+    },
     "https://www.pgs.sk/pokemon-tcg-151-booster-japan-4p133954": {
       "name": "Pokémon TCG - 151 booster (Japan)",
       "in_stock": false
@@ -178,10 +182,6 @@
     },
     "https://www.pgs.sk/pokemon-tcg-team-rocket-s-mewtwo-ex-league-battle-deck-4p252097": {
       "name": "Pokémon TCG: Team Rocket's Mewtwo ex League Battle Deck",
-      "in_stock": false
-    },
-    "https://www.pgs.sk/pokemon-tcg-sv10-destined-rivals-elite-trainer-box-4p225220": {
-      "name": "Pokémon TCG: SV10 Destined Rivals - Elite Trainer Box",
       "in_stock": false
     },
     "https://www.pgs.sk/pokemon-tcg-adventny-kalendar-2024-4p160421": {
