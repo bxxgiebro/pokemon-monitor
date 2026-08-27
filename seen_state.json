@@ -180,10 +180,6 @@
       "name": "Pokémon TCG: Team Rocket's Mewtwo ex League Battle Deck",
       "in_stock": false
     },
-    "https://www.pgs.sk/pokemon-tcg-world-championship-deck-2024-4p235889": {
-      "name": "Pokémon TCG: World Championship Deck 2024",
-      "in_stock": false
-    },
     "https://www.pgs.sk/pokemon-tcg-sv10-destined-rivals-elite-trainer-box-4p225220": {
       "name": "Pokémon TCG: SV10 Destined Rivals - Elite Trainer Box",
       "in_stock": false
@@ -192,28 +188,32 @@
       "name": "Pokémon TCG: Adventný kalendár 2024",
       "in_stock": false
     },
-    "https://www.pgs.sk/pokemon-tcg-trick-or-trade-booster-2023-4p225049": {
-      "name": "Pokémon TCG: Trick or Trade Booster 2023",
-      "in_stock": false
-    },
     "https://www.pgs.sk/pokemon-tcg-mega-heroes-mini-tin-4p242328": {
       "name": "Pokémon TCG: Mega Heroes Mini Tin",
+      "in_stock": false
+    },
+    "https://www.pgs.sk/pokemon-tcg-trick-or-trade-booster-2023-4p225049": {
+      "name": "Pokémon TCG: Trick or Trade Booster 2023",
       "in_stock": false
     },
     "https://www.pgs.sk/pokemon-tcg-sv09-journey-together-booster-4p213817": {
       "name": "Pokémon TCG: SV09 Journey Together - Booster",
       "in_stock": false
     },
-    "https://www.pgs.sk/pokemon-tcg-sv08-surging-sparks-booster-4p161342": {
-      "name": "Pokémon TCG: SV08 Surging Sparks - Booster",
-      "in_stock": false
-    },
     "https://www.pgs.sk/pokemon-tcg-slashing-legends-tin-4p228537": {
       "name": "Pokémon TCG: Slashing Legends Tin",
       "in_stock": false
     },
+    "https://www.pgs.sk/pokemon-tcg-sv08-surging-sparks-booster-4p161342": {
+      "name": "Pokémon TCG: SV08 Surging Sparks - Booster",
+      "in_stock": false
+    },
     "https://www.pgs.sk/pokemon-tcg-tera-team-premium-collection-4p226723": {
       "name": "Pokémon TCG: Tera Team Premium Collection",
+      "in_stock": false
+    },
+    "https://www.pgs.sk/pokemon-tcg-world-championship-deck-2024-4p235889": {
+      "name": "Pokémon TCG: World Championship Deck 2024",
       "in_stock": false
     },
     "https://www.pgs.sk/pokemon-tcg-ogerpon-ex-premium-collection-4p202606": {
