@@ -62,8 +62,16 @@
     }
   },
   "VeselyDrak": {
+    "https://www.vesely-drak.sk/produkty/booster-boxy/19417-pokemon-incandescent-arcana-s11af-booster-box-cinsky/": {
+      "name": "Pokémon Incandescent Arcana S11aF Booster Box – čínsky",
+      "in_stock": true
+    },
     "https://www.vesely-drak.sk/produkty/boostery/19418-pokemon-incandescent-arcana-s11af-booster-balicek-cinsky/": {
       "name": "Pokémon Incandescent Arcana S11aF Booster Balíček – čínsky",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/booster-boxy/19421-pokemon-brilliant-counterattack-cs2-5c-booster-box-cinsky/": {
+      "name": "Pokémon Brilliant Counterattack CS2.5C Booster Box – čínsky",
       "in_stock": true
     },
     "https://www.vesely-drak.sk/produkty/boostery/19422-pokemon-brilliant-counterattack-cs2-5c-booster-balicek-cinsky/": {
@@ -132,14 +140,6 @@
     },
     "https://www.vesely-drak.sk/produkty/booster-boxy/18272-pokemon-chaos-rising-booster-box/": {
       "name": "Pokémon Chaos Rising Booster Box",
-      "in_stock": true
-    },
-    "https://www.vesely-drak.sk/produkty/pokemon-elite-trainer-box/18273-pokemon-chaos-rising-elite-trainer-box/": {
-      "name": "Pokémon Chaos Rising Elite Trainer Box",
-      "in_stock": true
-    },
-    "https://www.vesely-drak.sk/produkty/cinske-pokemon-karty/19117-pokemon-sada-2026-dragon-boat-gift-box-cinsky/": {
-      "name": "Pokémon sada 2026 Dragon Boat Gift Box - čínsky",
       "in_stock": true
     }
   },
