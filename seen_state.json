@@ -160,10 +160,6 @@
       "name": "Pokémon TCG: Mega Dream EX booster (Japan)",
       "in_stock": false
     },
-    "https://www.pgs.sk/pokemon-tcg-world-championship-deck-2024-4p235889": {
-      "name": "Pokémon TCG: World Championship Deck 2024",
-      "in_stock": false
-    },
     "https://www.pgs.sk/pokemon-tcg-super-electric-breaker-booster-japan-4p206772": {
       "name": "Pokémon TCG - Super Electric Breaker Booster (Japan)",
       "in_stock": false
@@ -214,6 +210,10 @@
     },
     "https://www.pgs.sk/pokemon-tcg-tera-team-premium-collection-4p226723": {
       "name": "Pokémon TCG: Tera Team Premium Collection",
+      "in_stock": false
+    },
+    "https://www.pgs.sk/pokemon-tcg-world-championship-deck-2024-4p235889": {
+      "name": "Pokémon TCG: World Championship Deck 2024",
       "in_stock": false
     },
     "https://www.pgs.sk/pokemon-tcg-team-rocket-s-mewtwo-ex-league-battle-deck-4p252097": {
