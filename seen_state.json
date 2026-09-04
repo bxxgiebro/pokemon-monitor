@@ -212,10 +212,6 @@
       "name": "Pokémon TCG: Tera Team Premium Collection",
       "in_stock": false
     },
-    "https://www.pgs.sk/pokemon-tcg-world-championship-deck-2024-4p235889": {
-      "name": "Pokémon TCG: World Championship Deck 2024",
-      "in_stock": false
-    },
     "https://www.pgs.sk/pokemon-tcg-team-rocket-s-mewtwo-ex-league-battle-deck-4p252097": {
       "name": "Pokémon TCG: Team Rocket's Mewtwo ex League Battle Deck",
       "in_stock": false
@@ -238,6 +234,10 @@
     },
     "https://www.pgs.sk/pokemon-tcg-glory-of-team-rocket-booster-japan-4p226724": {
       "name": "Pokémon TCG - Glory of Team Rocket Booster (Japan)",
+      "in_stock": false
+    },
+    "https://www.pgs.sk/pokemon-tcg-collectors-chest-2025-4p252095": {
+      "name": "Pokémon TCG: Collectors Chest 2025",
       "in_stock": false
     },
     "https://www.pgs.sk/tigo-gamer-pro-r7-5700-rtx-5060-1tb-32gb-4p258749": {
