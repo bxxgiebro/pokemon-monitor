@@ -216,10 +216,6 @@
       "name": "Pokémon TCG: Team Rocket's Mewtwo ex League Battle Deck",
       "in_stock": false
     },
-    "https://www.pgs.sk/pokemon-tcg-ogerpon-ex-premium-collection-4p202606": {
-      "name": "Pokémon TCG: Ogerpon ex Premium Collection",
-      "in_stock": false
-    },
     "https://www.pgs.sk/pokemon-tcg-poke-ball-tin-2025-4p252096": {
       "name": "Pokémon TCG: Poké Ball Tin 2025",
       "in_stock": false
@@ -240,8 +236,12 @@
       "name": "Pokémon TCG: Collectors Chest 2025",
       "in_stock": false
     },
-    "https://www.pgs.sk/Spigen-Signature-Neo-Hybrid-ochranny-kryt-Apple-iPhone-X-sedy-4p91685": {
-      "name": "Spigen Signature Neo Hybrid ochranný kryt Apple iPhone X šedý",
+    "https://www.pgs.sk/pokemon-tcg-star-birth-booster-japan-4p206771": {
+      "name": "Pokémon TCG - Star Birth Booster (Japan)",
+      "in_stock": false
+    },
+    "https://www.pgs.sk/apple-watch-se-3-2025-40mm-hviezdne-biely-hlinik-s-hviezdne-bielym-sportovym-remienkom-s-m-4p240132": {
+      "name": "Apple Watch SE 3 (2025) 40mm Hviezdne biely hliník s hviezdne bielym športovým remienkom S/M",
       "in_stock": false
     }
   },
