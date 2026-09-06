@@ -196,10 +196,6 @@
       "name": "Pokémon TCG: SV09 Journey Together - Booster",
       "in_stock": false
     },
-    "https://www.pgs.sk/pokemon-tcg-slashing-legends-tin-4p228537": {
-      "name": "Pokémon TCG: Slashing Legends Tin",
-      "in_stock": false
-    },
     "https://www.pgs.sk/pokemon-tcg-sv08-surging-sparks-booster-4p161342": {
       "name": "Pokémon TCG: SV08 Surging Sparks - Booster",
       "in_stock": false
@@ -238,6 +234,10 @@
     },
     "https://www.pgs.sk/pokemon-tcg-crimson-haze-booster-japan-4p136385": {
       "name": "Pokémon TCG - Crimson Haze Booster (Japan)",
+      "in_stock": false
+    },
+    "https://www.pgs.sk/pokemon-tcg-star-birth-booster-japan-4p206771": {
+      "name": "Pokémon TCG - Star Birth Booster (Japan)",
       "in_stock": false
     }
   },
