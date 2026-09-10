@@ -184,10 +184,6 @@
       "name": "Pokémon TCG - Ruler z Black Flame Booster (Japan)",
       "in_stock": false
     },
-    "https://www.pgs.sk/pokemon-tcg-mega-evolution-mega-brave-booster-japan-4p235892": {
-      "name": "Pokémon TCG - MEGA Evolution - Mega Brave Booster (Japan)",
-      "in_stock": false
-    },
     "https://www.pgs.sk/pokemon-tcg-adventny-kalendar-2024-4p160421": {
       "name": "Pokémon TCG: Adventný kalendár 2024",
       "in_stock": false
@@ -218,6 +214,10 @@
     },
     "https://www.pgs.sk/pokemon-tcg-sv10-5-unova-mini-tin-4p231145": {
       "name": "Pokémon TCG: SV10.5 - Unova Mini Tin",
+      "in_stock": false
+    },
+    "https://www.pgs.sk/pokemon-tcg-mega-evolution-mega-brave-booster-japan-4p235892": {
+      "name": "Pokémon TCG - MEGA Evolution - Mega Brave Booster (Japan)",
       "in_stock": false
     },
     "https://www.pgs.sk/pokemon-tcg-glory-of-team-rocket-booster-japan-4p226724": {
