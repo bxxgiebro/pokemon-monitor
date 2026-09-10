@@ -78,10 +78,6 @@
       "name": "Pokémon Brilliant Counterattack CS2.5C Booster Balíček – čínsky",
       "in_stock": true
     },
-    "https://www.vesely-drak.sk/produkty/specialni-sety/19533-2026-super-break-pokestars-edition-series-2-mystery-box/": {
-      "name": "2026 Super Break PokeStars Edition Series 2 - Mystery box",
-      "in_stock": true
-    },
     "https://www.vesely-drak.sk/produkty/booster-boxy/19511-pokemon-gem-pack-vol-6-cbb6c-booster-box-cinsky/": {
       "name": "Pokémon Gem Pack Vol. 6 (CBB6C) Booster Box – čínsky",
       "in_stock": true
@@ -140,6 +136,10 @@
     },
     "https://www.vesely-drak.sk/produkty/cinske-pokemon-karty/19576-pokemon-chasing-glory-together-csv10c-slim-booster-box-cinsky/": {
       "name": "Pokémon Chasing Glory Together CSV10C Slim Booster Box – čínsky",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/cinske-pokemon-karty/19577-pokemon-chasing-glory-together-csv10c-slim-booster-balicek-cinsky/": {
+      "name": "Pokémon Chasing Glory Together CSV10C Slim Booster Balíček – čínsky",
       "in_stock": true
     }
   },
