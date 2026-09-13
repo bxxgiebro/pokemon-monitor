@@ -10,6 +10,7 @@ from urllib.parse import urljoin
 # ---------------- CONFIG ----------------
 
 SCRAPERAPI_KEY = os.environ.get("SCRAPERAPI_KEY", "")
+SCRAPINGBEE_KEY = os.environ.get("SCRAPINGBEE_KEY", "")
 ALZA_ENABLED = os.environ.get("ALZA_ENABLED", "false").lower() == "true"
 ALZA_CHECK_INTERVAL_SECONDS = int(os.environ.get("ALZA_CHECK_INTERVAL_SECONDS", "1200"))
 
@@ -30,6 +31,7 @@ SITES = [
         "url": "https://www.dracik.sk/pokemon-1076/",
         "in_stock_keywords": ["Skladom", "Do košíka"],
         "out_of_stock_keywords": ["Produkt nie je skladom", "Nedostupné"],
+        "scanner": "dracik",
     },
     {
         "name": "VeselyDrak",
@@ -53,8 +55,6 @@ SITES = [
         "out_of_stock_keywords": ["Neznáma dostupnosť", "Na ceste", "Vypredané"],
     },
     {
-        # Guessed to follow the same "-pNNNN" pattern as iHrysko (same shop platform).
-        # Verify against the first run's log.
         "name": "Brloh",
         "url": "https://www.brloh.sk/pokemon-c1781",
         "product_url_pattern": r"-p\d+",
@@ -130,12 +130,49 @@ def find_product_container(anchor_element):
     return anchor_element.parent
 
 
+def fetch_page(site):
+    """Handles plain requests OR proxy (ScraperAPI first, ScrapingBee fallback)."""
+    if site.get("use_proxy"):
+        resp = None
+        if SCRAPERAPI_KEY:
+            try:
+                proxy_url = f"http://api.scraperapi.com?api_key={SCRAPERAPI_KEY}&url={site['url']}"
+                resp = requests.get(proxy_url, timeout=30)
+                if resp.status_code != 200:
+                    resp = None
+            except requests.RequestException:
+                resp = None
+        if resp is None and SCRAPINGBEE_KEY:
+            log.info(f"[{site['name']}] ScraperAPI unavailable, trying ScrapingBee")
+            try:
+                proxy_url = f"https://app.scrapingbee.com/api/v1/?api_key={SCRAPINGBEE_KEY}&url={site['url']}"
+                resp = requests.get(proxy_url, timeout=30)
+            except requests.RequestException:
+                resp = None
+        if resp is None:
+            log.warning(f"[{site['name']}] both proxies unavailable")
+            return None
+    else:
+        try:
+            resp = requests.get(site["url"], headers=HEADERS, timeout=20)
+        except requests.RequestException as e:
+            log.error(f"[{site['name']}] request failed: {e}")
+            return None
+
+    if resp.status_code != 200:
+        log.warning(f"[{site['name']}] got status {resp.status_code}")
+        return None
+    return resp
+
+
 def scan_dracik(site):
     """Dracik has no clean product-vs-category URL pattern, but every real
     product tile has a 'Do kosika' button linking to /basket/add/?product_id=N.
     Nav/category links never have this, so we anchor on that instead."""
+    dracik_headers = {**HEADERS, "Referer": "https://www.dracik.sk/",
+                       "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate",
+                       "Sec-Fetch-Site": "same-origin", "Upgrade-Insecure-Requests": "1"}
     try:
-        dracik_headers = {**HEADERS, "Referer": "https://www.dracik.sk/", "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "same-origin", "Upgrade-Insecure-Requests": "1"}
         resp = requests.get(site["url"], headers=dracik_headers, timeout=20)
         if resp.status_code != 200:
             log.warning(f"[{site['name']}] got status {resp.status_code}")
@@ -152,7 +189,6 @@ def scan_dracik(site):
         if not basket_pattern.search(a["href"]):
             continue
 
-        # walk up until we find the product tile (has an <img> in it)
         container = a
         img = None
         for _ in range(6):
@@ -167,7 +203,6 @@ def scan_dracik(site):
         if not name or len(name) < 3:
             continue
 
-        # find the real product detail link inside this tile (not basket/favorites)
         detail_href = None
         for link in container.find_all("a", href=True):
             href = link["href"]
@@ -195,36 +230,54 @@ def scan_dracik(site):
 
 
 def scan_site(site):
-       try:
-        if site.get("use_proxy"):
-            resp = None
-            if SCRAPERAPI_KEY:
-                try:
-                    proxy_url = f"http://api.scraperapi.com?api_key={SCRAPERAPI_KEY}&url={site['url']}"
-                    resp = requests.get(proxy_url, timeout=30)
-                    if resp.status_code != 200:
-                        resp = None
-                except requests.RequestException:
-                    resp = None
-            if resp is None and SCRAPINGBEE_KEY:
-                log.info(f"[{site['name']}] ScraperAPI unavailable, trying ScrapingBee")
-                proxy_url = f"https://app.scrapingbee.com/api/v1/?api_key={SCRAPINGBEE_KEY}&url={site['url']}"
-                resp = requests.get(proxy_url, timeout=30)
-            if resp is None:
-                log.warning(f"[{site['name']}] both proxies unavailable")
-                return None
-        else:
-            resp = requests.get(site["url"], headers=HEADERS, timeout=20)
-        if resp.status_code != 200:
-            log.warning(f"[{site['name']}] got status {resp.status_code}")
-            return None
-    except requests.RequestException as e:
-        log.error(f"[{site['name']}] request failed: {e}")
+    """Generic scanner used by every site except Dracik (which has its own)."""
+    resp = fetch_page(site)
+    if resp is None:
         return None
+
+    soup = BeautifulSoup(resp.text, "html.parser")
+    pattern = re.compile(site["product_url_pattern"])
+    products = {}
+
+    for a in soup.find_all("a", href=True):
+        href = a["href"]
+        if not pattern.search(href):
+            continue
+
+        full_url = urljoin(site["url"], href)
+        container = find_product_container(a)
+
+        heading = container.find(["h2", "h3"])
+        name = heading.get_text(strip=True) if heading else a.get_text(strip=True)
+        if not name or len(name) < 5:
+            continue
+
+        context_text = container.get_text(" ", strip=True)
+        if site.get("require_price_context") and "€" not in context_text:
+            continue
+
+        if any(kw in context_text for kw in site["out_of_stock_keywords"]):
+            in_stock = False
+        elif any(kw in context_text for kw in site["in_stock_keywords"]):
+            in_stock = True
+        else:
+            in_stock = False
+
+        if full_url not in products or len(name) > len(products[full_url]["name"]):
+            products[full_url] = {"name": name, "in_stock": in_stock}
+
+    return products
+
+
+def run_scanner(site):
+    if site.get("scanner") == "dracik":
+        return scan_dracik(site)
+    return scan_site(site)
+
 
 def check_site(site, state):
     name = site["name"]
-    current = scan_site(site)
+    current = run_scanner(site)
     if current is None or len(current) == 0:
         log.warning(f"[{name}] got 0 products, skipping state update to avoid wiping saved data")
         return
