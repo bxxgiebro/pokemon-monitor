@@ -11,6 +11,7 @@ from urllib.parse import urljoin
 
 SCRAPERAPI_KEY = os.environ.get("SCRAPERAPI_KEY", "")
 ALZA_ENABLED = os.environ.get("ALZA_ENABLED", "false").lower() == "true"
+ALZA_CHECK_INTERVAL_SECONDS = int(os.environ.get("ALZA_CHECK_INTERVAL_SECONDS", "1200"))
 
 WEBHOOKS = {
     "iHrysko": os.environ.get("DISCORD_WEBHOOK_IHRYSKO", ""),
@@ -285,6 +286,12 @@ def check_site(site, state):
 def main():
     state = load_state()
     for site in SITES:
+        if site["name"] == "Alza":
+            last_check = state.get("_alza_last_check", 0)
+            if time.time() - last_check < ALZA_CHECK_INTERVAL_SECONDS:
+                log.info("[Alza] skipping check (throttled to save API credits)")
+                continue
+            state["_alza_last_check"] = time.time()
         check_site(site, state)
         time.sleep(2)
     save_state(state)
