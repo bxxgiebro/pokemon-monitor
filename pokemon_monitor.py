@@ -230,44 +230,17 @@ def scan_dracik(site):
 
 
 def scan_site(site):
-    """Generic scanner used by every site except Dracik (which has its own)."""
-    resp = fetch_page(site)
-    if resp is None:
-        return None
-
-    soup = BeautifulSoup(resp.text, "html.parser")
-    pattern = re.compile(site["product_url_pattern"])
-    products = {}
-
-    for a in soup.find_all("a", href=True):
-        href = a["href"]
-        if not pattern.search(href):
-            continue
-
-        full_url = urljoin(site["url"], href)
+        full_url = urljoin(site["url"], href).split("?")[0]
         container = find_product_container(a)
 
-        heading = container.find(["h2", "h3"])
-        name = heading.get_text(strip=True) if heading else a.get_text(strip=True)
+        anchor_text = a.get_text(strip=True)
+        if anchor_text and len(anchor_text) >= 5:
+            name = anchor_text
+        else:
+            heading = container.find(["h2", "h3"])
+            name = heading.get_text(strip=True) if heading else ""
         if not name or len(name) < 5:
             continue
-
-        context_text = container.get_text(" ", strip=True)
-        if site.get("require_price_context") and "€" not in context_text:
-            continue
-
-        if any(kw in context_text for kw in site["out_of_stock_keywords"]):
-            in_stock = False
-        elif any(kw in context_text for kw in site["in_stock_keywords"]):
-            in_stock = True
-        else:
-            in_stock = False
-
-        if full_url not in products or len(name) > len(products[full_url]["name"]):
-            products[full_url] = {"name": name, "in_stock": in_stock}
-
-    return products
-
 
 def run_scanner(site):
     if site.get("scanner") == "dracik":
