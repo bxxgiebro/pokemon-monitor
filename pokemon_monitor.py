@@ -195,13 +195,24 @@ def scan_dracik(site):
 
 
 def scan_site(site):
-    if site["name"] == "Dracik":
-        return scan_dracik(site)
-
-    try:
-        if site.get("use_proxy") and SCRAPERAPI_KEY:
-            proxy_url = f"http://api.scraperapi.com?api_key={SCRAPERAPI_KEY}&url={site['url']}"
-            resp = requests.get(proxy_url, timeout=30)
+       try:
+        if site.get("use_proxy"):
+            resp = None
+            if SCRAPERAPI_KEY:
+                try:
+                    proxy_url = f"http://api.scraperapi.com?api_key={SCRAPERAPI_KEY}&url={site['url']}"
+                    resp = requests.get(proxy_url, timeout=30)
+                    if resp.status_code != 200:
+                        resp = None
+                except requests.RequestException:
+                    resp = None
+            if resp is None and SCRAPINGBEE_KEY:
+                log.info(f"[{site['name']}] ScraperAPI unavailable, trying ScrapingBee")
+                proxy_url = f"https://app.scrapingbee.com/api/v1/?api_key={SCRAPINGBEE_KEY}&url={site['url']}"
+                resp = requests.get(proxy_url, timeout=30)
+            if resp is None:
+                log.warning(f"[{site['name']}] both proxies unavailable")
+                return None
         else:
             resp = requests.get(site["url"], headers=HEADERS, timeout=20)
         if resp.status_code != 200:
@@ -210,40 +221,6 @@ def scan_site(site):
     except requests.RequestException as e:
         log.error(f"[{site['name']}] request failed: {e}")
         return None
-
-    soup = BeautifulSoup(resp.text, "html.parser")
-    pattern = re.compile(site["product_url_pattern"])
-    products = {}
-
-    for a in soup.find_all("a", href=True):
-        href = a["href"]
-        if not pattern.search(href):
-            continue
-
-        full_url = urljoin(site["url"], href)
-        container = find_product_container(a)
-
-        heading = container.find(["h2", "h3"])
-        name = heading.get_text(strip=True) if heading else a.get_text(strip=True)
-        if not name or len(name) < 5:
-            continue
-
-        context_text = container.get_text(" ", strip=True)
-        if site.get("require_price_context") and "€" not in context_text:
-            continue
-
-        if any(kw in context_text for kw in site["out_of_stock_keywords"]):
-            in_stock = False
-        elif any(kw in context_text for kw in site["in_stock_keywords"]):
-            in_stock = True
-        else:
-            in_stock = False
-
-        if full_url not in products or len(name) > len(products[full_url]["name"]):
-            products[full_url] = {"name": name, "in_stock": in_stock}
-
-    return products
-
 
 def check_site(site, state):
     name = site["name"]
