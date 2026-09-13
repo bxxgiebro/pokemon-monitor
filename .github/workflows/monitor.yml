@@ -33,6 +33,7 @@ jobs:
           DISCORD_WEBHOOK_ALZA: ${{ secrets.DISCORD_WEBHOOK_ALZA }}
           SCRAPERAPI_KEY: ${{ secrets.SCRAPERAPI_KEY }}
           ALZA_ENABLED: ${{ vars.ALZA_ENABLED }}
+          ALZA_CHECK_INTERVAL_SECONDS: ${{ vars.ALZA_CHECK_INTERVAL_SECONDS }}
           
         run: python pokemon_monitor.py
 
