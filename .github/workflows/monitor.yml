@@ -34,6 +34,7 @@ jobs:
           SCRAPERAPI_KEY: ${{ secrets.SCRAPERAPI_KEY }}
           ALZA_ENABLED: ${{ vars.ALZA_ENABLED }}
           ALZA_CHECK_INTERVAL_SECONDS: ${{ vars.ALZA_CHECK_INTERVAL_SECONDS }}
+          SCRAPINGBEE_KEY: ${{ secrets.SCRAPINGBEE_KEY }}
           
         run: python pokemon_monitor.py
 
