@@ -168,10 +168,6 @@
       "name": "Pokémon TCG - Super Electric Breaker Booster (Japan)",
       "in_stock": false
     },
-    "https://www.pgs.sk/pokemon-tcg-team-rocket-s-mewtwo-ex-league-battle-deck-4p252097": {
-      "name": "Pokémon TCG: Team Rocket's Mewtwo ex League Battle Deck",
-      "in_stock": false
-    },
     "https://www.pgs.sk/pokemon-tcg-vstar-universe-booster-japan-4p130759": {
       "name": "Pokémon TCG - VSTAR Universe Booster (Japan)",
       "in_stock": false
@@ -194,6 +190,10 @@
     },
     "https://www.pgs.sk/pokemon-tcg-black-and-white-black-bolt-booster-japan-4p231157": {
       "name": "Pokémon TCG - Black and White - Black Bolt Booster (Japan)",
+      "in_stock": false
+    },
+    "https://www.pgs.sk/pokemon-tcg-team-rocket-s-mewtwo-ex-league-battle-deck-4p252097": {
+      "name": "Pokémon TCG: Team Rocket's Mewtwo ex League Battle Deck",
       "in_stock": false
     },
     "https://www.pgs.sk/pokemon-tcg-sv09-journey-together-booster-4p213817": {
