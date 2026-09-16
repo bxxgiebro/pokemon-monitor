@@ -66,10 +66,6 @@
       "name": "Pokémon 30th Celebration Booster Box – v japončine",
       "in_stock": false
     },
-    "https://www.vesely-drak.sk/produkty/boostery/19418-pokemon-incandescent-arcana-s11af-booster-balicek-cinsky/": {
-      "name": "Pokémon Incandescent Arcana S11aF Booster Balíček – čínsky",
-      "in_stock": true
-    },
     "https://www.vesely-drak.sk/produkty/booster-boxy/19421-pokemon-brilliant-counterattack-cs2-5c-booster-box-cinsky/": {
       "name": "Pokémon Brilliant Counterattack CS2.5C Booster Box – čínsky",
       "in_stock": true
@@ -140,6 +136,10 @@
     },
     "https://www.vesely-drak.sk/produkty/cinske-pokemon-karty/19577-pokemon-chasing-glory-together-csv10c-slim-booster-balicek-cinsky/": {
       "name": "Pokémon Chasing Glory Together CSV10C Slim Booster Balíček – čínsky",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/cinske-pokemon-karty/19583-pokemon-terastal-gathering-csv95c-booster-box-cinsky/": {
+      "name": "Pokémon Terastal Gathering CSV95C Booster Box – čínsky",
       "in_stock": true
     }
   },
