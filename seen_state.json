@@ -114,10 +114,6 @@
       "name": "Pokémon Stellar Crystal CSV9C Slim Booster Box - čínština",
       "in_stock": true
     },
-    "https://www.vesely-drak.sk/produkty/pokemon-elite-trainer-box/19132-pokemon-30th-celebration-elite-trainer-box/": {
-      "name": "Pokémon 30th Celebration Elite Trainer Box",
-      "in_stock": true
-    },
     "https://www.vesely-drak.sk/produkty/pokemon-podlozky/19329-pokemon-premiova-hraci-podlozka-mew-foilova/": {
       "name": "Prémiová hracia podložka Pokémon – Mew (fóliová)",
       "in_stock": true
@@ -140,6 +136,10 @@
     },
     "https://www.vesely-drak.sk/produkty/cinske-pokemon-karty/19583-pokemon-terastal-gathering-csv95c-booster-box-cinsky/": {
       "name": "Pokémon Terastal Gathering CSV95C Booster Box – čínsky",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/cinske-pokemon-karty/19584-pokemon-terastal-gathering-csv95c-booster-balicek-cinsky/": {
+      "name": "Pokémon Terastal Gathering CSV95C Booster Balíček – čínsky",
       "in_stock": true
     }
   },
