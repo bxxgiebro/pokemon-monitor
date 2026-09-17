@@ -62,14 +62,6 @@
     }
   },
   "VeselyDrak": {
-    "https://www.vesely-drak.sk/produkty/pokemon-gx-box/19136-pokemon-30th-celebration-greninja-ex-box/": {
-      "name": "Pokémon 30th Celebration Greninja ex Box",
-      "in_stock": true
-    },
-    "https://www.vesely-drak.sk/produkty/specialni-sety/19139-pokemon-30th-celebration-2-pack-blister-eevee/": {
-      "name": "Pokémon 30th Celebration 2 Pack Blister - Eevee",
-      "in_stock": true
-    },
     "https://www.vesely-drak.sk/produkty/specialni-sety/19143-pokemon-30th-celebration-binder-collection-album-na-karty-5x-booster/": {
       "name": "Pokémon 30th Celebration Binder Collection (Album na karty + 5x Booster)",
       "in_stock": true
@@ -140,6 +132,14 @@
     },
     "https://www.vesely-drak.sk/produkty/cinske-pokemon-karty/19576-pokemon-chasing-glory-together-csv10c-slim-booster-box-cinsky/": {
       "name": "Pokémon Chasing Glory Together CSV10C Slim Booster Box – čínsky",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/cinske-pokemon-karty/19577-pokemon-chasing-glory-together-csv10c-slim-booster-balicek-cinsky/": {
+      "name": "Pokémon Chasing Glory Together CSV10C Slim Booster Balíček – čínsky",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/cinske-pokemon-karty/19583-pokemon-terastal-gathering-csv95c-booster-box-cinsky/": {
+      "name": "Pokémon Terastal Gathering CSV95C Booster Box – čínsky",
       "in_stock": true
     }
   },
