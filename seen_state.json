@@ -62,16 +62,8 @@
     }
   },
   "VeselyDrak": {
-    "https://www.vesely-drak.sk/produkty/pokemon-gx-box/19133-pokemon-30th-celebration-poster-collection-1x-plakat-3x-booster-3x-promo-karta/": {
-      "name": "Pokémon 30th Celebration Poster Collection (1x plagát, 3x booster, 3x promo karta)",
-      "in_stock": true
-    },
     "https://www.vesely-drak.sk/produkty/pokemon-gx-box/19136-pokemon-30th-celebration-greninja-ex-box/": {
       "name": "Pokémon 30th Celebration Greninja ex Box",
-      "in_stock": true
-    },
-    "https://www.vesely-drak.sk/produkty/pokemon-gx-box/19137-pokemon-30th-celebration-sylveon-ex-box/": {
-      "name": "Pokémon 30th Celebration Sylveon ex Box",
       "in_stock": true
     },
     "https://www.vesely-drak.sk/produkty/specialni-sety/19139-pokemon-30th-celebration-2-pack-blister-eevee/": {
@@ -140,6 +132,14 @@
     },
     "https://www.vesely-drak.sk/produkty/pokemon-album-a4/19348-pokemon-a4-album-na-karty-lillie-a-clefairy/": {
       "name": "Pokémon A4 album na karty - Lillie a Clefairy",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/pokemon-album-a5/19349-pokemon-a5-album-na-karty-lillie-a-clefairy/": {
+      "name": "Pokémon A5 album na karty - Lillie a Clefairy",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/cinske-pokemon-karty/19576-pokemon-chasing-glory-together-csv10c-slim-booster-box-cinsky/": {
+      "name": "Pokémon Chasing Glory Together CSV10C Slim Booster Box – čínsky",
       "in_stock": true
     }
   },
