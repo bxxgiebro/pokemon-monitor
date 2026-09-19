@@ -70,6 +70,10 @@
       "name": "Pokémon Brilliant Counterattack CS2.5C Booster Balíček – čínsky",
       "in_stock": true
     },
+    "https://www.vesely-drak.sk/produkty/pokemon-alba/19615-album-na-pokemon-jumbo-karty-tcg-guru-zip-binder-xenon-black/": {
+      "name": "Album na Pokémon Jumbo karty TCG Guru Zip Binder - Xenon Black",
+      "in_stock": true
+    },
     "https://www.vesely-drak.sk/produkty/booster-boxy/19511-pokemon-gem-pack-vol-6-cbb6c-booster-box-cinsky/": {
       "name": "Pokémon Gem Pack Vol. 6 (CBB6C) Booster Box – čínsky",
       "in_stock": true
@@ -136,10 +140,6 @@
     },
     "https://www.vesely-drak.sk/produkty/cinske-pokemon-karty/19583-pokemon-terastal-gathering-csv95c-booster-box-cinsky/": {
       "name": "Pokémon Terastal Gathering CSV95C Booster Box – čínsky",
-      "in_stock": true
-    },
-    "https://www.vesely-drak.sk/produkty/cinske-pokemon-karty/19584-pokemon-terastal-gathering-csv95c-booster-balicek-cinsky/": {
-      "name": "Pokémon Terastal Gathering CSV95C Booster Balíček – čínsky",
       "in_stock": true
     }
   },
