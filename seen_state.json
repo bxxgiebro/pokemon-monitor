@@ -62,6 +62,26 @@
     }
   },
   "VeselyDrak": {
+    "https://www.vesely-drak.sk/produkty/pokemon-gx-box/19133-pokemon-30th-celebration-poster-collection-1x-plakat-3x-booster-3x-promo-karta/": {
+      "name": "Pokémon 30th Celebration Poster Collection (1x plagát, 3x booster, 3x promo karta)",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/pokemon-gx-box/19136-pokemon-30th-celebration-greninja-ex-box/": {
+      "name": "Pokémon 30th Celebration Greninja ex Box",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/pokemon-gx-box/19137-pokemon-30th-celebration-sylveon-ex-box/": {
+      "name": "Pokémon 30th Celebration Sylveon ex Box",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/specialni-sety/19139-pokemon-30th-celebration-2-pack-blister-eevee/": {
+      "name": "Pokémon 30th Celebration 2 Pack Blister - Eevee",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/specialni-sety/19143-pokemon-30th-celebration-binder-collection-album-na-karty-5x-booster/": {
+      "name": "Pokémon 30th Celebration Binder Collection (Album na karty + 5x Booster)",
+      "in_stock": true
+    },
     "https://www.vesely-drak.sk/produkty/booster-boxy/19421-pokemon-brilliant-counterattack-cs2-5c-booster-box-cinsky/": {
       "name": "Pokémon Brilliant Counterattack CS2.5C Booster Box – čínsky",
       "in_stock": true
@@ -120,26 +140,6 @@
     },
     "https://www.vesely-drak.sk/produkty/booster-boxy/18702-pokemon-pitch-black-booster/": {
       "name": "Pokémon Pitch Black Booster",
-      "in_stock": true
-    },
-    "https://www.vesely-drak.sk/produkty/pokemon-elite-trainer-box/18703-pokemon-pitch-black-elite-trainer-box/": {
-      "name": "Pokémon Pitch Black Elite Trainer Box",
-      "in_stock": true
-    },
-    "https://www.vesely-drak.sk/produkty/booster-boxy/18706-pokemon-pitch-black-booster-bundle/": {
-      "name": "Pokémon Pitch Black Booster Bundle",
-      "in_stock": true
-    },
-    "https://www.vesely-drak.sk/produkty/cinske-pokemon-karty/19361-pokemon-first-partner-30th-anniversary-celebration-set-vol-2-cinsky/": {
-      "name": "Pokémon First Partner 30th Anniversary Celebration set Vol. 2 - čínsky",
-      "in_stock": true
-    },
-    "https://www.vesely-drak.sk/produkty/booster-boxy/18958-pokemon-brilliant-fantasy-csv8c-slim-booster-box-cinsky/": {
-      "name": "Pokémon Brilliant Fantasy CSV8C Slim Booster Box - čínsky",
-      "in_stock": true
-    },
-    "https://www.vesely-drak.sk/produkty/boostery/18959-pokemon-brilliant-fantasy-csv8c-slim-booster-balicek-cinsky/": {
-      "name": "Pokémon Brilliant Fantasy CSV8C Slim Booster balíček - čínsky",
       "in_stock": true
     }
   },
