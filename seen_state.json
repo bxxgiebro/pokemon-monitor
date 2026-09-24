@@ -62,10 +62,6 @@
     }
   },
   "VeselyDrak": {
-    "https://www.vesely-drak.sk/produkty/pokemon-gx-box/19133-pokemon-30th-celebration-poster-collection-1x-plakat-3x-booster-3x-promo-karta/": {
-      "name": "Pokémon 30th Celebration Poster Collection (1x plagát, 3x booster, 3x promo karta)",
-      "in_stock": true
-    },
     "https://www.vesely-drak.sk/produkty/pokemon-gx-box/19136-pokemon-30th-celebration-greninja-ex-box/": {
       "name": "Pokémon 30th Celebration Greninja ex Box",
       "in_stock": true
@@ -140,6 +136,10 @@
     },
     "https://www.vesely-drak.sk/produkty/cinske-pokemon-karty/19361-pokemon-first-partner-30th-anniversary-celebration-set-vol-2-cinsky/": {
       "name": "Pokémon First Partner 30th Anniversary Celebration set Vol. 2 - čínsky",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/booster-boxy/18958-pokemon-brilliant-fantasy-csv8c-slim-booster-box-cinsky/": {
+      "name": "Pokémon Brilliant Fantasy CSV8C Slim Booster Box - čínsky",
       "in_stock": true
     }
   },
