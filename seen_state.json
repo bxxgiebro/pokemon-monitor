@@ -82,10 +82,6 @@
       "name": "Pokémon First Partner 30th Anniversary Celebration set Vol. 3 - čínsky",
       "in_stock": true
     },
-    "https://www.vesely-drak.sk/produkty/pokemon-krabicky/19598-akrylovy-ochranny-box-treasurewise-na-pokemon-elite-trainer-box/": {
-      "name": "Akrylový ochranný box TreasureWise na Pokémon Elite Trainer Box",
-      "in_stock": true
-    },
     "https://www.vesely-drak.sk/produkty/pokemon-krabicky/19599-akrylovy-ochranny-box-treasurewise-na-pokemon-booster-box/": {
       "name": "Akrylový ochranný box TreasureWise na Pokémon Booster Box",
       "in_stock": true
@@ -140,6 +136,10 @@
     },
     "https://www.vesely-drak.sk/produkty/boostery/18960-pokemon-stellar-crystal-csv9c-slim-booster-balicek-cinsky/": {
       "name": "Pokémon Stellar Crystal CSV9C Slim Booster balíček - čínština",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/boostery/18962-pokemon-stellar-crystal-csv9c-slim-booster-box-cinsky/": {
+      "name": "Pokémon Stellar Crystal CSV9C Slim Booster Box - čínština",
       "in_stock": true
     }
   },
