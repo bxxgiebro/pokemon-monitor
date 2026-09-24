@@ -74,10 +74,6 @@
       "name": "Pokémon 30th Celebration Sylveon ex Box",
       "in_stock": true
     },
-    "https://www.vesely-drak.sk/produkty/specialni-sety/19139-pokemon-30th-celebration-2-pack-blister-eevee/": {
-      "name": "Pokémon 30th Celebration 2 Pack Blister - Eevee",
-      "in_stock": true
-    },
     "https://www.vesely-drak.sk/produkty/specialni-sety/19143-pokemon-30th-celebration-binder-collection-album-na-karty-5x-booster/": {
       "name": "Pokémon 30th Celebration Binder Collection (Album na karty + 5x Booster)",
       "in_stock": true
@@ -140,6 +136,10 @@
     },
     "https://www.vesely-drak.sk/produkty/pokemon-elite-trainer-box/18703-pokemon-pitch-black-elite-trainer-box/": {
       "name": "Pokémon Pitch Black Elite Trainer Box",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/booster-boxy/18706-pokemon-pitch-black-booster-bundle/": {
+      "name": "Pokémon Pitch Black Booster Bundle",
       "in_stock": true
     }
   },
