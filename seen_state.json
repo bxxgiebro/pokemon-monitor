@@ -78,12 +78,36 @@
       "name": "2026 Super Break PokeStars Edition Series 2 - Mystery box",
       "in_stock": true
     },
+    "https://www.vesely-drak.sk/produkty/pokemon-korean/19548-pokemon-abyss-eye-m5-booster-box-korejsky/": {
+      "name": "Pokémon Abyss Eye M5 Booster Box – kórejský",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/pokemon-korean/19549-pokemon-abyss-eye-m5-booster-korejsky/": {
+      "name": "Pokémon Abyss Eye M5 Booster – kórejský",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/cinske-pokemon-karty/19551-pokemon-first-partner-30th-anniversary-celebration-set-vol-3-cinsky/": {
+      "name": "Pokémon First Partner 30th Anniversary Celebration set Vol. 3 - čínsky",
+      "in_stock": true
+    },
     "https://www.vesely-drak.sk/produkty/pokemon-krabicky/19598-akrylovy-ochranny-box-treasurewise-na-pokemon-elite-trainer-box/": {
       "name": "Akrylový ochranný box TreasureWise na Pokémon Elite Trainer Box",
       "in_stock": true
     },
+    "https://www.vesely-drak.sk/produkty/pokemon-krabicky/19599-akrylovy-ochranny-box-treasurewise-na-pokemon-booster-box/": {
+      "name": "Akrylový ochranný box TreasureWise na Pokémon Booster Box",
+      "in_stock": true
+    },
     "https://www.vesely-drak.sk/produkty/pokemon-alba/19615-album-na-pokemon-jumbo-karty-tcg-guru-zip-binder-xenon-black/": {
       "name": "Album na Pokémon Jumbo karty TCG Guru Zip Binder - Xenon Black",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/pokemon-krabicky/19667-ochranny-pet-box-treasurewise-na-pokemon-booster-box-5-ks/": {
+      "name": "Ochranný PET box TreasureWise pre Pokémon Booster Box - 5 ks",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/pokemon-krabicky/19668-ochranny-pet-box-treasurewise-na-pokemon-etb-5-ks/": {
+      "name": "Ochranný PET box TreasureWise pre Pokémon ETB - 5 ks",
       "in_stock": true
     },
     "https://www.vesely-drak.sk/produkty/booster-boxy/19511-pokemon-gem-pack-vol-6-cbb6c-booster-box-cinsky/": {
@@ -116,30 +140,6 @@
     },
     "https://www.vesely-drak.sk/produkty/booster-boxy/18958-pokemon-brilliant-fantasy-csv8c-slim-booster-box-cinsky/": {
       "name": "Pokémon Brilliant Fantasy CSV8C Slim Booster Box - čínsky",
-      "in_stock": true
-    },
-    "https://www.vesely-drak.sk/produkty/boostery/18959-pokemon-brilliant-fantasy-csv8c-slim-booster-balicek-cinsky/": {
-      "name": "Pokémon Brilliant Fantasy CSV8C Slim Booster balíček - čínsky",
-      "in_stock": true
-    },
-    "https://www.vesely-drak.sk/produkty/boostery/18960-pokemon-stellar-crystal-csv9c-slim-booster-balicek-cinsky/": {
-      "name": "Pokémon Stellar Crystal CSV9C Slim Booster balíček - čínština",
-      "in_stock": true
-    },
-    "https://www.vesely-drak.sk/produkty/boostery/18962-pokemon-stellar-crystal-csv9c-slim-booster-box-cinsky/": {
-      "name": "Pokémon Stellar Crystal CSV9C Slim Booster Box - čínština",
-      "in_stock": true
-    },
-    "https://www.vesely-drak.sk/produkty/pokemon-podlozky/19329-pokemon-premiova-hraci-podlozka-mew-foilova/": {
-      "name": "Prémiová hracia podložka Pokémon – Mew (fóliová)",
-      "in_stock": true
-    },
-    "https://www.vesely-drak.sk/produkty/pokemon-album-a4/19348-pokemon-a4-album-na-karty-lillie-a-clefairy/": {
-      "name": "Pokémon A4 album na karty - Lillie a Clefairy",
-      "in_stock": true
-    },
-    "https://www.vesely-drak.sk/produkty/pokemon-album-a5/19349-pokemon-a5-album-na-karty-lillie-a-clefairy/": {
-      "name": "Pokémon A5 album na karty - Lillie a Clefairy",
       "in_stock": true
     }
   },
