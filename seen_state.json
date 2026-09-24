@@ -90,10 +90,6 @@
       "name": "Pokémon Brilliant Counterattack CS2.5C Booster Balíček – čínsky",
       "in_stock": true
     },
-    "https://www.vesely-drak.sk/produkty/specialni-sety/19533-2026-super-break-pokestars-edition-series-2-mystery-box/": {
-      "name": "2026 Super Break PokeStars Edition Series 2 - Mystery box",
-      "in_stock": true
-    },
     "https://www.vesely-drak.sk/produkty/pokemon-korean/19548-pokemon-abyss-eye-m5-booster-box-korejsky/": {
       "name": "Pokémon Abyss Eye M5 Booster Box – kórejský",
       "in_stock": true
@@ -140,6 +136,10 @@
     },
     "https://www.vesely-drak.sk/produkty/booster-boxy/18702-pokemon-pitch-black-booster/": {
       "name": "Pokémon Pitch Black Booster",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/pokemon-elite-trainer-box/18703-pokemon-pitch-black-elite-trainer-box/": {
+      "name": "Pokémon Pitch Black Elite Trainer Box",
       "in_stock": true
     }
   },
