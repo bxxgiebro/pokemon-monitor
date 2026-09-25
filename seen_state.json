@@ -62,6 +62,10 @@
     }
   },
   "VeselyDrak": {
+    "https://www.vesely-drak.sk/produkty/japonske-pokemon-karty-booster-box/19610-pokemon-30th-celebration-booster-box-japonsky/": {
+      "name": "Pokémon 30th Celebration Booster Box – v japončine",
+      "in_stock": false
+    },
     "https://www.vesely-drak.sk/produkty/booster-boxy/19421-pokemon-brilliant-counterattack-cs2-5c-booster-box-cinsky/": {
       "name": "Pokémon Brilliant Counterattack CS2.5C Booster Box – čínsky",
       "in_stock": true
@@ -136,10 +140,6 @@
     },
     "https://www.vesely-drak.sk/produkty/boostery/18960-pokemon-stellar-crystal-csv9c-slim-booster-balicek-cinsky/": {
       "name": "Pokémon Stellar Crystal CSV9C Slim Booster balíček - čínština",
-      "in_stock": true
-    },
-    "https://www.vesely-drak.sk/produkty/boostery/18962-pokemon-stellar-crystal-csv9c-slim-booster-box-cinsky/": {
-      "name": "Pokémon Stellar Crystal CSV9C Slim Booster Box - čínština",
       "in_stock": true
     }
   },
