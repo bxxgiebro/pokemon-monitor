@@ -164,12 +164,12 @@
       "name": "Pokémon TCG: Gem Pack Vol. 2 Booster (Chinese)",
       "in_stock": false
     },
-    "https://www.pgs.sk/pokemon-tcg-vstar-universe-booster-japan-4p130759": {
-      "name": "Pokémon TCG - VSTAR Universe Booster (Japan)",
-      "in_stock": false
-    },
     "https://www.pgs.sk/pokemon-tcg-super-electric-breaker-booster-japan-4p206772": {
       "name": "Pokémon TCG - Super Electric Breaker Booster (Japan)",
+      "in_stock": false
+    },
+    "https://www.pgs.sk/pokemon-tcg-vstar-universe-booster-japan-4p130759": {
+      "name": "Pokémon TCG - VSTAR Universe Booster (Japan)",
       "in_stock": false
     },
     "https://www.pgs.sk/pokemon-tcg-mega-inferno-x-booster-japan-4p245712": {
@@ -196,6 +196,10 @@
       "name": "Pokémon TCG - Glory of Team Rocket Booster (Japan)",
       "in_stock": false
     },
+    "https://www.pgs.sk/pokemon-tcg-shiny-treasure-booster-japan-4p130760": {
+      "name": "Pokémon TCG - Shiny Treasure Booster (Japan)",
+      "in_stock": false
+    },
     "https://www.pgs.sk/pokemon-tcg-crimson-haze-booster-japan-4p136385": {
       "name": "Pokémon TCG - Crimson Haze Booster (Japan)",
       "in_stock": false
@@ -206,10 +210,6 @@
     },
     "https://www.pgs.sk/pokemon-tcg-black-and-white-white-flare-booster-japan-4p231156": {
       "name": "Pokémon TCG - Black and White - White Flare Booster (Japan)",
-      "in_stock": false
-    },
-    "https://www.pgs.sk/pokemon-tcg-shiny-treasure-booster-japan-4p130760": {
-      "name": "Pokémon TCG - Shiny Treasure Booster (Japan)",
       "in_stock": false
     },
     "https://www.pgs.sk/pokemon-tcg-sv09-journey-together-booster-4p213817": {
