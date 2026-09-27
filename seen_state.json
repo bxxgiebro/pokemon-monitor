@@ -200,10 +200,6 @@
       "name": "Pokémon TCG: 151C Surprises Booster (China)",
       "in_stock": false
     },
-    "https://www.pgs.sk/pokemon-tcg-shiny-treasure-booster-japan-4p130760": {
-      "name": "Pokémon TCG - Shiny Treasure Booster (Japan)",
-      "in_stock": false
-    },
     "https://www.pgs.sk/pokemon-tcg-horizons-gem-3-booster-china-4p247422": {
       "name": "Pokémon TCG Horizons Gem 3 Booster (China)",
       "in_stock": false
@@ -214,6 +210,10 @@
     },
     "https://www.pgs.sk/pokemon-tcg-black-and-white-white-flare-booster-japan-4p231156": {
       "name": "Pokémon TCG - Black and White - White Flare Booster (Japan)",
+      "in_stock": false
+    },
+    "https://www.pgs.sk/pokemon-tcg-shiny-treasure-booster-japan-4p130760": {
+      "name": "Pokémon TCG - Shiny Treasure Booster (Japan)",
       "in_stock": false
     },
     "https://www.pgs.sk/pokemon-tcg-sv8-5-prismatic-evolutions-super-premium-collection-4p225218": {
