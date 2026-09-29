@@ -70,10 +70,6 @@
       "name": "Pokémon Brilliant Counterattack CS2.5C Booster Box – čínsky",
       "in_stock": true
     },
-    "https://www.vesely-drak.sk/produkty/boostery/19422-pokemon-brilliant-counterattack-cs2-5c-booster-balicek-cinsky/": {
-      "name": "Pokémon Brilliant Counterattack CS2.5C Booster Balíček – čínsky",
-      "in_stock": true
-    },
     "https://www.vesely-drak.sk/produkty/pokemon-korean/19548-pokemon-abyss-eye-m5-booster-box-korejsky/": {
       "name": "Pokémon Abyss Eye M5 Booster Box – kórejský",
       "in_stock": true
@@ -140,6 +136,10 @@
     },
     "https://www.vesely-drak.sk/produkty/boostery/18959-pokemon-brilliant-fantasy-csv8c-slim-booster-balicek-cinsky/": {
       "name": "Pokémon Brilliant Fantasy CSV8C Slim Booster balíček - čínsky",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/boostery/18960-pokemon-stellar-crystal-csv9c-slim-booster-balicek-cinsky/": {
+      "name": "Pokémon Stellar Crystal CSV9C Slim Booster balíček - čínština",
       "in_stock": true
     }
   },
