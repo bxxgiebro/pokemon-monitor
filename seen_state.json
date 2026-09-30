@@ -62,10 +62,6 @@
     }
   },
   "VeselyDrak": {
-    "https://www.vesely-drak.sk/produkty/pokemon-plechovky/19157-pokemon-30th-celebration-day-and-night-mini-tin-moltres/": {
-      "name": "Pokémon 30th Celebration Day and Night Mini Tin - Moltres",
-      "in_stock": true
-    },
     "https://www.vesely-drak.sk/produkty/japonske-pokemon-karty-booster-box/19610-pokemon-30th-celebration-booster-box-japonsky/": {
       "name": "Pokémon 30th Celebration Booster Box – v japončine",
       "in_stock": true
@@ -140,6 +136,10 @@
     },
     "https://www.vesely-drak.sk/produkty/booster-boxy/18958-pokemon-brilliant-fantasy-csv8c-slim-booster-box-cinsky/": {
       "name": "Pokémon Brilliant Fantasy CSV8C Slim Booster Box - čínsky",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/boostery/18959-pokemon-brilliant-fantasy-csv8c-slim-booster-balicek-cinsky/": {
+      "name": "Pokémon Brilliant Fantasy CSV8C Slim Booster balíček - čínsky",
       "in_stock": true
     }
   },
