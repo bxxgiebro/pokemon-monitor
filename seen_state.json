@@ -62,10 +62,6 @@
     }
   },
   "VeselyDrak": {
-    "https://www.vesely-drak.sk/produkty/booster-boxy/19140-pokemon-30th-celebration-booster-bundle/": {
-      "name": "Pokémon 30th Celebration Booster Bundle",
-      "in_stock": true
-    },
     "https://www.vesely-drak.sk/produkty/pokemon-plechovky/19155-pokemon-30th-celebration-day-and-night-mini-tin-mew/": {
       "name": "Pokémon 30th Celebration Day and Night Mini Tin - Mew",
       "in_stock": true
@@ -140,6 +136,10 @@
     },
     "https://www.vesely-drak.sk/produkty/booster-boxy/18700-pokemon-pitch-black-booster-box/": {
       "name": "Pokémon Pitch Black Booster Box",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/booster-boxy/18702-pokemon-pitch-black-booster/": {
+      "name": "Pokémon Pitch Black Booster",
       "in_stock": true
     }
   },
