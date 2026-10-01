@@ -66,16 +66,8 @@
       "name": "Pokémon 30th Celebration Booster Bundle",
       "in_stock": true
     },
-    "https://www.vesely-drak.sk/produkty/pokemon-plechovky/19156-pokemon-30th-celebration-day-and-night-mini-tin-lapras/": {
-      "name": "Pokémon 30th Celebration Day and Night Mini Tin - Lapras",
-      "in_stock": true
-    },
     "https://www.vesely-drak.sk/produkty/pokemon-plechovky/19157-pokemon-30th-celebration-day-and-night-mini-tin-moltres/": {
       "name": "Pokémon 30th Celebration Day and Night Mini Tin - Moltres",
-      "in_stock": true
-    },
-    "https://www.vesely-drak.sk/produkty/pokemon-plechovky/19158-pokemon-30th-celebration-day-and-night-mini-tin-zapdos/": {
-      "name": "Pokémon 30th Celebration Day and Night Mini Tin - Zapdos",
       "in_stock": true
     },
     "https://www.vesely-drak.sk/produkty/pokemon-plechovky/19163-pokemon-30th-celebration-day-and-night-mini-tin-greninja/": {
@@ -140,6 +132,14 @@
     },
     "https://www.vesely-drak.sk/produkty/pokemon-elite-trainer-box/18703-pokemon-pitch-black-elite-trainer-box/": {
       "name": "Pokémon Pitch Black Elite Trainer Box",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/booster-boxy/18706-pokemon-pitch-black-booster-bundle/": {
+      "name": "Pokémon Pitch Black Booster Bundle",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/cinske-pokemon-karty/19361-pokemon-first-partner-30th-anniversary-celebration-set-vol-2-cinsky/": {
+      "name": "Pokémon First Partner 30th Anniversary Celebration set Vol. 2 - čínsky",
       "in_stock": true
     }
   },
