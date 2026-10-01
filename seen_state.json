@@ -62,10 +62,6 @@
     }
   },
   "VeselyDrak": {
-    "https://www.vesely-drak.sk/produkty/booster-boxy/19140-pokemon-30th-celebration-booster-bundle/": {
-      "name": "Pokémon 30th Celebration Booster Bundle",
-      "in_stock": true
-    },
     "https://www.vesely-drak.sk/produkty/pokemon-plechovky/19142-pokemon-30th-celebration-day-and-night-mini-tin-espeon/": {
       "name": "Pokémon 30th Celebration Day and Night Mini Tin - Espeon",
       "in_stock": true
@@ -84,10 +80,6 @@
     },
     "https://www.vesely-drak.sk/produkty/pokemon-plechovky/19158-pokemon-30th-celebration-day-and-night-mini-tin-zapdos/": {
       "name": "Pokémon 30th Celebration Day and Night Mini Tin - Zapdos",
-      "in_stock": true
-    },
-    "https://www.vesely-drak.sk/produkty/pokemon-plechovky/19159-pokemon-30th-celebration-day-and-night-mini-tin-umbreon/": {
-      "name": "Pokémon 30th Celebration Day and Night Mini Tin - Umbreon",
       "in_stock": true
     },
     "https://www.vesely-drak.sk/produkty/pokemon-plechovky/19160-pokemon-30th-celebration-day-and-night-mini-tin-mewtwo/": {
@@ -140,6 +132,14 @@
     },
     "https://www.vesely-drak.sk/produkty/pokemon-krabicky/19668-ochranny-pet-box-treasurewise-na-pokemon-etb-5-ks/": {
       "name": "Ochranný PET box TreasureWise pre Pokémon ETB - 5 ks",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/booster-boxy/19511-pokemon-gem-pack-vol-6-cbb6c-booster-box-cinsky/": {
+      "name": "Pokémon Gem Pack Vol. 6 (CBB6C) Booster Box – čínsky",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/boostery/19512-pokemon-gem-pack-vol-6-cbb6c-booster-balicek-cinsky/": {
+      "name": "Pokémon Gem Pack Vol. 6 (CBB6C) Booster Balíček – čínsky",
       "in_stock": true
     }
   },
