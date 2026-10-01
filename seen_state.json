@@ -78,10 +78,6 @@
       "name": "Pokémon Abyss Eye M5 Booster Box – kórejský",
       "in_stock": true
     },
-    "https://www.vesely-drak.sk/produkty/pokemon-korean/19549-pokemon-abyss-eye-m5-booster-korejsky/": {
-      "name": "Pokémon Abyss Eye M5 Booster – kórejský",
-      "in_stock": true
-    },
     "https://www.vesely-drak.sk/produkty/cinske-pokemon-karty/19551-pokemon-first-partner-30th-anniversary-celebration-set-vol-3-cinsky/": {
       "name": "Pokémon First Partner 30th Anniversary Celebration set Vol. 3 - čínsky",
       "in_stock": true
@@ -140,6 +136,10 @@
     },
     "https://www.vesely-drak.sk/produkty/boostery/18959-pokemon-brilliant-fantasy-csv8c-slim-booster-balicek-cinsky/": {
       "name": "Pokémon Brilliant Fantasy CSV8C Slim Booster balíček - čínsky",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/boostery/18960-pokemon-stellar-crystal-csv9c-slim-booster-balicek-cinsky/": {
+      "name": "Pokémon Stellar Crystal CSV9C Slim Booster balíček - čínština",
       "in_stock": true
     }
   },
