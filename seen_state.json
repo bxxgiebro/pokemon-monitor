@@ -82,10 +82,6 @@
       "name": "Pokémon 30th Celebration Day and Night Mini Tin - Umbreon",
       "in_stock": true
     },
-    "https://www.vesely-drak.sk/produkty/pokemon-plechovky/19161-pokemon-30th-celebration-day-and-night-mini-tin-pikachu-a-toxtricity/": {
-      "name": "Pokémon 30th Celebration Day and Night Mini Tin - Pikachu a Toxtricity",
-      "in_stock": true
-    },
     "https://www.vesely-drak.sk/produkty/pokemon-plechovky/19163-pokemon-30th-celebration-day-and-night-mini-tin-greninja/": {
       "name": "Pokémon 30th Celebration Day and Night Mini Tin - Greninja",
       "in_stock": true
@@ -140,6 +136,10 @@
     },
     "https://www.vesely-drak.sk/produkty/booster-boxy/18700-pokemon-pitch-black-booster-box/": {
       "name": "Pokémon Pitch Black Booster Box",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/booster-boxy/18702-pokemon-pitch-black-booster/": {
+      "name": "Pokémon Pitch Black Booster",
       "in_stock": true
     }
   },
