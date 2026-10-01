@@ -70,10 +70,6 @@
       "name": "Pokémon 30th Celebration Day and Night Mini Tin - Moltres",
       "in_stock": true
     },
-    "https://www.vesely-drak.sk/produkty/pokemon-plechovky/19158-pokemon-30th-celebration-day-and-night-mini-tin-zapdos/": {
-      "name": "Pokémon 30th Celebration Day and Night Mini Tin - Zapdos",
-      "in_stock": true
-    },
     "https://www.vesely-drak.sk/produkty/pokemon-plechovky/19161-pokemon-30th-celebration-day-and-night-mini-tin-pikachu-a-toxtricity/": {
       "name": "Pokémon 30th Celebration Day and Night Mini Tin - Pikachu a Toxtricity",
       "in_stock": true
@@ -141,6 +137,10 @@
     "https://www.vesely-drak.sk/produkty/pokemon-elite-trainer-box/18703-pokemon-pitch-black-elite-trainer-box/": {
       "name": "Pokémon Pitch Black Elite Trainer Box",
       "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/booster-boxy/18706-pokemon-pitch-black-booster-bundle/": {
+      "name": "Pokémon Pitch Black Booster Bundle",
+      "in_stock": true
     }
   },
   "PGS": {
@@ -200,12 +200,12 @@
       "name": "Pokémon TCG Horizons Gem 3 Booster (China)",
       "in_stock": false
     },
-    "https://www.pgs.sk/pokemon-tcg-151c-surprises-booster-china-4p252461": {
-      "name": "Pokémon TCG: 151C Surprises Booster (China)",
-      "in_stock": false
-    },
     "https://www.pgs.sk/pokemon-tcg-crimson-haze-booster-japan-4p136385": {
       "name": "Pokémon TCG - Crimson Haze Booster (Japan)",
+      "in_stock": false
+    },
+    "https://www.pgs.sk/pokemon-tcg-151c-surprises-booster-china-4p252461": {
+      "name": "Pokémon TCG: 151C Surprises Booster (China)",
       "in_stock": false
     },
     "https://www.pgs.sk/pokemon-tcg-black-and-white-white-flare-booster-japan-4p231156": {
