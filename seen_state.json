@@ -94,10 +94,6 @@
       "name": "Pokémon 30th Celebration Day and Night Mini Tin - Umbreon",
       "in_stock": true
     },
-    "https://www.vesely-drak.sk/produkty/pokemon-plechovky/19160-pokemon-30th-celebration-day-and-night-mini-tin-mewtwo/": {
-      "name": "Pokémon 30th Celebration Day and Night Mini Tin - Mewtwo",
-      "in_stock": true
-    },
     "https://www.vesely-drak.sk/produkty/pokemon-plechovky/19161-pokemon-30th-celebration-day-and-night-mini-tin-pikachu-a-toxtricity/": {
       "name": "Pokémon 30th Celebration Day and Night Mini Tin - Pikachu a Toxtricity",
       "in_stock": true
@@ -140,6 +136,10 @@
     },
     "https://www.vesely-drak.sk/produkty/cinske-pokemon-karty/19551-pokemon-first-partner-30th-anniversary-celebration-set-vol-3-cinsky/": {
       "name": "Pokémon First Partner 30th Anniversary Celebration set Vol. 3 - čínsky",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/pokemon-krabicky/19599-akrylovy-ochranny-box-treasurewise-na-pokemon-booster-box/": {
+      "name": "Akrylový ochranný box TreasureWise na Pokémon Booster Box",
       "in_stock": true
     }
   },
