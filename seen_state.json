@@ -70,10 +70,6 @@
       "name": "Pokémon 30th Celebration Day and Night Mini Tin - Espeon",
       "in_stock": true
     },
-    "https://www.vesely-drak.sk/produkty/pokemon-plechovky/19154-pokemon-30th-celebration-day-and-night-mini-tin-pikachu/": {
-      "name": "Pokémon 30th Celebration Day and Night Mini Tin - Pikachu",
-      "in_stock": true
-    },
     "https://www.vesely-drak.sk/produkty/pokemon-plechovky/19155-pokemon-30th-celebration-day-and-night-mini-tin-mew/": {
       "name": "Pokémon 30th Celebration Day and Night Mini Tin - Mew",
       "in_stock": true
@@ -96,10 +92,6 @@
     },
     "https://www.vesely-drak.sk/produkty/pokemon-plechovky/19163-pokemon-30th-celebration-day-and-night-mini-tin-greninja/": {
       "name": "Pokémon 30th Celebration Day and Night Mini Tin - Greninja",
-      "in_stock": true
-    },
-    "https://www.vesely-drak.sk/produkty/booster-boxy/19760-pokemon-30th-celebration-booster-bundle-nariznuta-folie/": {
-      "name": "Pokémon 30th Celebration Booster Bundle – poškodená fólia",
       "in_stock": true
     },
     "https://www.vesely-drak.sk/produkty/japonske-pokemon-karty-booster-box/19610-pokemon-30th-celebration-booster-box-japonsky/": {
@@ -140,6 +132,14 @@
     },
     "https://www.vesely-drak.sk/produkty/pokemon-alba/19615-album-na-pokemon-jumbo-karty-tcg-guru-zip-binder-xenon-black/": {
       "name": "Album na Pokémon Jumbo karty TCG Guru Zip Binder - Xenon Black",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/pokemon-krabicky/19667-ochranny-pet-box-treasurewise-na-pokemon-booster-box-5-ks/": {
+      "name": "Ochranný PET box TreasureWise pre Pokémon Booster Box - 5 ks",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/pokemon-krabicky/19668-ochranny-pet-box-treasurewise-na-pokemon-etb-5-ks/": {
+      "name": "Ochranný PET box TreasureWise pre Pokémon ETB - 5 ks",
       "in_stock": true
     }
   },
