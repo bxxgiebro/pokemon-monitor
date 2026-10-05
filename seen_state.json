@@ -66,10 +66,6 @@
       "name": "Pokémon 30th Celebration Booster Bundle",
       "in_stock": true
     },
-    "https://www.vesely-drak.sk/produkty/pokemon-plechovky/19158-pokemon-30th-celebration-day-and-night-mini-tin-zapdos/": {
-      "name": "Pokémon 30th Celebration Day and Night Mini Tin - Zapdos",
-      "in_stock": true
-    },
     "https://www.vesely-drak.sk/produkty/japonske-pokemon-karty-booster-box/19610-pokemon-30th-celebration-booster-box-japonsky/": {
       "name": "Pokémon 30th Celebration Booster Box – v japončine",
       "in_stock": true
@@ -140,6 +136,10 @@
     },
     "https://www.vesely-drak.sk/produkty/booster-boxy/18706-pokemon-pitch-black-booster-bundle/": {
       "name": "Pokémon Pitch Black Booster Bundle",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/cinske-pokemon-karty/19361-pokemon-first-partner-30th-anniversary-celebration-set-vol-2-cinsky/": {
+      "name": "Pokémon First Partner 30th Anniversary Celebration set Vol. 2 - čínsky",
       "in_stock": true
     }
   },
