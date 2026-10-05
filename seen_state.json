@@ -62,6 +62,22 @@
     }
   },
   "VeselyDrak": {
+    "https://www.vesely-drak.sk/produkty/booster-boxy/19140-pokemon-30th-celebration-booster-bundle/": {
+      "name": "Pokémon 30th Celebration Booster Bundle",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/pokemon-plechovky/19142-pokemon-30th-celebration-day-and-night-mini-tin-espeon/": {
+      "name": "Pokémon 30th Celebration Day and Night Mini Tin - Espeon",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/pokemon-plechovky/19154-pokemon-30th-celebration-day-and-night-mini-tin-pikachu/": {
+      "name": "Pokémon 30th Celebration Day and Night Mini Tin - Pikachu",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/booster-boxy/19760-pokemon-30th-celebration-booster-bundle-nariznuta-folie/": {
+      "name": "Pokémon 30th Celebration Booster Bundle – poškodená fólia",
+      "in_stock": true
+    },
     "https://www.vesely-drak.sk/produkty/japonske-pokemon-karty-booster-box/19610-pokemon-30th-celebration-booster-box-japonsky/": {
       "name": "Pokémon 30th Celebration Booster Box – v japončine",
       "in_stock": true
@@ -124,22 +140,6 @@
     },
     "https://www.vesely-drak.sk/produkty/booster-boxy/18702-pokemon-pitch-black-booster/": {
       "name": "Pokémon Pitch Black Booster",
-      "in_stock": true
-    },
-    "https://www.vesely-drak.sk/produkty/pokemon-elite-trainer-box/18703-pokemon-pitch-black-elite-trainer-box/": {
-      "name": "Pokémon Pitch Black Elite Trainer Box",
-      "in_stock": true
-    },
-    "https://www.vesely-drak.sk/produkty/booster-boxy/18706-pokemon-pitch-black-booster-bundle/": {
-      "name": "Pokémon Pitch Black Booster Bundle",
-      "in_stock": true
-    },
-    "https://www.vesely-drak.sk/produkty/cinske-pokemon-karty/19361-pokemon-first-partner-30th-anniversary-celebration-set-vol-2-cinsky/": {
-      "name": "Pokémon First Partner 30th Anniversary Celebration set Vol. 2 - čínsky",
-      "in_stock": true
-    },
-    "https://www.vesely-drak.sk/produkty/pokemon-elite-trainer-box/19659-pokemon-pitch-black-elite-trainer-box-2-jakost/": {
-      "name": "Pokémon Pitch Black Elite Trainer Box - 2. akosť",
       "in_stock": true
     }
   },
