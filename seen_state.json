@@ -62,6 +62,10 @@
     }
   },
   "VeselyDrak": {
+    "https://www.vesely-drak.sk/produkty/booster-boxy/19760-pokemon-30th-celebration-booster-bundle-nariznuta-folie/": {
+      "name": "Pokémon 30th Celebration Booster Bundle – poškodená fólia",
+      "in_stock": true
+    },
     "https://www.vesely-drak.sk/produkty/japonske-karty-pokemon-boostery/19611-pokemon-30th-celebration-booster-balicek-japonsky/": {
       "name": "Pokémon 30th Celebration Booster Balíček – v japončine",
       "in_stock": true
@@ -137,10 +141,6 @@
     "https://www.vesely-drak.sk/produkty/pokemon-elite-trainer-box/18703-pokemon-pitch-black-elite-trainer-box/": {
       "name": "Pokémon Pitch Black Elite Trainer Box",
       "in_stock": true
-    },
-    "https://www.vesely-drak.sk/produkty/booster-boxy/18706-pokemon-pitch-black-booster-bundle/": {
-      "name": "Pokémon Pitch Black Booster Bundle",
-      "in_stock": true
     }
   },
   "PGS": {
@@ -150,10 +150,6 @@
     },
     "https://www.pgs.sk/pokemon-tcg-151-booster-japan-4p133954": {
       "name": "Pokémon TCG - 151 booster (Japan)",
-      "in_stock": false
-    },
-    "https://www.pgs.sk/pokemon-tcg-sv09-journey-together-booster-4p213817": {
-      "name": "Pokémon TCG: SV09 Journey Together - Booster",
       "in_stock": false
     },
     "https://www.pgs.sk/pokemon-tcg-terastal-festival-ex-booster-japan-4p207150": {
@@ -222,6 +218,10 @@
     },
     "https://www.pgs.sk/pokemon-tcg-sv8-5-prismatic-evolutions-super-premium-collection-4p225218": {
       "name": "Pokémon TCG: SV8.5 Prismatic Evolutions - Super-Premium Collection",
+      "in_stock": false
+    },
+    "https://www.pgs.sk/pokemon-tcg-sv09-journey-together-booster-4p213817": {
+      "name": "Pokémon TCG: SV09 Journey Together - Booster",
       "in_stock": false
     },
     "https://www.pgs.sk/pokemon-tcg-sv08-surging-sparks-booster-4p161342": {
