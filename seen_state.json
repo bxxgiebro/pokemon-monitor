@@ -62,6 +62,18 @@
     }
   },
   "VeselyDrak": {
+    "https://www.vesely-drak.sk/produkty/pokemon-gx-box/19133-pokemon-30th-celebration-poster-collection-1x-plakat-3x-booster-3x-promo-karta/": {
+      "name": "Pokémon 30th Celebration Poster Collection (1x plagát, 3x booster, 3x promo karta)",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/pokemon-gx-box/19136-pokemon-30th-celebration-greninja-ex-box/": {
+      "name": "Pokémon 30th Celebration Greninja ex Box",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/pokemon-gx-box/19137-pokemon-30th-celebration-sylveon-ex-box/": {
+      "name": "Pokémon 30th Celebration Sylveon ex Box",
+      "in_stock": true
+    },
     "https://www.vesely-drak.sk/produkty/japonske-karty-pokemon-boostery/19611-pokemon-30th-celebration-booster-balicek-japonsky/": {
       "name": "Pokémon 30th Celebration Booster Balíček – v japončine",
       "in_stock": true
@@ -128,18 +140,6 @@
     },
     "https://www.vesely-drak.sk/produkty/booster-boxy/18700-pokemon-pitch-black-booster-box/": {
       "name": "Pokémon Pitch Black Booster Box",
-      "in_stock": true
-    },
-    "https://www.vesely-drak.sk/produkty/booster-boxy/18702-pokemon-pitch-black-booster/": {
-      "name": "Pokémon Pitch Black Booster",
-      "in_stock": true
-    },
-    "https://www.vesely-drak.sk/produkty/pokemon-elite-trainer-box/18703-pokemon-pitch-black-elite-trainer-box/": {
-      "name": "Pokémon Pitch Black Elite Trainer Box",
-      "in_stock": true
-    },
-    "https://www.vesely-drak.sk/produkty/booster-boxy/18706-pokemon-pitch-black-booster-bundle/": {
-      "name": "Pokémon Pitch Black Booster Bundle",
       "in_stock": true
     }
   },
