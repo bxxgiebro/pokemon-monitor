@@ -78,10 +78,6 @@
       "name": "Pokémon 30th Celebration 2 Pack Blister - Eevee",
       "in_stock": true
     },
-    "https://www.vesely-drak.sk/produkty/specialni-sety/19143-pokemon-30th-celebration-binder-collection-album-na-karty-5x-booster/": {
-      "name": "Pokémon 30th Celebration Binder Collection (Album na karty + 5x Booster)",
-      "in_stock": true
-    },
     "https://www.vesely-drak.sk/produkty/japonske-karty-pokemon-boostery/19611-pokemon-30th-celebration-booster-balicek-japonsky/": {
       "name": "Pokémon 30th Celebration Booster Balíček – v japončine",
       "in_stock": true
@@ -140,6 +136,10 @@
     },
     "https://www.vesely-drak.sk/produkty/booster-boxy/19511-pokemon-gem-pack-vol-6-cbb6c-booster-box-cinsky/": {
       "name": "Pokémon Gem Pack Vol. 6 (CBB6C) Booster Box – čínsky",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/boostery/19512-pokemon-gem-pack-vol-6-cbb6c-booster-balicek-cinsky/": {
+      "name": "Pokémon Gem Pack Vol. 6 (CBB6C) Booster Balíček – čínsky",
       "in_stock": true
     }
   },
