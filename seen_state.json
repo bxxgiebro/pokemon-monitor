@@ -98,10 +98,6 @@
       "name": "Pokémon 30th Celebration Day and Night Mini Tin - Greninja",
       "in_stock": true
     },
-    "https://www.vesely-drak.sk/produkty/booster-boxy/19760-pokemon-30th-celebration-booster-bundle-nariznuta-folie/": {
-      "name": "Pokémon 30th Celebration Booster Bundle – poškodená fólia",
-      "in_stock": true
-    },
     "https://www.vesely-drak.sk/produkty/pokemon-gx-box/19133-pokemon-30th-celebration-poster-collection-1x-plakat-3x-booster-3x-promo-karta/": {
       "name": "Pokémon 30th Celebration Poster Collection (1x plagát, 3x booster, 3x promo karta)",
       "in_stock": true
@@ -140,6 +136,10 @@
     },
     "https://www.vesely-drak.sk/produkty/pokemon-ostatni/19693-pokemon-maska-na-spani-pres-oci-pikachu/": {
       "name": "Pokémon maska ​​na spanie cez oči - Pikachu",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/booster-boxy/19421-pokemon-brilliant-counterattack-cs2-5c-booster-box-cinsky/": {
+      "name": "Pokémon Brilliant Counterattack CS2.5C Booster Box – čínsky",
       "in_stock": true
     }
   },
