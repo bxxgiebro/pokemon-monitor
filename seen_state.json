@@ -70,10 +70,6 @@
       "name": "Pokémon 30th Celebration 2 Pack Blister - Eevee",
       "in_stock": true
     },
-    "https://www.vesely-drak.sk/produkty/specialni-sety/19143-pokemon-30th-celebration-binder-collection-album-na-karty-5x-booster/": {
-      "name": "Pokémon 30th Celebration Binder Collection (Album na karty + 5x Booster)",
-      "in_stock": true
-    },
     "https://www.vesely-drak.sk/produkty/japonske-karty-pokemon-boostery/19611-pokemon-30th-celebration-booster-balicek-japonsky/": {
       "name": "Pokémon 30th Celebration Booster Balíček – v japončine",
       "in_stock": true
@@ -141,6 +137,10 @@
     "https://www.vesely-drak.sk/produkty/booster-boxy/18700-pokemon-pitch-black-booster-box/": {
       "name": "Pokémon Pitch Black Booster Box",
       "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/booster-boxy/18702-pokemon-pitch-black-booster/": {
+      "name": "Pokémon Pitch Black Booster",
+      "in_stock": true
     }
   },
   "PGS": {
@@ -150,10 +150,6 @@
     },
     "https://www.pgs.sk/pokemon-tcg-151-booster-japan-4p133954": {
       "name": "Pokémon TCG - 151 booster (Japan)",
-      "in_stock": false
-    },
-    "https://www.pgs.sk/pokemon-tcg-sv09-journey-together-booster-4p213817": {
-      "name": "Pokémon TCG: SV09 Journey Together - Booster",
       "in_stock": false
     },
     "https://www.pgs.sk/pokemon-tcg-terastal-festival-ex-booster-japan-4p207150": {
@@ -218,6 +214,10 @@
     },
     "https://www.pgs.sk/pokemon-tcg-shiny-treasure-booster-japan-4p130760": {
       "name": "Pokémon TCG - Shiny Treasure Booster (Japan)",
+      "in_stock": false
+    },
+    "https://www.pgs.sk/pokemon-tcg-sv09-journey-together-booster-4p213817": {
+      "name": "Pokémon TCG: SV09 Journey Together - Booster",
       "in_stock": false
     },
     "https://www.pgs.sk/pokemon-tcg-sv8-5-prismatic-evolutions-super-premium-collection-4p225218": {
