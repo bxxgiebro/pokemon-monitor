@@ -66,10 +66,6 @@
       "name": "Pokémon 30th Celebration Booster Bundle",
       "in_stock": true
     },
-    "https://www.vesely-drak.sk/produkty/pokemon-plechovky/19154-pokemon-30th-celebration-day-and-night-mini-tin-pikachu/": {
-      "name": "Pokémon 30th Celebration Day and Night Mini Tin - Pikachu",
-      "in_stock": true
-    },
     "https://www.vesely-drak.sk/produkty/pokemon-plechovky/19155-pokemon-30th-celebration-day-and-night-mini-tin-mew/": {
       "name": "Pokémon 30th Celebration Day and Night Mini Tin - Mew",
       "in_stock": true
@@ -80,6 +76,26 @@
     },
     "https://www.vesely-drak.sk/produkty/pokemon-plechovky/19157-pokemon-30th-celebration-day-and-night-mini-tin-moltres/": {
       "name": "Pokémon 30th Celebration Day and Night Mini Tin - Moltres",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/pokemon-plechovky/19158-pokemon-30th-celebration-day-and-night-mini-tin-zapdos/": {
+      "name": "Pokémon 30th Celebration Day and Night Mini Tin - Zapdos",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/pokemon-plechovky/19159-pokemon-30th-celebration-day-and-night-mini-tin-umbreon/": {
+      "name": "Pokémon 30th Celebration Day and Night Mini Tin - Umbreon",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/pokemon-plechovky/19160-pokemon-30th-celebration-day-and-night-mini-tin-mewtwo/": {
+      "name": "Pokémon 30th Celebration Day and Night Mini Tin - Mewtwo",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/pokemon-plechovky/19161-pokemon-30th-celebration-day-and-night-mini-tin-pikachu-a-toxtricity/": {
+      "name": "Pokémon 30th Celebration Day and Night Mini Tin - Pikachu a Toxtricity",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/pokemon-plechovky/19163-pokemon-30th-celebration-day-and-night-mini-tin-greninja/": {
+      "name": "Pokémon 30th Celebration Day and Night Mini Tin - Greninja",
       "in_stock": true
     },
     "https://www.vesely-drak.sk/produkty/booster-boxy/19760-pokemon-30th-celebration-booster-bundle-nariznuta-folie/": {
@@ -124,22 +140,6 @@
     },
     "https://www.vesely-drak.sk/produkty/pokemon-ostatni/19693-pokemon-maska-na-spani-pres-oci-pikachu/": {
       "name": "Pokémon maska ​​na spanie cez oči - Pikachu",
-      "in_stock": true
-    },
-    "https://www.vesely-drak.sk/produkty/booster-boxy/19421-pokemon-brilliant-counterattack-cs2-5c-booster-box-cinsky/": {
-      "name": "Pokémon Brilliant Counterattack CS2.5C Booster Box – čínsky",
-      "in_stock": true
-    },
-    "https://www.vesely-drak.sk/produkty/boostery/19422-pokemon-brilliant-counterattack-cs2-5c-booster-balicek-cinsky/": {
-      "name": "Pokémon Brilliant Counterattack CS2.5C Booster Balíček – čínsky",
-      "in_stock": true
-    },
-    "https://www.vesely-drak.sk/produkty/pokemon-korean/19548-pokemon-abyss-eye-m5-booster-box-korejsky/": {
-      "name": "Pokémon Abyss Eye M5 Booster Box – kórejský",
-      "in_stock": true
-    },
-    "https://www.vesely-drak.sk/produkty/pokemon-korean/19549-pokemon-abyss-eye-m5-booster-korejsky/": {
-      "name": "Pokémon Abyss Eye M5 Booster – kórejský",
       "in_stock": true
     }
   },
