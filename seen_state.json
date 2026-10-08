@@ -86,14 +86,6 @@
       "name": "Pokémon 30th Celebration Day and Night Mini Tin - Zapdos",
       "in_stock": true
     },
-    "https://www.vesely-drak.sk/produkty/pokemon-plechovky/19159-pokemon-30th-celebration-day-and-night-mini-tin-umbreon/": {
-      "name": "Pokémon 30th Celebration Day and Night Mini Tin - Umbreon",
-      "in_stock": true
-    },
-    "https://www.vesely-drak.sk/produkty/pokemon-plechovky/19160-pokemon-30th-celebration-day-and-night-mini-tin-mewtwo/": {
-      "name": "Pokémon 30th Celebration Day and Night Mini Tin - Mewtwo",
-      "in_stock": true
-    },
     "https://www.vesely-drak.sk/produkty/pokemon-plechovky/19163-pokemon-30th-celebration-day-and-night-mini-tin-greninja/": {
       "name": "Pokémon 30th Celebration Day and Night Mini Tin - Greninja",
       "in_stock": true
@@ -140,6 +132,14 @@
     },
     "https://www.vesely-drak.sk/produkty/pokemon-krabicky/19599-akrylovy-ochranny-box-treasurewise-na-pokemon-booster-box/": {
       "name": "Akrylový ochranný box TreasureWise na Pokémon Booster Box",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/pokemon-alba/19615-album-na-pokemon-jumbo-karty-tcg-guru-zip-binder-xenon-black/": {
+      "name": "Album na Pokémon Jumbo karty TCG Guru Zip Binder - Xenon Black",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/pokemon-krabicky/19667-ochranny-pet-box-treasurewise-na-pokemon-booster-box-5-ks/": {
+      "name": "Ochranný PET box TreasureWise pre Pokémon Booster Box - 5 ks",
       "in_stock": true
     }
   },
