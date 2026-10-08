@@ -70,10 +70,6 @@
       "name": "Pokémon 30th Celebration Day and Night Mini Tin - Espeon",
       "in_stock": true
     },
-    "https://www.vesely-drak.sk/produkty/pokemon-plechovky/19154-pokemon-30th-celebration-day-and-night-mini-tin-pikachu/": {
-      "name": "Pokémon 30th Celebration Day and Night Mini Tin - Pikachu",
-      "in_stock": true
-    },
     "https://www.vesely-drak.sk/produkty/pokemon-plechovky/19155-pokemon-30th-celebration-day-and-night-mini-tin-mew/": {
       "name": "Pokémon 30th Celebration Day and Night Mini Tin - Mew",
       "in_stock": true
@@ -140,6 +136,10 @@
     },
     "https://www.vesely-drak.sk/produkty/pokemon-korean/19548-pokemon-abyss-eye-m5-booster-box-korejsky/": {
       "name": "Pokémon Abyss Eye M5 Booster Box – kórejský",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/pokemon-korean/19549-pokemon-abyss-eye-m5-booster-korejsky/": {
+      "name": "Pokémon Abyss Eye M5 Booster – kórejský",
       "in_stock": true
     }
   },
