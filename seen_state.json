@@ -144,10 +144,6 @@
     }
   },
   "PGS": {
-    "https://www.pgs.sk/pokemon-tcg-sv8-5-prismatic-evolutions-super-premium-collection-4p225218": {
-      "name": "Pokémon TCG: SV8.5 Prismatic Evolutions - Super-Premium Collection",
-      "in_stock": false
-    },
     "https://www.pgs.sk/pokemon-tcg-sv10-destined-rivals-elite-trainer-box-4p225220": {
       "name": "Pokémon TCG: SV10 Destined Rivals - Elite Trainer Box",
       "in_stock": false
@@ -222,6 +218,10 @@
     },
     "https://www.pgs.sk/pokemon-tcg-crimson-haze-booster-japan-4p136385": {
       "name": "Pokémon TCG - Crimson Haze Booster (Japan)",
+      "in_stock": false
+    },
+    "https://www.pgs.sk/pokemon-tcg-sv8-5-prismatic-evolutions-super-premium-collection-4p225218": {
+      "name": "Pokémon TCG: SV8.5 Prismatic Evolutions - Super-Premium Collection",
       "in_stock": false
     },
     "https://www.pgs.sk/pokemon-tcg-sv08-surging-sparks-booster-4p161342": {
