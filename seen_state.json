@@ -62,10 +62,6 @@
     }
   },
   "VeselyDrak": {
-    "https://www.vesely-drak.sk/produkty/booster-boxy/19760-pokemon-30th-celebration-booster-bundle-nariznuta-folie/": {
-      "name": "Pokémon 30th Celebration Booster Bundle – poškodená fólia",
-      "in_stock": true
-    },
     "https://www.vesely-drak.sk/produkty/japonske-karty-pokemon-boostery/19611-pokemon-30th-celebration-booster-balicek-japonsky/": {
       "name": "Pokémon 30th Celebration Booster Balíček – v japončine",
       "in_stock": true
@@ -140,6 +136,10 @@
     },
     "https://www.vesely-drak.sk/produkty/pokemon-kusove-karty-a-herni-prislusenstvi/19833-pokemon-kusova-japonska-karta-lycanroc-ar-113-103-30th-celebration/": {
       "name": "Pokémon kusová japonská karta Lycanroc AR 113/103 - 30th Celebration",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/pokemon-kusove-karty-a-herni-prislusenstvi/19834-pokemon-kusova-japonska-karta-alolan-meowth-ar-115-103-30th-celebration/": {
+      "name": "Pokémon kusová japonská karta Alolan Meowth AR 115/103 - 30th Celebration",
       "in_stock": true
     }
   },
