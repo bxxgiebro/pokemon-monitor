@@ -74,10 +74,6 @@
       "name": "Pokémon 30th Celebration Booster Box – čínsky",
       "in_stock": true
     },
-    "https://www.vesely-drak.sk/produkty/pokemon-kusove-karty-a-herni-prislusenstvi/19819-pokemon-kusova-japonska-karta-buzzwole-gx-classic-159-103-30th-celebration/": {
-      "name": "Pokémon kusová japonská karta Buzzwole GX Classic 159/103 - 30th Celebration",
-      "in_stock": true
-    },
     "https://www.vesely-drak.sk/produkty/pokemon-kusove-karty-a-herni-prislusenstvi/19820-pokemon-kusova-japonska-karta-solgaleo-gx-classic-158-103-30th-celebration/": {
       "name": "Pokémon kusová japonská karta Solgaleo GX Classic 158/103 - 30th Celebration",
       "in_stock": true
@@ -140,6 +136,10 @@
     },
     "https://www.vesely-drak.sk/produkty/pokemon-kusove-karty-a-herni-prislusenstvi/19842-pokemon-kusova-japonska-karta-pikachu-ex-night-048-103-30th-celebration/": {
       "name": "Pokémon kusová japonská karta Pikachu ex Night 048/103 - 30th Celebration",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/pokemon-kusove-karty-a-herni-prislusenstvi/19843-pokemon-kusova-japonska-karta-mewtwo-ex-055-103-30th-celebration/": {
+      "name": "Pokémon kusová japonská karta Mewtwo ex 055/103 - 30th Celebration",
       "in_stock": true
     }
   },
