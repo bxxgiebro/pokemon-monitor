@@ -62,14 +62,6 @@
     }
   },
   "VeselyDrak": {
-    "https://www.vesely-drak.sk/produkty/pokemon-gx-box/19133-pokemon-30th-celebration-poster-collection-1x-plakat-3x-booster-3x-promo-karta/": {
-      "name": "Pokémon 30th Celebration Poster Collection (1x plagát, 3x booster, 3x promo karta)",
-      "in_stock": true
-    },
-    "https://www.vesely-drak.sk/produkty/specialni-sety/19139-pokemon-30th-celebration-2-pack-blister-eevee/": {
-      "name": "Pokémon 30th Celebration 2 Pack Blister - Eevee",
-      "in_stock": true
-    },
     "https://www.vesely-drak.sk/produkty/japonske-karty-pokemon-boostery/19611-pokemon-30th-celebration-booster-balicek-japonsky/": {
       "name": "Pokémon 30th Celebration Booster Balíček – v japončine",
       "in_stock": true
@@ -140,6 +132,14 @@
     },
     "https://www.vesely-drak.sk/produkty/pokemon-kusove-karty-a-herni-prislusenstvi/19843-pokemon-kusova-japonska-karta-mewtwo-ex-055-103-30th-celebration/": {
       "name": "Pokémon kusová japonská karta Mewtwo ex 055/103 - 30th Celebration",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/pokemon-kusove-karty-a-herni-prislusenstvi/19844-pokemon-kusova-japonska-karta-mew-ex-057-103-30th-celebration/": {
+      "name": "Pokémon kusová japonská karta Mew ex 057/103 - 30th Celebration",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/pokemon-kusove-karty-a-herni-prislusenstvi/19846-pokemon-kusova-japonska-karta-sylveon-ex-059-103-30th-celebration/": {
+      "name": "Pokémon kusová japonská karta Sylveon ex 059/103 - 30th Celebration",
       "in_stock": true
     }
   },
