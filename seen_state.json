@@ -78,10 +78,6 @@
       "name": "Pokémon 2026 Deck Crafters Collection – Meowth ex",
       "in_stock": true
     },
-    "https://www.vesely-drak.sk/produkty/pokemon-krabicky/19971-ochranny-pet-box-na-pokemon-booster-bundle-10-ks/": {
-      "name": "Ochranný PET box na Pokémon Booster Bundle - 10 ks",
-      "in_stock": true
-    },
     "https://www.vesely-drak.sk/produkty/japonske-pokemon-karty-booster-box/19610-pokemon-30th-celebration-booster-box-japonsky/": {
       "name": "Pokémon 30th Celebration Booster Box – v japončine",
       "in_stock": true
@@ -140,6 +136,10 @@
     },
     "https://www.vesely-drak.sk/produkty/cinske-pokemon-karty/19872-pokemon-30th-celebration-booster-balicek-zjednodusena-cinstina/": {
       "name": "Pokémon 30th Celebration Booster Balíček - zjednodušená čínština",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/pokemon-ostatni/19693-pokemon-maska-na-spani-pres-oci-pikachu/": {
+      "name": "Pokémon maska ​​na spanie cez oči - Pikachu",
       "in_stock": true
     }
   },
