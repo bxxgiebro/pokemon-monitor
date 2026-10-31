@@ -118,10 +118,6 @@
       "name": "Pokémon kusová japonská karta Greninja ex 015/103 - 30th Celebration",
       "in_stock": true
     },
-    "https://www.vesely-drak.sk/produkty/pokemon-kusove-karty-a-herni-prislusenstvi/19843-pokemon-kusova-japonska-karta-mewtwo-ex-055-103-30th-celebration/": {
-      "name": "Pokémon kusová japonská karta Mewtwo ex 055/103 - 30th Celebration",
-      "in_stock": true
-    },
     "https://www.vesely-drak.sk/produkty/pokemon-kusove-karty-a-herni-prislusenstvi/19846-pokemon-kusova-japonska-karta-sylveon-ex-059-103-30th-celebration/": {
       "name": "Pokémon kusová japonská karta Sylveon ex 059/103 - 30th Celebration",
       "in_stock": true
@@ -140,6 +136,10 @@
     },
     "https://www.vesely-drak.sk/produkty/cinske-pokemon-karty/19872-pokemon-30th-celebration-booster-balicek-zjednodusena-cinstina/": {
       "name": "Pokémon 30th Celebration Booster Balíček - zjednodušená čínština",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/pokemon-ostatni/19693-pokemon-maska-na-spani-pres-oci-pikachu/": {
+      "name": "Pokémon maska ​​na spanie cez oči - Pikachu",
       "in_stock": true
     }
   },
