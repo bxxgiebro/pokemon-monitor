@@ -82,10 +82,6 @@
       "name": "Pokémon 30th Celebration Booster Box – v japončine",
       "in_stock": true
     },
-    "https://www.vesely-drak.sk/produkty/pokemon-kusove-karty-a-herni-prislusenstvi/19828-pokemon-kusova-japonska-karta-zapdos-ar-108-103-30th-celebration/": {
-      "name": "Pokémon kusová japonská karta Zapdos AR 108/103 - 30th Celebration",
-      "in_stock": true
-    },
     "https://www.vesely-drak.sk/produkty/pokemon-kusove-karty-a-herni-prislusenstvi/19834-pokemon-kusova-japonska-karta-alolan-meowth-ar-115-103-30th-celebration/": {
       "name": "Pokémon kusová japonská karta Alolan Meowth AR 115/103 - 30th Celebration",
       "in_stock": true
@@ -140,6 +136,10 @@
     },
     "https://www.vesely-drak.sk/produkty/pokemon-krabicky/19668-ochranny-pet-box-treasurewise-na-pokemon-etb-5-ks/": {
       "name": "Ochranný PET box TreasureWise pre Pokémon ETB - 5 ks",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/booster-boxy/19511-pokemon-gem-pack-vol-6-cbb6c-booster-box-cinsky/": {
+      "name": "Pokémon Gem Pack Vol. 6 (CBB6C) Booster Box – čínsky",
       "in_stock": true
     }
   },
