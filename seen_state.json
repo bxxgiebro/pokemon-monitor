@@ -126,10 +126,6 @@
       "name": "Pokémon Delta Reign Booster",
       "in_stock": true
     },
-    "https://www.vesely-drak.sk/produkty/pokemon-elite-trainer-box/19571-pokemon-delta-reign-elite-trainer-box/": {
-      "name": "Pokémon Delta Reign Elite Trainer Box",
-      "in_stock": true
-    },
     "https://www.vesely-drak.sk/produkty/booster-boxy/19572-pokemon-delta-reign-booster-bundle/": {
       "name": "Pokémon Delta Reign Booster Bundle",
       "in_stock": true
@@ -140,6 +136,10 @@
     },
     "https://www.vesely-drak.sk/produkty/pokemon-ostatni/19693-pokemon-maska-na-spani-pres-oci-pikachu/": {
       "name": "Pokémon maska ​​na spanie cez oči - Pikachu",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/boostery/19422-pokemon-brilliant-counterattack-cs2-5c-booster-balicek-cinsky/": {
+      "name": "Pokémon Brilliant Counterattack CS2.5C Booster Balíček – čínsky",
       "in_stock": true
     }
   },
