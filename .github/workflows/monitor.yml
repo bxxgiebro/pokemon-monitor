@@ -45,11 +45,13 @@ jobs:
           DISCORD_WEBHOOK_DRACIK: ${{ secrets.DISCORD_WEBHOOK_DRACIK }}
           DISCORD_WEBHOOK_ALZA: ${{ secrets.DISCORD_WEBHOOK_ALZA }}
           SCRAPERAPI_KEY: ${{ secrets.SCRAPERAPI_KEY }}
-          ALZA_ENABLED: ${{ vars.ALZA_ENABLED }}
+          ALZA_ENABLED: 'true'
           ALZA_TARGET_URL: ${{ vars.ALZA_TARGET_URL }}
           ALZA_CHECK_INTERVAL_SECONDS: '600'
           ALZA_START_SESSION: ${{ github.event_name == 'workflow_dispatch' && inputs.start_alza_session }}
-        run: python pokemon_monitor.py
+        run: |
+          echo "ALZA_ENABLED=${ALZA_ENABLED}"
+          python pokemon_monitor.py
 
       - name: Commit updated state
         if: always()
