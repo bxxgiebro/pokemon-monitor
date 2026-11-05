@@ -5,6 +5,7 @@ import time
 import json
 import os
 import logging
+import math
 from urllib.parse import urljoin, urlsplit
 
 # ---------------- CONFIG ----------------
@@ -19,7 +20,7 @@ ALZA_TARGET_URL = (os.environ.get("ALZA_TARGET_URL") or
 ALZA_START_SESSION = os.environ.get("ALZA_START_SESSION", "false").lower() == "true"
 ALZA_SESSION_SECONDS = 12 * 60 * 60
 # Free account: 1000 credits/month. Reserve at least 100 for earlier/other requests.
-ALZA_MONTHLY_CREDIT_CEILING = 900
+ALZA_CREDIT_SAFETY_RESERVE = 100  # Stop when fewer than 110 free credits remain.
 ALZA_MAX_COST = 10  # ScraperAPI's max_cost prevents a more expensive scrape.
 ALZA_SESSION_BUDGET = 750  # Worst-case allowance for a 12h session (~72 * 10).
 
@@ -298,11 +299,10 @@ def alza_id(url):
 
 
 
-def alza_credit_usage():
-    """Fetch actual account-wide credit usage before requesting Alza.
+def alza_credit_balance():
+    """Read remaining ScraperAPI credits, using the actual /account response.
 
-    Fail closed if balance cannot be verified: free usage is the priority.
-    The /account endpoint is an account lookup, not an Alza scrape.
+    Protect the free tier: never scrape when a usable credit balance is missing.
     """
     if not SCRAPERAPI_KEY:
         log.error("[Alza] SCRAPERAPI_KEY is missing")
@@ -314,14 +314,32 @@ def alza_credit_usage():
         )
         response.raise_for_status()
         data = response.json()
-        for key in ("usedCredits", "used_credits", "creditsUsed"):
-            value = data.get(key)
-            if value is not None:
-                return float(value)
-        log.error("[Alza] Account response lacks usedCredits. Keys: %s", list(data))
+        if not isinstance(data, dict):
+            raise ValueError("Unexpected account response type")
+
+        # ScraperAPI actually returns 'creditsLeft' for this account.
+        raw_balance = data.get("creditsLeft")
+        if raw_balance is None:
+            log.error("[Alza] Account response lacks creditsLeft. Keys: %s", list(data))
+            return None
+        credits_left = float(raw_balance)
+        if not math.isfinite(credits_left) or credits_left < 0:
+            raise ValueError("Invalid creditsLeft value")
+
+        # requestCount/requestLimit are request counts, not credit counts.
+        # They are a second guard only; don't substitute them for creditsLeft.
+        request_count, request_limit = data.get("requestCount"), data.get("requestLimit")
+        if request_count is not None and request_limit is not None:
+            if float(request_count) >= float(request_limit):
+                log.warning("[Alza] ScraperAPI request limit reached (%s/%s)",
+                            request_count, request_limit)
+                return 0.0
+
+        log.info("[Alza] ScraperAPI account reports %.0f credits left", credits_left)
+        return credits_left
     except (requests.RequestException, ValueError, TypeError) as exc:
         log.error("[Alza] Cannot check ScraperAPI balance: %s", exc)
-    return None
+        return None
 
 
 def fetch_alza(url):
@@ -475,12 +493,12 @@ def check_alza(state):
         return
 
     # Fail closed rather than spend credits we cannot verify are available.
-    used_credits = alza_credit_usage()
-    if used_credits is None:
+    credits_left = alza_credit_balance()
+    if credits_left is None:
         return
-    if used_credits + ALZA_MAX_COST > ALZA_MONTHLY_CREDIT_CEILING:
-        log.warning("[Alza] Account has used %.0f credits; holding back at ceiling %d",
-                    used_credits, ALZA_MONTHLY_CREDIT_CEILING)
+    if credits_left < ALZA_MAX_COST + ALZA_CREDIT_SAFETY_RESERVE:
+        log.warning("[Alza] Only %.0f credits left; retaining %d-credit safety reserve",
+                    credits_left, ALZA_CREDIT_SAFETY_RESERVE)
         return
 
     # Reserve one worst-case 10-credit request before attempting to fetch.
