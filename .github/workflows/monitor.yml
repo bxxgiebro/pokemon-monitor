@@ -1,15 +1,28 @@
 name: Pokemon Stock Monitor
 
 on:
-  workflow_dispatch: {}
-  
+  workflow_dispatch:
+    inputs:
+      start_alza_session:
+        description: "Start / restart one 12-hour Alza monitoring session?"
+        required: true
+        type: boolean
+        default: true
+  schedule:
+    # About every 10 min, offset from minute 0 to reduce GitHub delays.
+    - cron: "3,13,23,33,43,53 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pokemon-monitor
+  cancel-in-progress: false
 
 jobs:
   check-stock:
     runs-on: ubuntu-latest
-    concurrency:
-      group: pokemon-monitor
-      cancel-in-progress: false
+    timeout-minutes: 20
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -33,16 +46,19 @@ jobs:
           DISCORD_WEBHOOK_ALZA: ${{ secrets.DISCORD_WEBHOOK_ALZA }}
           SCRAPERAPI_KEY: ${{ secrets.SCRAPERAPI_KEY }}
           ALZA_ENABLED: ${{ vars.ALZA_ENABLED }}
-          ALZA_CHECK_INTERVAL_SECONDS: ${{ vars.ALZA_CHECK_INTERVAL_SECONDS }}
-          SCRAPINGBEE_KEY: ${{ secrets.SCRAPINGBEE_KEY }}
-          
+          ALZA_TARGET_URL: ${{ vars.ALZA_TARGET_URL }}
+          ALZA_CHECK_INTERVAL_SECONDS: '600'
+          ALZA_START_SESSION: ${{ github.event_name == 'workflow_dispatch' && inputs.start_alza_session }}
         run: python pokemon_monitor.py
 
       - name: Commit updated state
+        if: always()
         run: |
           git config user.name "stock-monitor-bot"
           git config user.email "actions@github.com"
           git add seen_state.json
-          git diff --quiet --cached || git commit -m "Update stock state [skip ci]"
-          git pull --rebase --autostash
-          git push
+          if ! git diff --quiet --cached; then
+            git commit -m "Update stock state [skip ci]"
+            git pull --rebase --autostash
+            git push
+          fi
