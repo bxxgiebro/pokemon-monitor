@@ -343,34 +343,46 @@ def alza_credit_balance():
 
 
 def fetch_alza(url):
-    """Exactly one ScraperAPI scrape, no fallback, render or premium proxy."""
+    """Try one premium-proxy request, capped at 10 credits, no JS rendering.
+
+    Returns (html_or_none, charge_possible). The second value is False only
+    for uncharged 500 or max_cost rejection responses documented by ScraperAPI.
+    Timeouts stay conservatively reserved because a request may still be billed.
+    """
     params = {
         "api_key": SCRAPERAPI_KEY,
         "url": url,
-        "max_cost": str(ALZA_MAX_COST),
-        # render / premium deliberately omitted to protect free credits.
+        "premium": "true",    # Residential/mobile proxies; 10 credits per success.
+        "max_cost": str(ALZA_MAX_COST),  # Reject anything more expensive than 10.
+        # No render=true, ultra_premium=true, fallback or second page.
     }
     try:
-        response = requests.get("https://api.scraperapi.com", params=params, timeout=70)
-        log.info("[Alza] ScraperAPI HTTP %s, %d bytes, sa-credit-cost=%s",
+        response = requests.get("https://api.scraperapi.com", params=params, timeout=80)
+        log.info("[Alza] ScraperAPI premium=true HTTP %s, %d bytes, sa-credit-cost=%s",
                  response.status_code, len(response.content),
                  response.headers.get("sa-credit-cost", "not supplied"))
         if response.status_code == 403:
-            log.error("[Alza] 403 (blocked, or scrape exceeds max_cost=%d).", ALZA_MAX_COST)
-            return None
+            log.error("[Alza] ScraperAPI rejected premium request (403). May exceed max_cost=%d; "
+                      "check dashboard's URL Cost Estimator before changing the cap.", ALZA_MAX_COST)
+            return None, False
+        if response.status_code == 500:
+            log.error("[Alza] ScraperAPI premium request failed (500): %s. "
+                      "ScraperAPI reports failed 500 requests are not charged.",
+                      response.text[:220].replace("\n", " "))
+            return None, False
         if response.status_code != 200:
             log.error("[Alza] ScraperAPI HTTP %s: %s", response.status_code,
                       response.text[:220].replace("\n", " "))
-            return None
+            return None, True   # Conservative reservation on unknown statuses.
         if (len(response.content) < 1000 or
                 (not ALZA_PRODUCT_RE.search(response.text) and
                  ALZA_BLOCK_RE.search(response.text[:10000]))):
-            log.warning("[Alza] Short/blocked HTML; preserving existing product state")
-            return None
-        return response.text
+            log.warning("[Alza] Short/blocked HTML (HTTP 200); preserving existing state")
+            return None, True   # Successful 200 responses can consume credits.
+        return response.text, True
     except requests.RequestException as exc:
-        log.error("[Alza] Request failed: %s", exc)
-        return None
+        log.error("[Alza] Premium request timed out/failed: %s", exc)
+        return None, True  # Conservatively reserve credits if transport is uncertain.
 
 def alza_tile(anchor, product_id):
     """Find a tile with one distinct product ID, avoiding whole-page stock text."""
@@ -506,7 +518,11 @@ def check_alza(state):
     session["last_attempt"] = now
     session["requests"] = session.get("requests", 0) + 1
     session["reserved_credits"] = session.get("reserved_credits", 0) + ALZA_MAX_COST
-    html = fetch_alza(ALZA_TARGET_URL)
+    html, charge_possible = fetch_alza(ALZA_TARGET_URL)
+    if not charge_possible:
+        # For documented 500/403 failures there is no API credit cost.
+        # Keep the attempt timestamp so scheduled checks are still throttled.
+        session["reserved_credits"] = max(0, session["reserved_credits"] - ALZA_MAX_COST)
     if html is None:
         return
     current = parse_alza(html, ALZA_TARGET_URL)
