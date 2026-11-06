@@ -82,10 +82,6 @@
       "name": "Pokémon 30th Celebration Booster Box – v japončine",
       "in_stock": true
     },
-    "https://www.vesely-drak.sk/produkty/cinske-pokemon-karty/19715-pokemon-30th-celebration-booster-box-cinsky/": {
-      "name": "Pokémon 30th Celebration Booster Box – čínsky",
-      "in_stock": true
-    },
     "https://www.vesely-drak.sk/produkty/cinske-pokemon-karty/19716-pokemon-30th-celebration-booster-balicek-cinsky/": {
       "name": "Pokémon 30th Celebration Booster Balíček - čínsky",
       "in_stock": true
@@ -140,6 +136,10 @@
     },
     "https://www.vesely-drak.sk/produkty/pokemon-kusove-karty-a-herni-prislusenstvi/19842-pokemon-kusova-japonska-karta-pikachu-ex-night-048-103-30th-celebration/": {
       "name": "Pokémon kusová japonská karta Pikachu ex Night 048/103 - 30th Celebration",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/pokemon-kusove-karty-a-herni-prislusenstvi/19843-pokemon-kusova-japonska-karta-mewtwo-ex-055-103-30th-celebration/": {
+      "name": "Pokémon kusová japonská karta Mewtwo ex 055/103 - 30th Celebration",
       "in_stock": true
     }
   },
@@ -355,11 +355,11 @@
   },
   "_alza_last_check": 1789335147.9111025,
   "_alza_session": {
-    "started_at": 1793941537.1685472,
-    "ends_at": 1793984737.1685472,
+    "started_at": 1793941844.8946328,
+    "ends_at": 1793985044.8946328,
     "reserved_credits": 0,
     "requests": 1,
     "target_url": "https://www.alza.sk/hracky/pokemon-karty/18879069.htm",
-    "last_attempt": 1793941537.1685472
+    "last_attempt": 1793941844.8946328
   }
 }
