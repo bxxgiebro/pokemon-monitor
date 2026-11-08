@@ -66,10 +66,6 @@
       "name": "Pokémon 30th Celebration Booster Balíček – v japončine",
       "in_stock": true
     },
-    "https://www.vesely-drak.sk/produkty/pokemon-alba/19913-pokemon-a4-album-na-360-karet-pro-binder-lillie-a-clefairy/": {
-      "name": "Pokémon album A4 na 360 kariet PRO Binder – Lillie a Clefairy",
-      "in_stock": true
-    },
     "https://www.vesely-drak.sk/produkty/pokemon-krabicky/19914-pokemon-krabicka-na-karty-lillie-a-clefairy/": {
       "name": "Pokémon krabička na karty - Lillie a Clefairy",
       "in_stock": true
@@ -140,6 +136,10 @@
     },
     "https://www.vesely-drak.sk/produkty/pokemon-kusove-karty-a-herni-prislusenstvi/19832-pokemon-kusova-japonska-karta-chandelure-ar-112-103-30th-celebration/": {
       "name": "Pokémon kusová japonská karta Chandelure AR 112/103 - 30th Celebration",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/pokemon-kusove-karty-a-herni-prislusenstvi/19833-pokemon-kusova-japonska-karta-lycanroc-ar-113-103-30th-celebration/": {
+      "name": "Pokémon kusová japonská karta Lycanroc AR 113/103 - 30th Celebration",
       "in_stock": true
     }
   },
@@ -355,11 +355,11 @@
   },
   "_alza_last_check": 1789335147.9111025,
   "_alza_session": {
-    "started_at": 1794156935.5929325,
-    "ends_at": 1794200135.5929325,
+    "started_at": 1794157273.1125505,
+    "ends_at": 1794200473.1125505,
     "reserved_credits": 0,
     "requests": 1,
     "target_url": "https://www.alza.sk/hracky/pokemon-karty/18879069.htm",
-    "last_attempt": 1794156935.5929325
+    "last_attempt": 1794157273.1125505
   }
 }
