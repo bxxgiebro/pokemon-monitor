@@ -164,12 +164,12 @@
       "name": "Pokémon TCG - VSTAR Universe Booster (Japan)",
       "in_stock": false
     },
-    "https://www.pgs.sk/pokemon-tcg-mega-inferno-x-booster-japan-4p245712": {
-      "name": "Pokémon TCG: Mega Inferno X Booster (Japan)",
-      "in_stock": false
-    },
     "https://www.pgs.sk/pokemon-tcg-black-and-white-black-bolt-booster-japan-4p231157": {
       "name": "Pokémon TCG - Black and White - Black Bolt Booster (Japan)",
+      "in_stock": false
+    },
+    "https://www.pgs.sk/pokemon-tcg-mega-inferno-x-booster-japan-4p245712": {
+      "name": "Pokémon TCG: Mega Inferno X Booster (Japan)",
       "in_stock": false
     },
     "https://www.pgs.sk/pokemon-tcg-horizons-gem-3-booster-china-4p247422": {
@@ -208,12 +208,12 @@
       "name": "Pokémon TCG: 151C Surprises Booster (China)",
       "in_stock": false
     },
-    "https://www.pgs.sk/pokemon-tcg-black-and-white-white-flare-booster-japan-4p231156": {
-      "name": "Pokémon TCG - Black and White - White Flare Booster (Japan)",
-      "in_stock": false
-    },
     "https://www.pgs.sk/pokemon-tcg-crimson-haze-booster-japan-4p136385": {
       "name": "Pokémon TCG - Crimson Haze Booster (Japan)",
+      "in_stock": false
+    },
+    "https://www.pgs.sk/pokemon-tcg-black-and-white-white-flare-booster-japan-4p231156": {
+      "name": "Pokémon TCG - Black and White - White Flare Booster (Japan)",
       "in_stock": false
     },
     "https://www.pgs.sk/pokemon-tcg-mega-evolution-mega-brave-booster-japan-4p235892": {
@@ -355,11 +355,11 @@
   },
   "_alza_last_check": 1789335147.9111025,
   "_alza_session": {
-    "started_at": 1794102939.0493128,
-    "ends_at": 1794146139.0493128,
+    "started_at": 1794103264.2586029,
+    "ends_at": 1794146464.2586029,
     "reserved_credits": 0,
     "requests": 1,
     "target_url": "https://www.alza.sk/hracky/pokemon-karty/18879069.htm",
-    "last_attempt": 1794102939.0493128
+    "last_attempt": 1794103264.2586029
   }
 }
