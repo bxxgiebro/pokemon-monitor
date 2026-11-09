@@ -168,12 +168,12 @@
       "name": "Pokémon TCG - Black and White - Black Bolt Booster (Japan)",
       "in_stock": false
     },
-    "https://www.pgs.sk/pokemon-tcg-mega-inferno-x-booster-japan-4p245712": {
-      "name": "Pokémon TCG: Mega Inferno X Booster (Japan)",
-      "in_stock": false
-    },
     "https://www.pgs.sk/pokemon-tcg-horizons-gem-3-booster-china-4p247422": {
       "name": "Pokémon TCG Horizons Gem 3 Booster (China)",
+      "in_stock": false
+    },
+    "https://www.pgs.sk/pokemon-tcg-mega-inferno-x-booster-japan-4p245712": {
+      "name": "Pokémon TCG: Mega Inferno X Booster (Japan)",
       "in_stock": false
     },
     "https://www.pgs.sk/pokemon-tcg-super-electric-breaker-booster-japan-4p206772": {
@@ -355,11 +355,11 @@
   },
   "_alza_last_check": 1789335147.9111025,
   "_alza_session": {
-    "started_at": 1794193537.1919315,
-    "ends_at": 1794236737.1919315,
+    "started_at": 1794193845.0525076,
+    "ends_at": 1794237045.0525076,
     "reserved_credits": 0,
     "requests": 1,
     "target_url": "https://www.alza.sk/hracky/pokemon-karty/18879069.htm",
-    "last_attempt": 1794193537.1919315
+    "last_attempt": 1794193845.0525076
   }
 }
