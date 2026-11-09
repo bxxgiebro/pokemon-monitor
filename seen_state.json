@@ -250,8 +250,8 @@
       "name": "Pokémon UP: 2026 Q3 -Album A5",
       "in_stock": true
     },
-    "https://www.dracik.sk/pokemon-tcg-mega-evolution-pitch-black-album-a4/": {
-      "name": "Pokémon TCG: Mega Evolution Pitch Black – Album A4",
+    "https://www.dracik.sk/89pci85599/": {
+      "name": "Pokémon – Battle Academy",
       "in_stock": true
     }
   },
@@ -355,11 +355,11 @@
   },
   "_alza_last_check": 1789335147.9111025,
   "_alza_session": {
-    "started_at": 1794231945.390199,
-    "ends_at": 1794275145.390199,
+    "started_at": 1794232245.8806639,
+    "ends_at": 1794275445.8806639,
     "reserved_credits": 0,
     "requests": 1,
     "target_url": "https://www.alza.sk/hracky/pokemon-karty/18879069.htm",
-    "last_attempt": 1794231945.390199
+    "last_attempt": 1794232245.8806639
   }
 }
