@@ -176,12 +176,12 @@
       "name": "Pokémon TCG Horizons Gem 3 Booster (China)",
       "in_stock": false
     },
-    "https://www.pgs.sk/pokemon-tcg-ruler-z-black-flame-booster-japan-4p206773": {
-      "name": "Pokémon TCG - Ruler z Black Flame Booster (Japan)",
-      "in_stock": false
-    },
     "https://www.pgs.sk/pokemon-tcg-super-electric-breaker-booster-japan-4p206772": {
       "name": "Pokémon TCG - Super Electric Breaker Booster (Japan)",
+      "in_stock": false
+    },
+    "https://www.pgs.sk/pokemon-tcg-ruler-z-black-flame-booster-japan-4p206773": {
+      "name": "Pokémon TCG - Ruler z Black Flame Booster (Japan)",
       "in_stock": false
     },
     "https://www.pgs.sk/pokemon-tcg-glory-of-team-rocket-booster-japan-4p226724": {
@@ -355,11 +355,11 @@
   },
   "_alza_last_check": 1789335147.9111025,
   "_alza_session": {
-    "started_at": 1794188442.5159302,
-    "ends_at": 1794231642.5159302,
+    "started_at": 1794188745.1467547,
+    "ends_at": 1794231945.1467547,
     "reserved_credits": 0,
     "requests": 1,
     "target_url": "https://www.alza.sk/hracky/pokemon-karty/18879069.htm",
-    "last_attempt": 1794188442.5159302
+    "last_attempt": 1794188745.1467547
   }
 }
