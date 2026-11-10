@@ -240,8 +240,8 @@
       "name": "Pokémon TCG: SV10.5 - Unova Mini Tin",
       "in_stock": false
     },
-    "https://www.pgs.sk/Spigen-Signature-Neo-Hybrid-ochranny-kryt-Apple-iPhone-X-sedy-4p91685": {
-      "name": "Spigen Signature Neo Hybrid ochranný kryt Apple iPhone X šedý",
+    "https://www.pgs.sk/nuphy-air96-v2-aloe-herna-klavesnica-us-siva-4p288506": {
+      "name": "NuPhy Air96 V2 Aloe herná klávesnica (US) sivá",
       "in_stock": false
     }
   },
@@ -355,11 +355,11 @@
   },
   "_alza_last_check": 1789335147.9111025,
   "_alza_session": {
-    "started_at": 1794286866.6883645,
-    "ends_at": 1794330066.6883645,
+    "started_at": 1794287140.684583,
+    "ends_at": 1794330340.684583,
     "reserved_credits": 0,
     "requests": 1,
     "target_url": "https://www.alza.sk/hracky/pokemon-karty/18879069.htm",
-    "last_attempt": 1794286866.6883645
+    "last_attempt": 1794287140.684583
   }
 }
