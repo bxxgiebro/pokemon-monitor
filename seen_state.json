@@ -164,16 +164,16 @@
       "name": "Pokémon TCG - VSTAR Universe Booster (Japan)",
       "in_stock": false
     },
-    "https://www.pgs.sk/pokemon-tcg-black-and-white-black-bolt-booster-japan-4p231157": {
-      "name": "Pokémon TCG - Black and White - Black Bolt Booster (Japan)",
-      "in_stock": false
-    },
     "https://www.pgs.sk/pokemon-tcg-horizons-gem-3-booster-china-4p247422": {
       "name": "Pokémon TCG Horizons Gem 3 Booster (China)",
       "in_stock": false
     },
     "https://www.pgs.sk/pokemon-tcg-mega-inferno-x-booster-japan-4p245712": {
       "name": "Pokémon TCG: Mega Inferno X Booster (Japan)",
+      "in_stock": false
+    },
+    "https://www.pgs.sk/pokemon-tcg-black-and-white-black-bolt-booster-japan-4p231157": {
+      "name": "Pokémon TCG - Black and White - Black Bolt Booster (Japan)",
       "in_stock": false
     },
     "https://www.pgs.sk/pokemon-tcg-super-electric-breaker-booster-japan-4p206772": {
@@ -184,36 +184,36 @@
       "name": "Pokémon TCG - Ruler z Black Flame Booster (Japan)",
       "in_stock": false
     },
-    "https://www.pgs.sk/pokemon-tcg-glory-of-team-rocket-booster-japan-4p226724": {
-      "name": "Pokémon TCG - Glory of Team Rocket Booster (Japan)",
-      "in_stock": false
-    },
     "https://www.pgs.sk/pokemon-tcg-gem-pack-vol-2-booster-chinese-4p252092": {
       "name": "Pokémon TCG: Gem Pack Vol. 2 Booster (Chinese)",
+      "in_stock": false
+    },
+    "https://www.pgs.sk/pokemon-tcg-glory-of-team-rocket-booster-japan-4p226724": {
+      "name": "Pokémon TCG - Glory of Team Rocket Booster (Japan)",
       "in_stock": false
     },
     "https://www.pgs.sk/pokemon-tcg-mega-evolution-mega-symphonia-booster-japan-4p235893": {
       "name": "Pokémon TCG - MEGA Evolution - Mega Symphonia Booster (Japan)",
       "in_stock": false
     },
-    "https://www.pgs.sk/pokemon-tcg-151c-surprises-booster-china-4p252461": {
-      "name": "Pokémon TCG: 151C Surprises Booster (China)",
-      "in_stock": false
-    },
     "https://www.pgs.sk/pokemon-tcg-25th-anniversary-booster-japan-4p234917": {
       "name": "Pokémon TCG - 25th Anniversary Booster (Japan)",
+      "in_stock": false
+    },
+    "https://www.pgs.sk/pokemon-tcg-151c-surprises-booster-china-4p252461": {
+      "name": "Pokémon TCG: 151C Surprises Booster (China)",
       "in_stock": false
     },
     "https://www.pgs.sk/pokemon-tcg-shiny-treasure-booster-japan-4p130760": {
       "name": "Pokémon TCG - Shiny Treasure Booster (Japan)",
       "in_stock": false
     },
-    "https://www.pgs.sk/pokemon-tcg-black-and-white-white-flare-booster-japan-4p231156": {
-      "name": "Pokémon TCG - Black and White - White Flare Booster (Japan)",
-      "in_stock": false
-    },
     "https://www.pgs.sk/pokemon-tcg-crimson-haze-booster-japan-4p136385": {
       "name": "Pokémon TCG - Crimson Haze Booster (Japan)",
+      "in_stock": false
+    },
+    "https://www.pgs.sk/pokemon-tcg-black-and-white-white-flare-booster-japan-4p231156": {
+      "name": "Pokémon TCG - Black and White - White Flare Booster (Japan)",
       "in_stock": false
     },
     "https://www.pgs.sk/pokemon-tcg-mega-evolution-mega-brave-booster-japan-4p235892": {
@@ -355,11 +355,11 @@
   },
   "_alza_last_check": 1789335147.9111025,
   "_alza_session": {
-    "started_at": 1794281138.6477232,
-    "ends_at": 1794324338.6477232,
+    "started_at": 1794281455.1953208,
+    "ends_at": 1794324655.1953208,
     "reserved_credits": 0,
-    "requests": 1,
+    "requests": 0,
     "target_url": "https://www.alza.sk/hracky/pokemon-karty/18879069.htm",
-    "last_attempt": 1794281138.6477232
+    "last_attempt": 0
   }
 }
