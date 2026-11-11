@@ -168,16 +168,16 @@
       "name": "Pokémon TCG Horizons Gem 3 Booster (China)",
       "in_stock": false
     },
-    "https://www.pgs.sk/pokemon-tcg-mega-inferno-x-booster-japan-4p245712": {
-      "name": "Pokémon TCG: Mega Inferno X Booster (Japan)",
-      "in_stock": false
-    },
     "https://www.pgs.sk/pokemon-tcg-black-and-white-black-bolt-booster-japan-4p231157": {
       "name": "Pokémon TCG - Black and White - Black Bolt Booster (Japan)",
       "in_stock": false
     },
     "https://www.pgs.sk/pokemon-tcg-gem-pack-vol-2-booster-chinese-4p252092": {
       "name": "Pokémon TCG: Gem Pack Vol. 2 Booster (Chinese)",
+      "in_stock": false
+    },
+    "https://www.pgs.sk/pokemon-tcg-mega-inferno-x-booster-japan-4p245712": {
+      "name": "Pokémon TCG: Mega Inferno X Booster (Japan)",
       "in_stock": false
     },
     "https://www.pgs.sk/pokemon-tcg-super-electric-breaker-booster-japan-4p206772": {
@@ -192,12 +192,12 @@
       "name": "Pokémon TCG - Glory of Team Rocket Booster (Japan)",
       "in_stock": false
     },
-    "https://www.pgs.sk/pokemon-tcg-mega-evolution-mega-symphonia-booster-japan-4p235893": {
-      "name": "Pokémon TCG - MEGA Evolution - Mega Symphonia Booster (Japan)",
-      "in_stock": false
-    },
     "https://www.pgs.sk/pokemon-tcg-25th-anniversary-booster-japan-4p234917": {
       "name": "Pokémon TCG - 25th Anniversary Booster (Japan)",
+      "in_stock": false
+    },
+    "https://www.pgs.sk/pokemon-tcg-mega-evolution-mega-symphonia-booster-japan-4p235893": {
+      "name": "Pokémon TCG - MEGA Evolution - Mega Symphonia Booster (Japan)",
       "in_stock": false
     },
     "https://www.pgs.sk/pokemon-tcg-151c-surprises-booster-china-4p252461": {
@@ -355,11 +355,11 @@
   },
   "_alza_last_check": 1789335147.9111025,
   "_alza_session": {
-    "started_at": 1794372938.4731777,
-    "ends_at": 1794416138.4731777,
+    "started_at": 1794373267.1968124,
+    "ends_at": 1794416467.1968124,
     "reserved_credits": 0,
     "requests": 1,
     "target_url": "https://www.alza.sk/hracky/pokemon-karty/18879069.htm",
-    "last_attempt": 1794372938.4731777
+    "last_attempt": 1794373267.1968124
   }
 }
