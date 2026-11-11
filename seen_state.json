@@ -240,8 +240,8 @@
       "name": "Pokémon TCG: SV10.5 - Unova Mini Tin",
       "in_stock": false
     },
-    "https://www.pgs.sk/pokemon-tcg-mega-lucario-ex-league-battle-deck-4p273618": {
-      "name": "Pokémon TCG: Mega Lucario ex League Battle Deck",
+    "https://www.pgs.sk/akko-ray68-he-akko-astroaim-herna-klavesnica-us-zelena-4p263585": {
+      "name": "Akko RAY68 HE Akko AstroAim herná klávesnica (US) zelená",
       "in_stock": false
     }
   },
@@ -355,11 +355,11 @@
   },
   "_alza_last_check": 1789335147.9111025,
   "_alza_session": {
-    "started_at": 1794438065.6882045,
-    "ends_at": 1794481265.6882045,
+    "started_at": 1794438344.894782,
+    "ends_at": 1794481544.894782,
     "reserved_credits": 0,
     "requests": 1,
     "target_url": "https://www.alza.sk/hracky/pokemon-karty/18879069.htm",
-    "last_attempt": 1794438065.6882045
+    "last_attempt": 1794438344.894782
   }
 }
