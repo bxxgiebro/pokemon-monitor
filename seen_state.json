@@ -176,12 +176,12 @@
       "name": "Pokémon TCG - Black and White - Black Bolt Booster (Japan)",
       "in_stock": false
     },
-    "https://www.pgs.sk/pokemon-tcg-super-electric-breaker-booster-japan-4p206772": {
-      "name": "Pokémon TCG - Super Electric Breaker Booster (Japan)",
-      "in_stock": false
-    },
     "https://www.pgs.sk/pokemon-tcg-gem-pack-vol-2-booster-chinese-4p252092": {
       "name": "Pokémon TCG: Gem Pack Vol. 2 Booster (Chinese)",
+      "in_stock": false
+    },
+    "https://www.pgs.sk/pokemon-tcg-super-electric-breaker-booster-japan-4p206772": {
+      "name": "Pokémon TCG - Super Electric Breaker Booster (Japan)",
       "in_stock": false
     },
     "https://www.pgs.sk/pokemon-tcg-ruler-z-black-flame-booster-japan-4p206773": {
@@ -355,11 +355,11 @@
   },
   "_alza_last_check": 1789335147.9111025,
   "_alza_session": {
-    "started_at": 1794369340.8801382,
-    "ends_at": 1794412540.8801382,
+    "started_at": 1794369669.4276123,
+    "ends_at": 1794412869.4276123,
     "reserved_credits": 0,
     "requests": 1,
     "target_url": "https://www.alza.sk/hracky/pokemon-karty/18879069.htm",
-    "last_attempt": 1794369340.8801382
+    "last_attempt": 1794369669.4276123
   }
 }
