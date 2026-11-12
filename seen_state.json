@@ -168,16 +168,16 @@
       "name": "Pokémon TCG Horizons Gem 3 Booster (China)",
       "in_stock": false
     },
-    "https://www.pgs.sk/pokemon-tcg-mega-inferno-x-booster-japan-4p245712": {
-      "name": "Pokémon TCG: Mega Inferno X Booster (Japan)",
-      "in_stock": false
-    },
     "https://www.pgs.sk/pokemon-tcg-black-and-white-black-bolt-booster-japan-4p231157": {
       "name": "Pokémon TCG - Black and White - Black Bolt Booster (Japan)",
       "in_stock": false
     },
     "https://www.pgs.sk/pokemon-tcg-gem-pack-vol-2-booster-chinese-4p252092": {
       "name": "Pokémon TCG: Gem Pack Vol. 2 Booster (Chinese)",
+      "in_stock": false
+    },
+    "https://www.pgs.sk/pokemon-tcg-mega-inferno-x-booster-japan-4p245712": {
+      "name": "Pokémon TCG: Mega Inferno X Booster (Japan)",
       "in_stock": false
     },
     "https://www.pgs.sk/pokemon-tcg-super-electric-breaker-booster-japan-4p206772": {
@@ -355,11 +355,11 @@
   },
   "_alza_last_check": 1789335147.9111025,
   "_alza_session": {
-    "started_at": 1794461141.7290864,
-    "ends_at": 1794504341.7290864,
+    "started_at": 1794461449.8976903,
+    "ends_at": 1794504649.8976903,
     "reserved_credits": 0,
     "requests": 1,
     "target_url": "https://www.alza.sk/hracky/pokemon-karty/18879069.htm",
-    "last_attempt": 1794461141.7290864
+    "last_attempt": 1794461449.8976903
   }
 }
