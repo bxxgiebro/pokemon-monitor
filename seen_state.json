@@ -176,12 +176,12 @@
       "name": "Pokémon TCG: Gem Pack Vol. 2 Booster (Chinese)",
       "in_stock": false
     },
-    "https://www.pgs.sk/pokemon-tcg-mega-inferno-x-booster-japan-4p245712": {
-      "name": "Pokémon TCG: Mega Inferno X Booster (Japan)",
-      "in_stock": false
-    },
     "https://www.pgs.sk/pokemon-tcg-super-electric-breaker-booster-japan-4p206772": {
       "name": "Pokémon TCG - Super Electric Breaker Booster (Japan)",
+      "in_stock": false
+    },
+    "https://www.pgs.sk/pokemon-tcg-mega-inferno-x-booster-japan-4p245712": {
+      "name": "Pokémon TCG: Mega Inferno X Booster (Japan)",
       "in_stock": false
     },
     "https://www.pgs.sk/pokemon-tcg-glory-of-team-rocket-booster-japan-4p226724": {
@@ -355,11 +355,11 @@
   },
   "_alza_last_check": 1789335147.9111025,
   "_alza_session": {
-    "started_at": 1794547537.6469693,
-    "ends_at": 1794590737.6469693,
+    "started_at": 1794547865.9430504,
+    "ends_at": 1794591065.9430504,
     "reserved_credits": 0,
     "requests": 1,
     "target_url": "https://www.alza.sk/hracky/pokemon-karty/18879069.htm",
-    "last_attempt": 1794547537.6469693
+    "last_attempt": 1794547865.9430504
   }
 }
