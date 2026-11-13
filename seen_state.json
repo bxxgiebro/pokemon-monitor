@@ -208,12 +208,12 @@
       "name": "Pokémon TCG - Black and White - White Flare Booster (Japan)",
       "in_stock": false
     },
-    "https://www.pgs.sk/pokemon-tcg-shiny-treasure-booster-japan-4p130760": {
-      "name": "Pokémon TCG - Shiny Treasure Booster (Japan)",
-      "in_stock": false
-    },
     "https://www.pgs.sk/pokemon-tcg-crimson-haze-booster-japan-4p136385": {
       "name": "Pokémon TCG - Crimson Haze Booster (Japan)",
+      "in_stock": false
+    },
+    "https://www.pgs.sk/pokemon-tcg-shiny-treasure-booster-japan-4p130760": {
+      "name": "Pokémon TCG - Shiny Treasure Booster (Japan)",
       "in_stock": false
     },
     "https://www.pgs.sk/pokemon-tcg-mega-evolution-mega-brave-booster-japan-4p235892": {
@@ -355,11 +355,11 @@
   },
   "_alza_last_check": 1789335147.9111025,
   "_alza_session": {
-    "started_at": 1794542137.2069128,
-    "ends_at": 1794585337.2069128,
+    "started_at": 1794542463.43339,
+    "ends_at": 1794585663.43339,
     "reserved_credits": 0,
     "requests": 1,
     "target_url": "https://www.alza.sk/hracky/pokemon-karty/18879069.htm",
-    "last_attempt": 1794542137.2069128
+    "last_attempt": 1794542463.43339
   }
 }
