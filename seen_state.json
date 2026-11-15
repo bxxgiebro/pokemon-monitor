@@ -152,12 +152,12 @@
       "name": "Pokémon TCG - 151 booster (Japan)",
       "in_stock": false
     },
-    "https://www.pgs.sk/pokemon-tcg-terastal-festival-ex-booster-japan-4p207150": {
-      "name": "Pokémon TCG - Terastal Festival EX Booster (Japan)",
-      "in_stock": false
-    },
     "https://www.pgs.sk/pokemon-tcg-mega-dream-ex-booster-japan-4p252462": {
       "name": "Pokémon TCG: Mega Dream EX booster (Japan)",
+      "in_stock": false
+    },
+    "https://www.pgs.sk/pokemon-tcg-terastal-festival-ex-booster-japan-4p207150": {
+      "name": "Pokémon TCG - Terastal Festival EX Booster (Japan)",
       "in_stock": false
     },
     "https://www.pgs.sk/pokemon-tcg-vstar-universe-booster-japan-4p130759": {
@@ -355,11 +355,11 @@
   },
   "_alza_last_check": 1789335147.9111025,
   "_alza_session": {
-    "started_at": 1794707740.3469236,
-    "ends_at": 1794750940.3469236,
+    "started_at": 1794708069.5730884,
+    "ends_at": 1794751269.5730884,
     "reserved_credits": 0,
     "requests": 1,
     "target_url": "https://www.alza.sk/hracky/pokemon-karty/18879069.htm",
-    "last_attempt": 1794707740.3469236
+    "last_attempt": 1794708069.5730884
   }
 }
