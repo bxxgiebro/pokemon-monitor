@@ -78,6 +78,10 @@
       "name": "Pokémon 2026 Deck Crafters Collection – Meowth ex",
       "in_stock": true
     },
+    "https://www.vesely-drak.sk/produkty/pokemon-krabicky/20072-akrylovy-box-na-pokemon-booster-bundle-v2/": {
+      "name": "Akrylový box pre Pokémon Booster Bundle V2",
+      "in_stock": true
+    },
     "https://www.vesely-drak.sk/produkty/cinske-pokemon-karty/20078-pokemon-30th-anniversary-celebration-iridescent-futuristic-gift-box-cinsky/": {
       "name": "Pokémon 30th Anniversary Celebration Iridescent Futuristic Gift Box - čínsky",
       "in_stock": true
@@ -136,10 +140,6 @@
     },
     "https://www.vesely-drak.sk/produkty/pokemon-kusove-karty-a-herni-prislusenstvi/19829-pokemon-kusova-japonska-karta-toxtricity-ar-109-103-30th-celebration/": {
       "name": "Pokémon kusová japonská karta Toxtricity AR 109/103 - 30th Celebration",
-      "in_stock": true
-    },
-    "https://www.vesely-drak.sk/produkty/pokemon-kusove-karty-a-herni-prislusenstvi/19830-pokemon-kusova-japonska-karta-morpeko-ar-110-103-30th-celebration/": {
-      "name": "Pokémon kusová japonská karta Morpeko AR 110/103 - 30th Celebration",
       "in_stock": true
     }
   },
@@ -355,11 +355,11 @@
   },
   "_alza_last_check": 1789335147.9111025,
   "_alza_session": {
-    "started_at": 1794826882.0714495,
-    "ends_at": 1794870082.0714495,
+    "started_at": 1794827144.679151,
+    "ends_at": 1794870344.679151,
     "reserved_credits": 0,
     "requests": 1,
     "target_url": "https://www.alza.sk/hracky/pokemon-karty/18879069.htm",
-    "last_attempt": 1794826882.0714495
+    "last_attempt": 1794827144.679151
   }
 }
