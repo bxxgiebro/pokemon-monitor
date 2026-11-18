@@ -122,10 +122,6 @@
       "name": "Pokémon kusová japonská karta Alolan Exeggutor AR 104/103 - 30th Celebration",
       "in_stock": true
     },
-    "https://www.vesely-drak.sk/produkty/pokemon-kusove-karty-a-herni-prislusenstvi/19826-pokemon-kusova-japonska-karta-lapras-ar-106-103-30th-celebration/": {
-      "name": "Pokémon kusová japonská karta Lapras AR 106/103 - 30th Celebration",
-      "in_stock": true
-    },
     "https://www.vesely-drak.sk/produkty/pokemon-kusove-karty-a-herni-prislusenstvi/19828-pokemon-kusova-japonska-karta-zapdos-ar-108-103-30th-celebration/": {
       "name": "Pokémon kusová japonská karta Zapdos AR 108/103 - 30th Celebration",
       "in_stock": true
@@ -140,6 +136,10 @@
     },
     "https://www.vesely-drak.sk/produkty/pokemon-kusove-karty-a-herni-prislusenstvi/19831-pokemon-kusova-japonska-karta-drifloon-ar-111-103-30th-celebration/": {
       "name": "Pokémon kusová japonská karta Drifloon AR 111/103 - 30th Celebration",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/pokemon-kusove-karty-a-herni-prislusenstvi/19832-pokemon-kusova-japonska-karta-chandelure-ar-112-103-30th-celebration/": {
+      "name": "Pokémon kusová japonská karta Chandelure AR 112/103 - 30th Celebration",
       "in_stock": true
     }
   },
@@ -351,11 +351,11 @@
   },
   "_alza_last_check": 1789335147.9111025,
   "_alza_session": {
-    "started_at": 1795020350.880117,
-    "ends_at": 1795063550.880117,
+    "started_at": 1795020659.8005269,
+    "ends_at": 1795063859.8005269,
     "reserved_credits": 0,
     "requests": 1,
     "target_url": "https://www.alza.sk/hracky/pokemon-karty/18879069.htm",
-    "last_attempt": 1795020350.880117
+    "last_attempt": 1795020659.8005269
   }
 }
