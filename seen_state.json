@@ -86,6 +86,10 @@
       "name": "Pokémon 30th Anniversary Celebration Iridescent Futuristic Gift Box - čínsky",
       "in_stock": true
     },
+    "https://www.vesely-drak.sk/produkty/pokemon-album-a4/20082-pokemon-a4-album-na-karty-delta-reign/": {
+      "name": "Pokémon A4 album na karty - Delta Reign",
+      "in_stock": true
+    },
     "https://www.vesely-drak.sk/produkty/pokemon-krabicky/20107-akrylovy-box-na-japonsky-pokemon-booster-box/": {
       "name": "Akrylový box na japonský Pokémon Booster box",
       "in_stock": true
@@ -136,10 +140,6 @@
     },
     "https://www.vesely-drak.sk/produkty/pokemon-kusove-karty-a-herni-prislusenstvi/19831-pokemon-kusova-japonska-karta-drifloon-ar-111-103-30th-celebration/": {
       "name": "Pokémon kusová japonská karta Drifloon AR 111/103 - 30th Celebration",
-      "in_stock": true
-    },
-    "https://www.vesely-drak.sk/produkty/pokemon-kusove-karty-a-herni-prislusenstvi/19832-pokemon-kusova-japonska-karta-chandelure-ar-112-103-30th-celebration/": {
-      "name": "Pokémon kusová japonská karta Chandelure AR 112/103 - 30th Celebration",
       "in_stock": true
     }
   },
@@ -351,11 +351,11 @@
   },
   "_alza_last_check": 1789335147.9111025,
   "_alza_session": {
-    "started_at": 1795058750.6768394,
-    "ends_at": 1795101950.6768394,
+    "started_at": 1795059061.327602,
+    "ends_at": 1795102261.327602,
     "reserved_credits": 0,
     "requests": 1,
     "target_url": "https://www.alza.sk/hracky/pokemon-karty/18879069.htm",
-    "last_attempt": 1795058750.6768394
+    "last_attempt": 1795059061.327602
   }
 }
