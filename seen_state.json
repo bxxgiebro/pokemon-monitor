@@ -240,8 +240,8 @@
       "name": "Pokémon TCG: SV09 Journey Together - Booster",
       "in_stock": false
     },
-    "https://www.pgs.sk/tigo-office-ergoflex-oc226-kancelarska-stolicka-cierna-4p283618": {
-      "name": "TIGO Office ErgoFlex OC226 kancelárska stolička čierna",
+    "https://www.pgs.sk/tigo-office-ergoflex-oc126-kancelarska-stolicka-cierna-4p283616": {
+      "name": "TIGO Office ErgoFlex OC126 kancelárska stolička čierna",
       "in_stock": false
     }
   },
@@ -355,11 +355,11 @@
   },
   "_alza_last_check": 1789335147.9111025,
   "_alza_session": {
-    "started_at": 1795166749.845366,
-    "ends_at": 1795209949.845366,
+    "started_at": 1795167072.2183895,
+    "ends_at": 1795210272.2183895,
     "reserved_credits": 0,
     "requests": 1,
     "target_url": "https://www.alza.sk/hracky/pokemon-karty/18879069.htm",
-    "last_attempt": 1795166749.845366
+    "last_attempt": 1795167072.2183895
   }
 }
