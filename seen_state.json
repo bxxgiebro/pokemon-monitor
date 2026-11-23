@@ -240,8 +240,8 @@
       "name": "Pokémon TCG: SV09 Journey Together - Booster",
       "in_stock": false
     },
-    "https://www.pgs.sk/monsgeek-m1-v5-he-akko-astroaim-bezdrotova-herna-klavesnica-us-biela-priehladna-4p263764": {
-      "name": "MonsGeek M1 V5 HE Akko AstroAim bezdrôtová herná klávesnica (US) biela priehľadná",
+    "https://www.pgs.sk/Spigen-Signature-Neo-Hybrid-ochranny-kryt-Apple-iPhone-X-sedy-4p91685": {
+      "name": "Spigen Signature Neo Hybrid ochranný kryt Apple iPhone X šedý",
       "in_stock": false
     }
   },
@@ -351,11 +351,11 @@
   },
   "_alza_last_check": 1789335147.9111025,
   "_alza_session": {
-    "started_at": 1795474246.034367,
-    "ends_at": 1795517446.034367,
+    "started_at": 1795474541.9066436,
+    "ends_at": 1795517741.9066436,
     "reserved_credits": 0,
     "requests": 1,
     "target_url": "https://www.alza.sk/hracky/pokemon-karty/18879069.htm",
-    "last_attempt": 1795474246.034367
+    "last_attempt": 1795474541.9066436
   }
 }
