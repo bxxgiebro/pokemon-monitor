@@ -152,16 +152,16 @@
       "name": "Pokémon TCG - 151 booster (Japan)",
       "in_stock": false
     },
+    "https://www.pgs.sk/pokemon-tcg-vstar-universe-booster-japan-4p130759": {
+      "name": "Pokémon TCG - VSTAR Universe Booster (Japan)",
+      "in_stock": false
+    },
     "https://www.pgs.sk/pokemon-tcg-mega-dream-ex-booster-japan-4p252462": {
       "name": "Pokémon TCG: Mega Dream EX booster (Japan)",
       "in_stock": false
     },
     "https://www.pgs.sk/pokemon-tcg-terastal-festival-ex-booster-japan-4p207150": {
       "name": "Pokémon TCG - Terastal Festival EX Booster (Japan)",
-      "in_stock": false
-    },
-    "https://www.pgs.sk/pokemon-tcg-vstar-universe-booster-japan-4p130759": {
-      "name": "Pokémon TCG - VSTAR Universe Booster (Japan)",
       "in_stock": false
     },
     "https://www.pgs.sk/pokemon-tcg-25th-anniversary-booster-japan-4p234917": {
@@ -184,12 +184,12 @@
       "name": "Pokémon TCG - MEGA Evolution - Mega Symphonia Booster (Japan)",
       "in_stock": false
     },
-    "https://www.pgs.sk/pokemon-tcg-super-electric-breaker-booster-japan-4p206772": {
-      "name": "Pokémon TCG - Super Electric Breaker Booster (Japan)",
-      "in_stock": false
-    },
     "https://www.pgs.sk/pokemon-tcg-glory-of-team-rocket-booster-japan-4p226724": {
       "name": "Pokémon TCG - Glory of Team Rocket Booster (Japan)",
+      "in_stock": false
+    },
+    "https://www.pgs.sk/pokemon-tcg-super-electric-breaker-booster-japan-4p206772": {
+      "name": "Pokémon TCG - Super Electric Breaker Booster (Japan)",
       "in_stock": false
     },
     "https://www.pgs.sk/pokemon-tcg-black-and-white-black-bolt-booster-japan-4p231157": {
@@ -351,11 +351,11 @@
   },
   "_alza_last_check": 1789335147.9111025,
   "_alza_session": {
-    "started_at": 1795397745.3461862,
-    "ends_at": 1795440945.3461862,
+    "started_at": 1795398045.5494637,
+    "ends_at": 1795441245.5494637,
     "reserved_credits": 0,
     "requests": 1,
     "target_url": "https://www.alza.sk/hracky/pokemon-karty/18879069.htm",
-    "last_attempt": 1795397745.3461862
+    "last_attempt": 1795398045.5494637
   }
 }
