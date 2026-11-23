@@ -168,10 +168,6 @@
       "name": "Pokémon TCG - 25th Anniversary Booster (Japan)",
       "in_stock": false
     },
-    "https://www.pgs.sk/pokemon-tcg-sv09-journey-together-booster-4p213817": {
-      "name": "Pokémon TCG: SV09 Journey Together - Booster",
-      "in_stock": false
-    },
     "https://www.pgs.sk/pokemon-tcg-gem-pack-vol-2-booster-chinese-4p252092": {
       "name": "Pokémon TCG: Gem Pack Vol. 2 Booster (Chinese)",
       "in_stock": false
@@ -230,6 +226,10 @@
     },
     "https://www.pgs.sk/pokemon-tcg-sv8-5-prismatic-evolutions-super-premium-collection-4p225218": {
       "name": "Pokémon TCG: SV8.5 Prismatic Evolutions - Super-Premium Collection",
+      "in_stock": false
+    },
+    "https://www.pgs.sk/pokemon-tcg-sv09-journey-together-booster-4p213817": {
+      "name": "Pokémon TCG: SV09 Journey Together - Booster",
       "in_stock": false
     },
     "https://www.pgs.sk/pokemon-tcg-adventny-kalendar-2024-4p160421": {
@@ -351,11 +351,11 @@
   },
   "_alza_last_check": 1789335147.9111025,
   "_alza_session": {
-    "started_at": 1795423253.9827192,
-    "ends_at": 1795466453.9827192,
+    "started_at": 1795423558.544787,
+    "ends_at": 1795466758.544787,
     "reserved_credits": 0,
     "requests": 1,
     "target_url": "https://www.alza.sk/hracky/pokemon-karty/18879069.htm",
-    "last_attempt": 1795423253.9827192
+    "last_attempt": 1795423558.544787
   }
 }
