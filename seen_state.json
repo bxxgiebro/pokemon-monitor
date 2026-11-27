@@ -279,11 +279,11 @@
   },
   "_alza_last_check": 1789335147.9111025,
   "_alza_session": {
-    "started_at": 1795765545.5735118,
-    "ends_at": 1795808745.5735118,
+    "started_at": 1795765849.420844,
+    "ends_at": 1795809049.420844,
     "reserved_credits": 0,
     "requests": 1,
     "target_url": "https://www.alza.sk/hracky/pokemon-karty/18879069.htm",
-    "last_attempt": 1795765545.5735118
+    "last_attempt": 1795765849.420844
   }
 }
