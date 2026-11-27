@@ -16,10 +16,6 @@
       "name": "Vzhľadom na oveľa väčší záujem zákazníkov než možnosti distribútorov zatiaľ nevieme, či a koľko kusov tohoto produktu sa nám ešte podarí zohnať. Odporúčame kliknúť na strážneho psa - upozorní vás na možnosť objednávky, keď sa zmení dostupnosť.  Budeme sa snažiť, ako vždy, postarať sa o čo najviac z",
       "in_stock": false
     },
-    "https://www.ihrysko.sk/pokemon-trick-or-trade-booster-pack-p116619": {
-      "name": "Špeciálna zberateľská séria Pokémon: Trick or Trade BOOster Pack 2023 je naozajstná delikatesa pre každého milovníka sveta pokémonov, v strašideľnom halloweenskom dizajne! BOOster pack obsahuje 3 karty tejto dobroty.\r\nCelá séria obsahuje 30 kariet, ktoré sú novotlačami klasických kariet. Každá karta",
-      "in_stock": false
-    },
     "https://www.ihrysko.sk/funko-bitty-pop-pokemon-pikachu-vaporeon-caterpie-cubone-2-cm-p120203": {
       "name": "Sada 4 malých Funko Pop! Figúrok (bitty pops). V tomto balení nájdete Pokémonov Pikachu, Vaporeon, Caterpie, Cubone. Tri figúrky sú bežné a jedna náhodná môže byť vzácnejšia.\r\nVeľkosť figúrok: 2cm",
       "in_stock": false
@@ -279,11 +275,11 @@
   },
   "_alza_last_check": 1789335147.9111025,
   "_alza_session": {
-    "started_at": 1795774847.070741,
-    "ends_at": 1795818047.070741,
+    "started_at": 1795775141.1025844,
+    "ends_at": 1795818341.1025844,
     "reserved_credits": 0,
     "requests": 1,
     "target_url": "https://www.alza.sk/hracky/pokemon-karty/18879069.htm",
-    "last_attempt": 1795774847.070741
+    "last_attempt": 1795775141.1025844
   }
 }
