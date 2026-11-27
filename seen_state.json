@@ -70,10 +70,6 @@
       "name": "Pokémon 30th Celebration Day and Night Mini Tin - Pikachu",
       "in_stock": true
     },
-    "https://www.vesely-drak.sk/produkty/pokemon-plechovky/19155-pokemon-30th-celebration-day-and-night-mini-tin-mew/": {
-      "name": "Pokémon 30th Celebration Day and Night Mini Tin - Mew",
-      "in_stock": true
-    },
     "https://www.vesely-drak.sk/produkty/pokemon-plechovky/19156-pokemon-30th-celebration-day-and-night-mini-tin-lapras/": {
       "name": "Pokémon 30th Celebration Day and Night Mini Tin - Lapras",
       "in_stock": true
@@ -140,6 +136,10 @@
     },
     "https://www.vesely-drak.sk/produkty/pokemon-krabicky/20072-akrylovy-box-na-pokemon-booster-bundle-v2/": {
       "name": "Akrylový box pre Pokémon Booster Bundle V2",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/cinske-pokemon-karty/20078-pokemon-30th-anniversary-celebration-iridescent-futuristic-gift-box-cinsky/": {
+      "name": "Pokémon 30th Anniversary Celebration Iridescent Futuristic Gift Box - čínsky",
       "in_stock": true
     }
   },
@@ -279,11 +279,11 @@
   },
   "_alza_last_check": 1789335147.9111025,
   "_alza_session": {
-    "started_at": 1795766144.3821256,
-    "ends_at": 1795809344.3821256,
+    "started_at": 1795766472.1077867,
+    "ends_at": 1795809672.1077867,
     "reserved_credits": 0,
     "requests": 1,
     "target_url": "https://www.alza.sk/hracky/pokemon-karty/18879069.htm",
-    "last_attempt": 1795766144.3821256
+    "last_attempt": 1795766472.1077867
   }
 }
