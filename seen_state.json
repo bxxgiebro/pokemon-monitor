@@ -55,6 +55,10 @@
     "https://www.ihrysko.sk/funko-pocket-pop-pokemon-pikachu-9-cm-p110921": {
       "name": "Funko Pocket POP! Pokémon - Pikachu 9 cm",
       "in_stock": false
+    },
+    "https://www.ihrysko.sk/pokemon-scarlet-violet-151-booster-bundle-scarlet-violet-3-5-p116348": {
+      "name": "Pokémon: 151 Booster Bundle je balenie 6 balíčkov (Boosterov) zberateľskej kartovej hry Pokémon z edície Scarlet & Violet 151.\r\nPokémon: Scarlet & Violet 151 Booster obsahuje 10 kariet z edície Scarlet & Violet 151.\r\nVeľkolepý návrat na úplný začiatok pokéhistórie! V tejto špeciálnej zbe",
+      "in_stock": false
     }
   },
   "VeselyDrak": {
@@ -275,11 +279,11 @@
   },
   "_alza_last_check": 1789335147.9111025,
   "_alza_session": {
-    "started_at": 1795775141.1025844,
-    "ends_at": 1795818341.1025844,
+    "started_at": 1795775462.8714466,
+    "ends_at": 1795818662.8714466,
     "reserved_credits": 0,
     "requests": 1,
     "target_url": "https://www.alza.sk/hracky/pokemon-karty/18879069.htm",
-    "last_attempt": 1795775141.1025844
+    "last_attempt": 1795775462.8714466
   }
 }
