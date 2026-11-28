@@ -70,10 +70,6 @@
       "name": "Pokémon 30th Celebration Poster Collection (1x plagát, 3x booster, 3x promo karta)",
       "in_stock": true
     },
-    "https://www.vesely-drak.sk/produkty/pokemon-gx-box/19137-pokemon-30th-celebration-sylveon-ex-box/": {
-      "name": "Pokémon 30th Celebration Sylveon ex Box",
-      "in_stock": true
-    },
     "https://www.vesely-drak.sk/produkty/specialni-sety/19139-pokemon-30th-celebration-2-pack-blister-eevee/": {
       "name": "Pokémon 30th Celebration 2 Pack Blister - Eevee",
       "in_stock": true
@@ -140,6 +136,10 @@
     },
     "https://www.vesely-drak.sk/produkty/pokemon-kusove-karty-a-herni-prislusenstvi/19819-pokemon-kusova-japonska-karta-buzzwole-gx-classic-159-103-30th-celebration/": {
       "name": "Pokémon kusová japonská karta Buzzwole GX Classic 159/103 - 30th Celebration",
+      "in_stock": true
+    },
+    "https://www.vesely-drak.sk/produkty/pokemon-kusove-karty-a-herni-prislusenstvi/19821-pokemon-kusova-japonska-karta-mega-gardevoir-ex-classic-156-103-30th-celebration/": {
+      "name": "Pokémon kusová japonská karta Mega Gardevoir EX Classic 156/103 - 30th Celebration",
       "in_stock": true
     }
   },
@@ -279,11 +279,11 @@
   },
   "_alza_last_check": 1789335147.9111025,
   "_alza_session": {
-    "started_at": 1795861539.0087302,
-    "ends_at": 1795904739.0087302,
+    "started_at": 1795861858.4502635,
+    "ends_at": 1795905058.4502635,
     "reserved_credits": 0,
     "requests": 1,
     "target_url": "https://www.alza.sk/hracky/pokemon-karty/18879069.htm",
-    "last_attempt": 1795861539.0087302
+    "last_attempt": 1795861858.4502635
   }
 }
